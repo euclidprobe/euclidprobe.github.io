@@ -10,7 +10,9 @@ summary: The highly accurate, magnetically coupled, Z probe for your 3D printer,
 
 ## The begining 
 
-The highly accurate, magnetically coupled Z-Probe that is not affected by bed temp, bed material, magnetism or surface treatment. Capable of operating up to 80C natively. Higher temp versions are a custom order options at this time: 100C and <120C versions.
+The highly accurate, magnetically coupled Z-Probe that is not affected by bed temp, bed material, magnetism or surface treatment. Capable of operating up to 80C natively.
+
+Higher temp versions are a custom order options at this time: 100C and <120C versions.
 
 Magnetic build plates with textured PEI, smooth glass, Buildtak, GeckoTek, Euclid can sense them all. Swap out build surfaces without fear of changing Z-Probe offsets! 
 
