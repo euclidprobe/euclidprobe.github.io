@@ -1,9 +1,11 @@
 ---
 title: "EUCLID PROBE"
 keywords: euclid probe magnetic z-probe endstop
-tags: [getting_started]
+tags: [Euclid Probe, detachable probe]
+last_updated: January 24, 2022
 sidebar: mydoc_sidebar
 permalink: index.html
+toc: false
 summary: The highly accurate, magnetically coupled, Z probe for your 3D printer, laser and CNC machines.
 ---
 
