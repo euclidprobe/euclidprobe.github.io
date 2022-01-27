@@ -1,5 +1,5 @@
 ---
-title: "EUCLID PROBE 3"
+title: "EUCLID PROBE"
 keywords: euclid probe magnetic z-probe endstop
 tags: [Euclid Probe, detachable probe]
 last_updated: January 24, 2022
@@ -12,8 +12,7 @@ summary: The highly accurate, magnetically coupled, Z probe for your 3D printer,
 
 ## The begining 
 
- <img src="images\Img_Probe.jpg" alt="Euclid Probe"> <img src="images\Img_Probe2.jpg" alt="Euclid Probe 2">  
-
+ <img src="images\Img_Probe.jpg" alt="Euclid Probe"><img src="images\Img_Probe2.jpg" alt="Euclid Probe 2">  
 
 The highly accurate, magnetically coupled Z-Probe that is not affected by bed temp, bed material, magnetism or surface treatment. Capable of operating up to 80C natively.
 
@@ -39,7 +38,7 @@ The gerbers for DIY boards are hosted at OSHPark and Aisler. They are the same c
 
 A note about the relative differnces in produciton pricing- Aisler costs run a little higher because they dontate a portion of their profits to KiCAD development at CERN. The production of Aisler boards also seems to be made in the EU and then get shipped to other parts of the world. 
 
-No part of these purchases at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
+No part of these purchases at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate incentives or profits transefered.  
 
 Due to inquiry and customer demand, we have begun producing kits of parts avaiable through select resellers.  Part of these sales directly support both the creators and resellers. These funds provide for further research and development for Euclid Probe, the dock and mount creation and adaptations, and the firmware improvements. 
 
@@ -47,6 +46,20 @@ Higher temp versions, both 100C and greater than 120C have been developed and ar
 
 
 ## News
+
+### NEW RETAILERS
+In addition to <a href="https://lukeslabonline.com/products/euclid-probe-kit">LukesLab.online </a> and <a href ='https://713maker.com/en/euclid'>713Maker</a>, we are pleased to announce that Euclid Probe now has resellers in Denmakr, the UK and in Austrailia! 
+
+Austailia: RAVEN 3D TECH <a href="https://www.raven3dtech.com.au/"> <img src="images\ravenlogo.webp"></a>  
+
+Denmark: 3do.dk <a href="https://www.3do.dk/"> <img src="images\3do.dk.png"></a> 
+
+UK: jaysuk.org <a href="https://www.jayuk.org/shop/"> <img src="images\jays.png"></a>  
+UK: PrintyPlease <a href="https://www.printyplease.uk/"> <img src="images\PPLogo.png"></a>  
+
+USA: LukesLab.Online <a href="https://lukeslabonline.com/products/euclid-probe-kit"> <img src="images\LLLogo.jpg"></a>  
+USA: 713Maker<a href ='https://713maker.com/en/euclid'><img src="images\713makercom.jpg"></a>  
+
 
 ### NEW EUCLID PROBE VERSIONS!
 
