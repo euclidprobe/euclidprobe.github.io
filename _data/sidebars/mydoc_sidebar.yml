@@ -21,9 +21,12 @@ entries:
 
   - title: Overview
     output: web, pdf
-    url: /index.html
-    output: web, pdf
-    type: homepage
+    folderitems:
+
+    - title: Homepage
+      url: /index.html
+      output: web, pdf
+      type: homepage
 
   - title: Assembly Instructions
     output: web, pdf
@@ -31,16 +34,16 @@ entries:
 
     folderitems:
     - title: Planning
-      url: mydoc\01_preflight.md
+      url: 01_preflight.html
       output: web, pdf
       type: frontmatter
 
     - title: Kit Assembly
-      url: mydoc\01_kitbuild.md
+      url: 01_kitbuild.html
       output: web, pdf
       type: frontmatter
 
     - title: DIY Assembly
-      url: mydoc\01_diybuild.md
+      url: 01_diybuild.html
       output: web, pdf
       type: frontmatter

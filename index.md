@@ -4,7 +4,7 @@ keywords: euclid probe magnetic z-probe endstop
 tags: [Euclid Probe, detachable probe]
 last_updated: January 24, 2022
 sidebar: mydoc_sidebar
-permalink: index.html
+permalink: \index.html
 toc: false
 summary: The highly accurate, magnetically coupled, Z probe for your 3D printer, laser and CNC machines.
 ---
@@ -15,8 +15,6 @@ summary: The highly accurate, magnetically coupled, Z probe for your 3D printer,
  <img src="images\Img_Probe.jpg" alt="Euclid Probe"><img src="images\Img_Probe2.jpg" alt="Euclid Probe 2">  
 
 The highly accurate, magnetically coupled Z-Probe that is not affected by bed temp, bed material, magnetism or surface treatment. Capable of operating up to 80C natively.
-
-Higher temp versions are a custom order options at this time: 100C and <120C versions.
 
 Magnetic build plates with textured PEI, smooth glass, Buildtak, GeckoTek, Euclid can sense them all. Swap out build surfaces without fear of changing Z-Probe offsets! 
 
@@ -34,6 +32,17 @@ Discussion and support is available as a subgroup to the <a href='https://discor
 
 ## License
 **<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.**
+
+## How to get Euclid Probe
+The gerbers for DIY boards are hosted at OSHPark and Aisler. They are the same circuitry as the production version referenced below. These PCB's are the orginal design where the same PCB can be used for the tool board or probe board.  We try to update them as we update the other boards to be consistent. There is no difference in the shared gerbers at either OSHPark or Aisler. The rest of the suggested parts are listed in the BOM. We understand that the availability for some of the specified parts has become difficult- it affects us too. 
+
+A note about the relative differnces in produciton pricing- Aisler costs run a little higher because they dontate a portion of their profits to KiCAD development at CERN. The production of Aisler boards also seems to be made in the EU and then get shipped to other parts of the world. 
+
+No part of these purchases at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate incentives or profits transefered.  
+
+Due to inquiry and customer demand, we have begun producing kits of parts avaiable through select resellers.  Part of these sales directly support both the creators and resellers. These funds provide for further research and development for Euclid Probe, the dock and mount creation and adaptations, and the firmware improvements. 
+
+Higher temp versions, both 100C and greater than 120C have been developed and are at this time custom order options through the creators. 
 
 
 ## News

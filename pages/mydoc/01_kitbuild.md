@@ -2,7 +2,9 @@
 title: "Euclid Probe Kit Instructions"
 keywords: assembly 
 tags: [assembly]
-permalink: 01_kitbuild.md
+permalink: 01_kitbuild.html
+sidebar: mydoc_sidebar
+folder: mydoc
 toc: true
 summary: Euclid Probe Kit Instructions 
 ---

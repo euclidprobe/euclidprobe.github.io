@@ -2,7 +2,9 @@
 title: "Euclid Probe Planning"
 keywords: assembly planning
 tags: [assembly, planning]
-permalink: 01_preflight.md
+permalink: 01_preflight.html
+sidebar: mydoc_sidebar
+folder: mydoc
 toc: false
 summary: Euclid Probe Assembly Planning 
 ---
