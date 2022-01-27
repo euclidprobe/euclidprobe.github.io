@@ -12,6 +12,8 @@ summary: The highly accurate, magnetically coupled, Z probe for your 3D printer,
 
 ## The begining 
 
+ <img src="images\Img_Probe.jpg" alt="Euclid Probe"><img src="images\Img_Probe2.jpg" alt="Euclid Probe 2">  
+
 The highly accurate, magnetically coupled Z-Probe that is not affected by bed temp, bed material, magnetism or surface treatment. Capable of operating up to 80C natively.
 
 Higher temp versions are a custom order options at this time: 100C and <120C versions.
@@ -45,6 +47,10 @@ Denmark: 3do.dk <a href="https://www.3do.dk/"> <img src="images\3do.dk.png"></a>
 
 UK: jaysuk.org <a href="https://www.jayuk.org/shop/"> <img src="images\jays.png"></a>  
 UK: PrintyPlease <a href="https://www.printyplease.uk/"> <img src="images\PPLogo.png"></a>  
+
+USA: LukesLab.Online <a href="https://lukeslabonline.com/products/euclid-probe-kit"> <img src="images\LLLogo.jpg"></a>  
+USA: 713Maker<a href ='https://713maker.com/en/euclid'><img src="images\713makercom.jpg"></a>  
+
 
 ### NEW EUCLID PROBE VERSIONS!
 
