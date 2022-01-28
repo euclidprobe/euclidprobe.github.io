@@ -1,5 +1,5 @@
 ---
-title: "EUCLID PROBE 3"
+title: "EUCLID PROBE"
 keywords: euclid probe magnetic z-probe endstop
 tags: [Euclid Probe, detachable probe]
 last_updated: January 24, 2022
