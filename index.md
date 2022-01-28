@@ -31,20 +31,19 @@ Discussion and support is available as a subgroup to the <a href='https://discor
 
 <a href='https://en.wikipedia.org/wiki/Euclid'>Euclid of Alexandria</a> was a Greek mathematician, often refered to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him.
 
+<a href='https://www.youtube.com/channel/UCIUXRiUfHCOrqRxitcH9O6g'> <img src="images\VoronStill2-TN.jpg" ></a>  
+
+<a href='https://www.youtube.com/channel/UCIUXRiUfHCOrqRxitcH9O6g'> Euclid Probe YouTube channel</a>
+
 ## License
 **<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.**
 
 ## How to get Euclid Probe
-The gerbers for DIY boards are hosted at OSHPark and Aisler. They are the same circuitry as the production version referenced below. These PCB's are the orginal design where the same PCB can be used for the tool board or probe board.  We try to update them as we update the other boards to be consistent. There is no difference in the shared gerbers at either OSHPark or Aisler. The rest of the suggested parts are listed in the BOM. We understand that the availability for some of the specified parts has become difficult- it affects us too. 
+The gerbers for DIY boards are hosted at OSHPark and Aisler. Due to regular inquiry and subsequent customer demand, we have begun producing kits of parts avaiable through select resellers.  Part of these sales directly support both the creators of Euclid Probe and the resellers. These funds provide for further research and development for Euclid Probe, the dock and mount creation and adaptations, and the firmware improvements. 
 
-A note about the relative differnces in produciton pricing- Aisler costs run a little higher because they dontate a portion of their profits to KiCAD development at CERN. The production of Aisler boards also seems to be made in the EU and then get shipped to other parts of the world. 
+Higher temp versions, both 100C and greater than 120C have been developed and are at this time, custom order options through the creators. 
 
-No part of these purchases at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
-
-Due to inquiry and customer demand, we have begun producing kits of parts avaiable through select resellers.  Part of these sales directly support both the creators and resellers. These funds provide for further research and development for Euclid Probe, the dock and mount creation and adaptations, and the firmware improvements. 
-
-Higher temp versions, both 100C and greater than 120C have been developed and are at this time custom order options through the creators. 
-
+No part of the purchases made at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
 
 ## News
 
