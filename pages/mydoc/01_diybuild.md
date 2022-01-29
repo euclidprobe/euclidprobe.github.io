@@ -2,6 +2,7 @@
 title: "Euclid Probe Kit Instructions"
 keywords: assembly 
 tags: [assembly]
+last_updated: January 24, 2022
 permalink: 01_diybuild.html
 sidebar: mydoc_sidebar
 folder: mydoc

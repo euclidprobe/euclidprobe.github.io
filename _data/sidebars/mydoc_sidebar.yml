@@ -6,6 +6,7 @@ entries:
   version: 2.0
   folders:
 
+# template
   - title:
     output: pdf
     type: frontmatter
@@ -18,21 +19,23 @@ entries:
       url: /tocpage.html
       output: pdf
       type: frontmatter
+# template
 
+#top level 
   - title: Overview
     output: web, pdf
     folderitems:
-
     - title: Homepage
       url: /index.html
       output: web, pdf
       type: homepage
 
+# Start Assembly Instructions section
   - title: Assembly Instructions
     output: web, pdf
     type: frontmatter
-
     folderitems:
+    # 
     - title: Planning
       url: 01_preflight.html
       output: web, pdf
@@ -47,3 +50,32 @@ entries:
       url: 01_diybuild.html
       output: web, pdf
       type: frontmatter
+# End Assembly Instructions
+
+# Start Docks 7 Mounts
+  - title: Probe Docks & Toolboard Mounts
+    output: web, pdf
+    type: homepage
+    folderitems:
+    #
+    - title: Probe Docks & Toolboard Mounts
+      url: /02_docks_mounts.html
+      output: web, pdf
+      type: homepage
+
+    - title: Modular Docks
+      url: /02_docks.html
+      output: web, pdf
+      type: homepage
+
+    - title: Modular Mounts
+      url: /02_mounts.html
+      output: pdf
+      type: homepage
+
+    - title: Conversion Mounts
+      url: /02_conversion.html
+      output: web, pdf
+      type: homepage
+
+

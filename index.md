@@ -1,5 +1,5 @@
 ---
-title: "EUCLID PROBE Local"
+title: "EUCLID PROBE"
 keywords: euclid probe magnetic z-probe endstop
 tags: [Euclid Probe, detachable probe]
 last_updated: January 24, 2022
@@ -43,7 +43,7 @@ The gerbers for DIY boards are hosted at OSHPark and Aisler. Due to regular inqu
 
 Higher temp versions, both 100C and greater than 120C have been developed and are at this time, custom order options through the creators. 
 
-No part of the purchases made at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
+No part of the purchases made at OSHPark or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
 
 ## News
 
