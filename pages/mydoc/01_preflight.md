@@ -24,8 +24,24 @@ Guide blocks used to aid in the assembly and for hole drilling and tap aligning 
 
 Dynamic preview of stl for download:
 
-test link to github   
+<div id="stl_cont" style="width:500px;height:500px;margin:1"></div>>
 
+<script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont"), 
+      {
+          auto_rotate:true,
+          auto_resize:true,
+          models: 
+          [ 
+            {filename:"../stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl", color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+</script>
+
+<!-->test link to github   
 <div id="stl_cont" style="width:500px;height:500px;margin:1"></div>>
 <script>
     var stl_viewer=new StlViewer
@@ -41,7 +57,7 @@ test link to github
       }
     );
 </script>
-
+-->
 
 
 - - - 
