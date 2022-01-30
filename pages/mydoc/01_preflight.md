@@ -22,14 +22,16 @@ Guide blocks for assembly and drilling/tapping jigs are <a href='https://github.
 
 <a href='https://github.com/nionio6915/Euclid_Probe/raw/main/stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl'>Solder and Drilling Jig 0.2mm clearance margin</a>
 
-Test script at euclid git
-<script src="https://github.com/view/3d/nionio6915/Euclid_Probe/main/stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl"></script>
+<div id="stl_cont"></div>
+<script>
+    var stl_viewer=new StlViewer(document.getElementById("stl_cont"), { models: [ {id:0, filename:"../stls/Assembly%20Jigs/soldering_jigV5-0.5mm_margin.stl"} ] });
+</script>
 
-<script src="https://githubusercontent.com/view/3d/skalnik/secret-bear-clip/master/stl/clip.stl"></script>
+<div id="stl_cont"></div>
+<script>
+    var stl_viewer=new StlViewer(document.getElementById("stl_cont"), { models: [ {id:0, filename:"https://github.com/nionio6915/Euclid_Probe/raw/main/stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl"} ] });
+</script>
 
-Test script from example 
-
-<script src="https://github.com/view/3d/skalnik/secret-bear-clip/master/stl/clip.stl"></script>
 
 - - - 
 
