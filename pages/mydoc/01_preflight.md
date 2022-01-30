@@ -9,8 +9,7 @@ folder: mydoc
 toc: false
 summary: Euclid Probe Assembly Planning 
 ---
-## TL:DR 
-Determine the best orientataion of the tool board and probe before assembly. 
+### Determine the best orientataion of the tool board and probe before assembly.
 
 The orientation of the tool board does not nescessarily have to match the orientation of the probe. 
 
@@ -40,29 +39,8 @@ Dynamic preview of stl for download:
           ]
       }
     );
-</script>
-
-<!-->test link to github   
-<div id="stl_cont" style="width:500px;height:500px;margin:1"></div>>
-<script>
-    var stl_viewer=new StlViewer
-    (
-      document.getElementById("stl_cont"), 
-      {
-          auto_rotate:true,
-          auto_resize:true,
-          models: 
-          [ 
-            {filename:'https://github.com/nionio6915/Euclid_Probe/raw/main/stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl', color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
-          ]
-      }
-    );
-</script>
--->
-
-
-- - - 
-
+</script>  
+- - -  
 Community discussion and support is available as a subgroup to the <a href='https://discord.gg/jfnVrUx2uK'>CroXY Discord</a> <a href='https://discord.gg/jfnVrUx2uK'> <img src="images\CroXYDiscord.png" alt="CroXY Discord"></a>
 
 

@@ -70,7 +70,7 @@ entries:
 
     - title: Modular Mounts
       url: /02_mounts.html
-      output: pdf
+      output: web, pdf
       type: homepage
 
     - title: Conversion Mounts
