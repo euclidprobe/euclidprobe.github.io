@@ -31,6 +31,7 @@ Dynamic preview of stl for download:
     (
       document.getElementById("stl_cont"), 
       {
+          allow_drag_and_drop: false,
           auto_rotate:true,
           auto_resize:true,
           models: 
