@@ -30,11 +30,15 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Bakground
-      url: /00-background.html
+    - title: How to get Euclide Probe
+      url: /00-getting.html
       output: web, pdf
       type: homepage
 
+    - title: Probe Accuracy
+      url: /00-accuracy.html
+      output: web, pdf
+      type: homepage
 
 # Start Assembly Instructions section
   - title: Assembly Instructions
@@ -43,17 +47,17 @@ entries:
     folderitems:
     # 
     - title: Planning
-      url: 01_preflight.html
+      url: /01_preflight.html
       output: web, pdf
       type: frontmatter
 
     - title: Kit Assembly
-      url: 01_kitbuild.html
+      url: /01_kitbuild.html
       output: web, pdf
       type: frontmatter
 
     - title: DIY Assembly
-      url: 01_diybuild.html
+      url: /01_diybuild.html
       output: web, pdf
       type: frontmatter
 # End Assembly Instructions

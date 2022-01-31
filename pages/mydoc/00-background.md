@@ -19,16 +19,3 @@ The Euclid Probe was was then adapted for use with RepRap Firmware and wesc's <a
 
 Euclid Probe has since been successfully been implemented on Railcore, Ender3, Ender5, V-Core3/Rat-rig, Voron 2.4 and Wanhao Duplicator i3 printers. Various mount files are included in the CAD and stl folders.
 
-## Probe Accuracy Testing
-
-Little to no application data was available for the types of switches used in Euclid Probe. Therefore, the engineers and designers who created Euclid Probe embarked on their own testing campaign to qualify the switches and the other components used in construction. This includes mechanical accuracy testing of the individual switches, the entire probe assembly, and actual probe deployment and probe docking cycles on our test printers.
-
-To date, over 500,00 probe deploy-probe-retract cycles with a moving Z-axis dock have been performed. The only probe docking failures were due to operator error: not updating the probe Z-offset dimensions between sample changes.
-
-The gathered data is compiled and analyzed to compare the performance between different switch manufactures and models. The overall results have been quite revealing- the usual suspects are not as accurate as they are purported to be, and the other brands and models often dismissed are actually quite accurate.
-
-Here is an example of a single switch’s probing results performed at room temperature. Note the trends of the vertical bars showing the trigger point in the speed ranges noted at the top. 
-
-Also not the population of the probe points in relationship to the standard of deviation bars noted in orange. The standard of deviation bars are for the total population. 
-
-<img src="images\00-ProbeTest57_19_45-768x559.png">

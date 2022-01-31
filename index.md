@@ -8,24 +8,21 @@ permalink: index.html
 toc: false
 summary: The highly accurate, magnetically coupled, Z probe for your 3D printer, laser and CNC machines.
 ---
-
-
-## The beginning 
-
  <img src="images\Img_Probe.jpg" alt="Euclid Probe"> <img src="images\Img_Probe2.jpg" alt="Euclid Probe 2">  
-
 
 The highly accurate, magnetically coupled Z-Probe that is not affected by bed temp, bed material, magnetism or surface treatment. Capable of operating up to 80C natively.
 
-Magnetic build plates with textured PEI, smooth glass, Buildtak, GeckoTek, Euclid can sense them all. Swap out build surfaces without fear of changing Z-Probe offsets! 
+Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling and for electrical contacts and dimensional accuracy. It is simply the most reliable and secure method for attaching the magnets to the parts. The Z-Probe circuit is completed when the probe is attached to the dock.
+
+Magnetic build plates with textured PEI, smooth glass, Buildtak, GeckoTek, Euclid can sense them all!
+
+Swap out build surfaces without fear of changing Z-Probe offsets. 
 
 The probe can be configured to be used as both a standalone Z-probe or used as combination endstop and Z-Probe. 
 
 Works with all firmwares- Duet2 & Duet3 running both RepRap 2.x and RepRap 3.x, klipper, Smoothie and even Marlin! 
 
-Euclid Probe can be manually or automatically deployed via gcode or macros and can take advantage of your firmware’s probe pickup detection scheme to ensure probe pickup and docking.
-
-Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling and for electrical contacts and dimensional accuracy. It is simply the most reliable and secure method for attaching the magnets to the parts. The Z-Probe circuit is completed when the probe is attached to the dock.
+Euclid Probe can be manually deployed or automatically deployed via gcode macros and can take advantage of your firmware’s probe pickup detection scheme to ensure probe pickup and docking.
 
 Discussion and support is available as a subgroup to the <a href='https://discord.gg/jfnVrUx2uK'>CroXY Discord</a> <a href='https://discord.gg/jfnVrUx2uK'> <img src="images\CroXYDiscord.png" alt="CroXY Discord"></a>
 
@@ -33,27 +30,6 @@ Discussion and support is available as a subgroup to the <a href='https://discor
 
 ## License
 **<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.**
-
-## How to get Euclid Probe
-Buy a kit from a reseller or DIY. 
-
-Due to regular inquiry and subsequent customer demand, we have begun producing kits of parts available through select resellers.  Part of these sales directly support both the creators of Euclid Probe and the resellers. These funds provide for further research and development for Euclid Probe, the dock and mount creation and adaptations, and the firmware improvements. 
-
-Higher temp versions, both 100C and greater than 120C have been developed and are at this time, custom order options through the creators. 
-Resellers:  
-
-US: LukesLabOnline  
-US: 713Maker  
-
-Denmark:   
-
-EU- Germany:  
-EU- Portugal:  
-
-UK:  
-UK:  
-
-The gerbers for DIY boards are hosted at OSHPark and Aisler. No part of the purchases made at OSHPark or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
 
 ## Euclid Probe Youtube Channel   
 <a href='https://www.youtube.com/channel/UCIUXRiUfHCOrqRxitcH9O6g'> <img src="images\VoronStill2-TN.jpg" ></a>  
@@ -71,8 +47,6 @@ The gerbers for DIY boards are hosted at OSHPark and Aisler. No part of the purc
 <iframe width="320" height="180" src="https://www.youtube.com/embed/H097Xu1mj5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/XqpZH75kZH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 ## News
 
@@ -100,7 +74,7 @@ In addition to updating the existing collection of probe mounts and docs, we are
 We are pleased to announce that a native dock and mount have been developed for Voron Trident. See the Mounts page for Voron these parts.
 
 #### Railcore by 713Maker
-In collaboration with 713maker.com there now exists a super-lightweight machined 7075 aircraft aluminum mount for RailCore printers! The mount weighs in at a mere 6.5 grams- that’s less than the combined weight of the nickel and penny in your pocket! 
+In collaboration with 713maker.com there now exists a super-lightweight machined 7075 aluminum aircraft alloy for RailCore printers! The mount weighs in at a mere 6.5 grams- that’s less than the combined weight of the nickel and penny in your pocket! 
 It's simply the best, most reliable probe solution for your RailCore 250, the 300 and the ZL/T series.  <a href ='https://713maker.com/en/euclid'> <img src="images\713makercom.jpg"></a>
 
 While you are there check out the matching all metal dock that 713maker has also designed and is producing! The dock is insulated so there is less risk of electronics damage should any part of the probe or magnets short against the dock or frame. 
