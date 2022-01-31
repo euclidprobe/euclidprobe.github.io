@@ -47,11 +47,11 @@ US: 713Maker
 
 Denmark:   
 
-EU- Germany:
-EU- Portugal:
+EU- Germany:  
+EU- Portugal:  
 
-UK: 
-UK:
+UK:  
+UK:  
 
 The gerbers for DIY boards are hosted at OSHPark and Aisler. No part of the purchases made at OSHPark or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
 
@@ -93,7 +93,7 @@ There is a new variant of Euclid that is 24V capable! This board will work with 
 We have published a native mount Clockwork1 X-Carriage for MGN12 rails
 
 #### Voron 2-MGN9 
-We have published a native mount Clockwork1 X-Carriage for MGN12 rails
+We have published a native mount Clockwork1 X-Carriage for 2-MGN9 rails
 
 #### Voron Trident
 In addition to updating the existing collection of probe mounts and docs, we are busy developing new mounts and docks for printers. 
