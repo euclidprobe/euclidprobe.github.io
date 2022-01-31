@@ -10,7 +10,7 @@ summary: The highly accurate, magnetically coupled, Z probe for your 3D printer,
 ---
 
 
-## The begining 
+## The beginning 
 
  <img src="images\Img_Probe.jpg" alt="Euclid Probe"> <img src="images\Img_Probe2.jpg" alt="Euclid Probe 2">  
 
@@ -29,7 +29,7 @@ Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling a
 
 Discussion and support is available as a subgroup to the <a href='https://discord.gg/jfnVrUx2uK'>CroXY Discord</a> <a href='https://discord.gg/jfnVrUx2uK'> <img src="images\CroXYDiscord.png" alt="CroXY Discord"></a>
 
-<a href='https://en.wikipedia.org/wiki/Euclid'>Euclid of Alexandria</a> was a Greek mathematician, often refered to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him.
+<a href='https://en.wikipedia.org/wiki/Euclid'>Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him.
 
 ## License
 **<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.**
@@ -37,7 +37,7 @@ Discussion and support is available as a subgroup to the <a href='https://discor
 ## How to get Euclid Probe
 Buy a kit from a reseller or DIY. 
 
-Due to regular inquiry and subsequent customer demand, we have begun producing kits of parts avaiable through select resellers.  Part of these sales directly support both the creators of Euclid Probe and the resellers. These funds provide for further research and development for Euclid Probe, the dock and mount creation and adaptations, and the firmware improvements. 
+Due to regular inquiry and subsequent customer demand, we have begun producing kits of parts available through select resellers.  Part of these sales directly support both the creators of Euclid Probe and the resellers. These funds provide for further research and development for Euclid Probe, the dock and mount creation and adaptations, and the firmware improvements. 
 
 Higher temp versions, both 100C and greater than 120C have been developed and are at this time, custom order options through the creators. 
 Resellers:  
@@ -48,7 +48,7 @@ US: 713Maker
 Denmark:   
 
 EU- Germany:
-EU- Protugal:
+EU- Portugal:
 
 UK: 
 UK:
@@ -60,13 +60,18 @@ The gerbers for DIY boards are hosted at OSHPark and Aisler. No part of the purc
 
 <a href='https://www.youtube.com/channel/UCIUXRiUfHCOrqRxitcH9O6g'> Euclid Probe YouTube channel</a>
 
-<iframe width="575" height="324" src="https://www.youtube.com/embed/v4Yb8aLyh6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="320" height="180" src="https://www.youtube.com/embed/v4Yb8aLyh6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-<iframe width="575" height="324" src="https://www.youtube.com/embed/jMHCGlAa3Z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/jMHCGlAa3Z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="575" height="324" src="https://www.youtube.com/embed/vwaNEc17TdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/vwaNEc17TdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="575" height="324" src="https://www.youtube.com/embed/p-rzA6KDNV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/p-rzA6KDNV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/H097Xu1mj5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="320" height="180" src="https://www.youtube.com/embed/XqpZH75kZH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## News
@@ -74,7 +79,7 @@ The gerbers for DIY boards are hosted at OSHPark and Aisler. No part of the purc
 ### NEW EUCLID PROBE VERSIONS!
 
 #### Pinout revised to SIG-GND-VCC
-Shipping November 14, 2021, the PCB board connector pinout has been updated to be SIG-GND-VCC to match most controller pinouts so that a premade straight-thru cable can be used instead of repinning a cable or making a custom cable.
+Shipping November 14, 2021, the PCB board connector pinout has been updated to be SIG-GND-VCC to match most controller pinouts so that a premade straight-thru cable can be used instead of re-pinning a cable or making a custom cable.
 
 #### M2.5 Self Tapping screws added to the kits 
 In addition to the new pinout, we are including M2.5 size self tapping screws for plastic. This will make it easier to mount your Euclid to the provided mount designs with these screws, but still provide the option for tapping the PCB with M3 threads.
@@ -85,10 +90,10 @@ There is a new variant of Euclid that is 24V capable! This board will work with 
 ### NEW DOCKS AND MOUNTS
 
 #### Voron MGN12 
-We have published a native mount Clockwork1 X-Carraige for MGN12 rails
+We have published a native mount Clockwork1 X-Carriage for MGN12 rails
 
 #### Voron 2-MGN9 
-We have published a native mount Clockwork1 X-Carraige for MGN12 rails
+We have published a native mount Clockwork1 X-Carriage for MGN12 rails
 
 #### Voron Trident
 In addition to updating the existing collection of probe mounts and docs, we are busy developing new mounts and docks for printers. 
