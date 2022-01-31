@@ -13,5 +13,28 @@ allowed-tags:
   - news
   - troubleshooting
   - mobile
+  - mounts
+  - docks
+  - FAQ
+  - mods
+  - Ender
+  - Ender3
+  - Ender5
+  - Assembly
+  - Railcore
+  - Voron
+  - V-Core
+  - RatOS
+  - klipper
+  - RRF
+  - Duet
+  - Marlin
+  - Hyprcube
+  - BLTouch
+  - Omron
+  - Foteck
+  - Inductive Probe
+  - buying
+
 
 # Copyright 2021 Google LLC

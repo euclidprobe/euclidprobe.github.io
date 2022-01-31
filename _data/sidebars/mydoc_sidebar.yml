@@ -30,6 +30,12 @@ entries:
       output: web, pdf
       type: homepage
 
+    - title: Bakground
+      url: /00-background.html
+      output: web, pdf
+      type: homepage
+
+
 # Start Assembly Instructions section
   - title: Assembly Instructions
     output: web, pdf

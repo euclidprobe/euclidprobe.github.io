@@ -26,8 +26,6 @@ The toolboard was designed to locate the clearance hole for the JST-XH socket fa
 
 <img src="images\03-MOUNT-MINWALL-1024x620.jpg">  
 
-
-
 ### 5015 Fan Mount
 The 5015 Fan mount prints in 2 halves. Each half is different by design.
 There is 1.5mm added clearance in the LeftP1.5 part for a sheet metal bracket if your printer uses one. If the sheet metal bracket is on the right, mirror both parts in your slicer.
