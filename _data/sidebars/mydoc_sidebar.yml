@@ -30,7 +30,7 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: How to get Euclide Probe
+    - title: How to get Euclid Probe
       url: /00-getting.html
       output: web, pdf
       type: homepage

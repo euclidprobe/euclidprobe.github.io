@@ -37,7 +37,7 @@ These PCBs are the same circuitry as the production version. These PCB's are the
 
 A note about the relative differences in source pricing- Aisler costs run a little higher because they donate a portion of their profits to KiCAD development at CERN. We use KiCAD and don't mind paying a little more for this. The production of Aisler boards also seems to be done in the EU and then get shipped to other parts of the world. OSHPark is made in Oregon, USA and shipped as well.  
 
-No part of these purchases at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
+No part of these purchases at OSHPark or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
 
 OSHPark.com <a href='https://oshpark.com/shared_projects/k646v9BY'>https://oshpark.com/shared_projects/k646v9BY</a>
 
