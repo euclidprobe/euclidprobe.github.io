@@ -41,7 +41,6 @@ Below is a bed map submitted by a user who was convinced that Euclid Probe was b
   <div id="caption"></div>
 </div>
 
-
 After some consulting with the user, we advised them to place paper shims over the magnets to determine if there was a hollow over the top of the magnet which would draw down the steel build plate. The results were that the steel build surface was truly being drawn into the hollow above the recessed magnets. The user the carefully shimmed each magnet with paper and cigarette rolling paper shims to level the bed.  This was their result- 
 
 <img id="myImg" src="images\00-accuracy-fixed.png" alt="Bed Map2" style="width:100%; max-width:500px">
