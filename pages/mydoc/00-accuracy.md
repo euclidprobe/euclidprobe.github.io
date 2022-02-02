@@ -50,6 +50,15 @@ After some consulting with the user, we advised them to place paper shims over t
   data-modal 
 />
 
+<img 
+  src="https://icatcare.org/app/uploads/2018/06/Layer-1704-1200x630.jpg" 
+  data-modal 
+/>
+<img 
+  src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*" 
+  data-modal 
+/>
+
 <script>
   document.querySelectorAll("img[data-modal]").forEach((img) => {
     var content = document.createElement("div"); //background
