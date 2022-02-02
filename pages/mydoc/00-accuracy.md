@@ -40,10 +40,10 @@ After some consulting with the user, we advised them to place paper shims over t
 
 <div style="width:100%;text-align:center;">
   <a href="images\00-accuracyA.png" data-lity>
-    <img src="images\00-accuracyA.png">
+    <img src="images\00-accuracyA.png" style="width:300px;">
   </a>
 
   <a href="images\00-accuracy-fixed.png" data-lity>
-    <img src="images\00-accuracy-fixed.png">
+    <img src="images\00-accuracy-fixed.png" style="width:300px;">
   </a>
 </div>
