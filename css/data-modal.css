@@ -19,6 +19,6 @@ img[data-modal] {
   }
   
   .modal-content img {
-    min-width: 50vw; /* at least 50% of the viewport width */
+    min-width: 25vw; /* at least 50% of the viewport width */
     height: auto;
   }
