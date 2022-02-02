@@ -16,10 +16,12 @@
 <!-- most color styles are extracted out to here -->
 <link rel="stylesheet" href="css/theme-blue.css">
 
-<!-- DJP add the css for modal css -->
+<!-- DJP add the css for modal css  obsoleted by lity
 <link rel="stylesheet" href="css/myModal.css">
-<link rel="stylesheet" href="css/data-modal.css">
+<link rel="stylesheet" href="css/data-modal.css"> -->
 
+<!-- DJP add the java script for the view of stl files --> 
+<script src="{{ "js/stl_viewer.min.js" }}"></script>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,10 +29,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="{{ "js/jquery.navgoco.min.js" }}"></script>
 
-
-<! -- Line added to point to stl render script. DJP ADD -->
-<script src="{{ "js/myModal.js" }}"></script>
-<script src="{{ "js/data-modal.js" }}"></script>
+<!-- Lity Modal Plugin https://github.com/jsor/lity -->
+<script src="{{ "js/lity.min.js" }}"></script>
+<link href="{{ "css/lity.min.css" }}" rel="stylesheet">
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
