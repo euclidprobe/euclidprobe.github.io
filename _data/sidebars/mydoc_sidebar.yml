@@ -33,72 +33,60 @@ entries:
     - title: How to get Euclid Probe
       url: /00-getting.html
       output: web, pdf
-      type: homepage
 
     - title: Probe Accuracy
       url: /00-accuracy.html
       output: web, pdf
-      type: homepage
 #
 
 # Start Assembly Instructions section
   - title: Assembly Instructions
     output: web, pdf
-    type: frontmatter
     folderitems:
     # 
     - title: Planning
       url: /01_preflight.html
       output: web, pdf
-      type: homepage
 
     - title: Kit Assembly
       url: /01_kitbuild.html
       output: web, pdf
-      type: frontmatter
 
     - title: DIY Assembly
       url: /01_diybuild.html
       output: web, pdf
-      type: frontmatter
     #   
 # End Assembly Instructions
 
 # Start Docks 7 Mounts & Docks
   - title: Probe Docks & Toolboard Mounts
     output: web, pdf
-    type: homepage
     folderitems:
     #
     - title: Probe Docks & Toolboard Mounts
       url: /02_docks_mounts.html
       output: web, pdf
-      type: homepage
 
     - title: Modular Docks
       url: /02_docks.html
       output: web, pdf
-      type: homepage
 
     - title: Modular Mounts
       url: /02_mounts.html
       output: web, pdf
-      type: homepage
 
 #   Start Conversion Mounts
-    - title: Conversion Mounts
-      url: /02_conversion.html
-      output: web, pdf
-      type: homepage
-      folderitems:
+      subfolders:
+      - title: Conversion Mounts
+        url: /02_conversion.html
+        output: web, pdf
+        subfolderitems:
       #
-      - title: BL Touch Conversion Mounts
-        url: /02a_BLTouch.html
-        output: web, pdf
-        type: homepage
+        - title: BL Touch Conversion Mounts
+          url: /02a_BLTouch.html
+          output: web, pdf
 
-      - title: Omron/Fotek Square Probe Conversion Mounts
-        url: /02a_Omron.html
-        output: web, pdf
-        type: homepage  
+        - title: Omron/Fotek Square Probe Conversion Mounts
+          url: /02a_Omron.html
+          output: web, pdf
 
