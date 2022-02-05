@@ -1,0 +1,107 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Euclid Probe
+  version: 2.0
+  folders:
+
+#   Start Ovrview Level 
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Homepage
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: How to get Euclid Probe
+      url: /00-getting.html
+      output: web, pdf
+
+    - title: Probe Accuracy
+      url: /00-accuracy.html
+      output: web, pdf
+#   End Overview Level
+
+#   Start Assembly Instructions
+  - title: Assembly Instructions
+    output: web, pdf
+    folderitems:
+ 
+    - title: Planning
+      url: /01_preflight.html
+      output: web, pdf
+
+    - title: Kit Assembly
+      url: /01_kitbuild.html
+      output: web, pdf
+
+    - title: DIY Assembly
+      url: /01_diybuild.html
+      output: web, pdf
+# End Assembly Instructions
+
+# Start Docks & Mounts & Docks
+  - title: Modular Probe Docks & Toolboard Mounts
+    output: web, pdf
+    folderitems:
+    #
+    - title: Probe Docks & Toolboard Mounts
+      url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: Modular Docks
+      url: /02_docks.html
+      output: web, pdf
+
+    - title: Modular Mounts
+      url: /02_mounts.html
+      output: web, pdf
+# End Docks & Mounts & Docks
+
+# Start Conversion Mounts
+ - title: Probe Conversion Mounts
+   output: web, pdf
+   folderitems:
+
+   - title: BL Touch Conversion Mounts
+     url: /02a_BLTouch.html
+     output: web, pdf
+
+   - title: Omron/Fotek Square Probe Conversion Mounts
+     url: /02a_Omron.html
+     output: web, pdf
+# End Conversion Mounts
+
+# Mounts & Docks by Printer
+ - title: Mounts & Docks by Printer
+   url: /02b_mounts_by_printer.html
+   output: web, pdf
+   folderitems:
+
+# Start Ender Series
+    subfolder:
+    - title: Ender Series
+      url: /02c_Ender.html
+      output: web, pdf
+      subfolderitems:
+         - title: Ender 3 Series
+           url: /02c_Ender3.html
+           output: web, pdf
+         - title: Ender 5 Series
+           url: /02c_Ender5.html
+           output: web, pdf
+#        End Ender Series
+
+    - title: Railcore
+      url: /02c_Railcore.html
+      output: web, pdf
+
+#     Start V-Core Series
+    subfolder:
+    - title: V-Core
+      url: /02c_VCore.html
+      output: web, pdf
+      subfolderitems:
