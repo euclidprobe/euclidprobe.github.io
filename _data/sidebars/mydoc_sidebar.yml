@@ -39,6 +39,7 @@ entries:
       url: /00-accuracy.html
       output: web, pdf
       type: homepage
+#
 
 # Start Assembly Instructions section
   - title: Assembly Instructions
@@ -49,7 +50,7 @@ entries:
     - title: Planning
       url: /01_preflight.html
       output: web, pdf
-      type: frontmatter
+      type: homepage
 
     - title: Kit Assembly
       url: /01_kitbuild.html
@@ -60,9 +61,10 @@ entries:
       url: /01_diybuild.html
       output: web, pdf
       type: frontmatter
+    #   
 # End Assembly Instructions
 
-# Start Docks 7 Mounts
+# Start Docks 7 Mounts & Docks
   - title: Probe Docks & Toolboard Mounts
     output: web, pdf
     type: homepage
@@ -83,9 +85,72 @@ entries:
       output: web, pdf
       type: homepage
 
+#   Start Conversion Mounts
     - title: Conversion Mounts
       url: /02_conversion.html
       output: web, pdf
       type: homepage
+      folderitems:
+      #
+      - title: BL Touch Conversion Mounts
+        url: /02a_BLTouch.html
+        output: web, pdf
+        type: homepage
+
+      - title: Omron/Fotek Square Probe Conversion Mounts
+        url: /02a_Omron.html
+        output: web, pdf
+        type: homepage  
+
+      - title: Inductive Probe Conversion Mounts
+        url: /02a_Inductive.html
+        output: web, pdf
+        type: homepage  
+    # 
+    - title: Mounts by Printer
+      url: /02b_mounts_by_printer.html
+      output: web, pdf
+      type: homepage  
+      folderitems:
+      #
+#     Start Ender Section#
+      - title: Ender Series
+        url: /02c_Ender.html
+        output: web, pdf
+        type: homepage  
+        folderitems:
+        - title: Ender 3 Series
+          url: /02c_Ender3.html
+          output: web, pdf
+          type: homepage
+          #
+        - title: Ender 5 Series
+          url: /02c_Ender5.html
+          output: web, pdf
+          type: homepage
+      # End Ender Section  
+#     Start Railcore Section
+      - title: Railcore
+        url: /02c_Railcore.html
+        output: web, pdf
+        type: homepage  
+        #
+#     Start Voron Series
+      - title: Voron
+        url: /02c_Voron.html
+        output: web, pdf
+        type: homepage  
+        folderitems:
+        #
+        - title: Voron 2
+          url: /02c_Voron2.html
+          output: web, pdf
+          type: homepage  
+
+        - title: Voron Trident
+          url: /02c_VoronTrident.html
+          output: web, pdf
+          type: homepage  
+      # End Voron Series
 
 

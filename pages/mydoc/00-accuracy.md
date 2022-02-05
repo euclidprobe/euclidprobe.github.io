@@ -24,7 +24,7 @@ Also not the population of the probe points in relationship to the standard of d
 
 <div style="width:100%;text-align:center;">
   <a href="images\00-ProbeTest57_19_45-768x559.png" data-lity>
-    <img src="images\00-ProbeTest57_19_45-768x559.png" style="width:300px;">
+    <img src="images\00-ProbeTest57_19_45-768x559.png" style="width:300px; border:2px solid CornflowerBlue">
   </a>
   <p><span style="color:blue">Click image to enlarge</span>.</p>
   
@@ -42,12 +42,12 @@ After some consulting with the user, we advised them to place paper shims over t
 
 <div style="width:100%;text-align:center;">
   <a href="images\00-accuracyA.png" data-lity>
-    <img src="images\00-accuracyA.png" style="width:300px;">
+    <img src="images\00-accuracyA.png" style="width:300px; border:2px solid CornflowerBlue">
       <p><span style="color:blue">Click image to enlarge</span>.</p>
   </a>
 
   <a href="images\00-accuracy-fixed.png" data-lity>
-    <img src="images\00-accuracy-fixed.png" style="width:300px;">
+    <img src="images\00-accuracy-fixed.png" style="width:300px; border:2px solid CornflowerBlue">
       <p><span style="color:blue">Click image to enlarge</span>.</p>
   </a>
 </div>

@@ -1,13 +1,13 @@
 ---
-title: "Euclid Probe Mounts"
-keywords: probe dock, tool mount
+title: "BL Touch Conversion mount for Euclid Probe"
+keywords: BL Touch, conversion
 tags: [mounts]
-last_updated: January 28, 2022
-permalink: 02_mounts.html
+last_updated: February 5, 2022
+permalink: 02a_BLTouch.html
 sidebar: mydoc_sidebar
 folder: mydoc
 toc: false
-summary: Euclid Probe Docks & Probes 
+summary: Euclid Probe BL Touch Conversion mount 
 ---
 
 ### Modular Toolboard Mounts

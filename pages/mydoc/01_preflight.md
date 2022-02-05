@@ -35,7 +35,7 @@ Dynamic preview of stl for download:
           auto_resize:true,
           models: 
           [ 
-            {filename:"../stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl", color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+            {filename:"../stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl", color:"#1E73BE", scale:3, rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
           ]
       }
     );

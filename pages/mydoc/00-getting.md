@@ -12,16 +12,22 @@ summary: Where to get the highly accurate, magnetically coupled, Z probe
 ## How to get Euclid Probe
 
 ### Buy a kit from a reseller 
+Due to numerous inquiries and customer demand, we have begun producing kits and make them available through select resellers.  Part of the proceeds of these sales directly support both the creators of Euclid Probe and the reseller. These funds provide for further research and development for Euclid Probe, the continual dock and mount creation and adaptations, and the ongoing firmware improvements. 
 
-Due to regular inquiry and subsequent customer demand, we have begun producing kits of parts available through select resellers.  Part of these sales directly support both the creators of Euclid Probe and the resellers. These funds provide for further research and development for Euclid Probe, the dock and mount creation and adaptations, and the firmware improvements. 
+We don't offshore the labor to package and label Euclid kits- we believe in the ethos of putting community first and that sound business practices can serve a greater good.  We have begun a partnership to engage the services of local community organizations whose mission is to improve the quality of life for individuals with disabilities through vocational and related programming.  We believe in the importance to serve those in need locally over the maximization of profit.  While we are not a 'B Corp' we look to the World's B Corps for inspiration and example of putting community at the heart of what they do.  
 
-Higher temp versions, both 100C and greater than 120C have been developed and are at this time, custom order options through the creators. 
+### High Temp & Industrial Versions
+Higher service temperature versions of both both 100C and 120C have been developed and are at this time, custom order options. Please contact us through the web form for details.
+
+### White Box / Bulk buy
+In response to customer inquiry, bulk packs of Euclid Probe are available at slight discounts to printer builders and integrators. Please contact us through the web form for details.  
+
 Resellers:  
 
 US: LukesLabOnline  
 US: 713Maker  
 
-Denmark:   
+Denmark: 3do.dk  
 
 EU- Germany:  
 EU- Portugal:  
