@@ -85,6 +85,7 @@ entries:
       output: web, pdf
       type: homepage
 
+#   Start Conversion Mounts
     - title: Conversion Mounts
       url: /02_conversion.html
       output: web, pdf
@@ -100,58 +101,4 @@ entries:
         url: /02a_Omron.html
         output: web, pdf
         type: homepage  
-
-      - title: Inductive Probe Conversion Mounts
-        url: /02a_Inductive.html
-        output: web, pdf
-        type: homepage  
-       # 
-      - title: Mounts by Printer
-        url: /02b_mounts_by_printer.html
-        output: web, pdf
-        type: homepage  
-        folderitems:
-        #
-#       Start Ender Section  
-      - title: Ender Series
-        url: /02c_Ender.html
-        output: web, pdf
-        type: homepage  
-        folderitems:
-        #
-        - title: Ender 3 Series
-          url: /02c_Ender3.html
-          output: web, pdf
-          type: homepage
-          #
-        - title: Ender 5 Series
-          url: /02c_Ender5.html
-          output: web, pdf
-          type: homepage
-          #  
-      # End Ender Section  
-#       Start Railcore Section
-        - title: Railcore
-          url: /02c_Railcore.html
-          output: web, pdf
-          type: homepage  
-          #
-#       Start Voron Series
-        - title: Voron
-          url: /02c_Voron.html
-          output: web, pdf
-          type: homepage  
-          folderitems:
-          #
-          - title: Voron 2
-            url: /02c_Voron2.html
-            output: web, pdf
-            type: homepage  
-            #
-          - title: Voron Trident
-            url: /02c_VoronTrident.html
-            output: web, pdf
-            type: homepage  
-        # End Voron Series
-
 
