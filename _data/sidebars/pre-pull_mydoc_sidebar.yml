@@ -25,7 +25,6 @@ entries:
   - title: Overview
     output: web, pdf
     folderitems:
-    
     - title: Homepage
       url: /index.html
       output: web, pdf
@@ -59,7 +58,7 @@ entries:
     #   
 # End Assembly Instructions
 
-# Start Docks & Mounts & Docks
+# Start Docks 7 Mounts & Docks
   - title: Probe Docks & Toolboard Mounts
     output: web, pdf
     folderitems:
@@ -89,35 +88,5 @@ entries:
 
         - title: Omron/Fotek Square Probe Conversion Mounts
           url: /02a_Omron.html
-          output: web, pdf
-
-      subfolders:
-      - title: Modular By Printer
-        url: /02b_mounts_by_printer.html
-        output: web, pdf
-        subfolderitems:    
-
-        subfolders:
-        - title: Ender Series
-          url: /02c_Ender.html
-          output: web, pdf
-          subfolderitems:    
-
-          - title: Ender 3 Series
-            url: /02c_Ender3.html
-            output: web, pdf
-
-          - title: Ender 5 Series
-            url: /02c_Ender5.html
-            output: web, pdf
-#         End Ender Series
-
-        - title: Railcore
-          url: /02c_Railcore.html
-          output: web, pdf
-
-#     Start V-Core Series
-        - title: V-Core
-          url: /02c_VCore.html
           output: web, pdf
 
