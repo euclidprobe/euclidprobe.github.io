@@ -91,38 +91,18 @@ entries:
           url: /02a_Omron.html
           output: web, pdf
 
-<<<<<<< HEAD
       subfolders:
       - title: Modular By Printer
         url: /02b_mounts_by_printer.html
         output: web, pdf
         subfolderitems:    
 
-=======
-#   Start Mounts by Printer
-      - title: Mounts by Printer
-        url: /02b_mounts_by_printer.html
-        output: web, pdf
-        folderitems:
-
-#     Start by Printer Model
-        - title: Croxy
-          url: /02c_Croxy.html
-          output: web, pdf
-
-#       Start Ender Series 
->>>>>>> gh-pages
         subfolders:
         - title: Ender Series
           url: /02c_Ender.html
           output: web, pdf
-<<<<<<< HEAD
           subfolderitems:    
 
-=======
-          subfolderitems:
-        
->>>>>>> gh-pages
           - title: Ender 3 Series
             url: /02c_Ender3.html
             output: web, pdf
@@ -130,11 +110,7 @@ entries:
           - title: Ender 5 Series
             url: /02c_Ender5.html
             output: web, pdf
-<<<<<<< HEAD
 #         End Ender Series
-=======
-#       End Ender Series
->>>>>>> gh-pages
 
         - title: Railcore
           url: /02c_Railcore.html
@@ -145,23 +121,3 @@ entries:
           url: /02c_VCore.html
           output: web, pdf
 
-<<<<<<< HEAD
-=======
-#     Start Voron Series
-       subfolders:
-        - title: Voron
-          url: /02c_Voron.html
-          output: web, pdf
-          subfolderitems:
-
-           - title: Voron 2
-             url: /02c_Voron2.html
-             output: web, pdf
-
-           - title: Voron Trident
-             url: /02c_Voron.html
-             output: web, pdf  
-
-
-
->>>>>>> gh-pages
