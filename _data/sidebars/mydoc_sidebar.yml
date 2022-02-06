@@ -21,7 +21,7 @@ entries:
       type: frontmatter
 # template
 
-#top level 
+# Start Overview Level 
   - title: Overview
     output: web, pdf
     folderitems:
@@ -38,13 +38,14 @@ entries:
     - title: Probe Accuracy
       url: /00-accuracy.html
       output: web, pdf
-#
+# End Overview Level
+
 
 # Start Assembly Instructions section
   - title: Assembly Instructions
     output: web, pdf
     folderitems:
-    # 
+
     - title: Planning
       url: /01_preflight.html
       output: web, pdf
@@ -56,14 +57,13 @@ entries:
     - title: DIY Assembly
       url: /01_diybuild.html
       output: web, pdf
-    #   
 # End Assembly Instructions
 
-# Start Docks & Mounts & Docks
-  - title: Probe Docks & Toolboard Mounts
+# Start Docks & Mounts
+  - title: Probe Docks & Modular Mounts
     output: web, pdf
     folderitems:
-    #
+
     - title: Probe Docks & Toolboard Mounts
       url: /02_docks_mounts.html
       output: web, pdf
@@ -75,49 +75,56 @@ entries:
     - title: Modular Mounts
       url: /02_mounts.html
       output: web, pdf
+# End Docks & Mounts
 
-#   Start Conversion Mounts
-      subfolders:
-      - title: Conversion Mounts
-        url: /02_conversion.html
-        output: web, pdf
-        subfolderitems:
-      #
-        - title: BL Touch Conversion Mounts
-          url: /02a_BLTouch.html
+# Start Conversion Mounts
+  - title: Conversion Mounts
+    url: /02_conversion.html
+    output: web, pdf
+    folderitems:
+
+    - title: BL Touch Conversion Mounts
+      url: /02a_BLTouch.html
+      output: web, pdf
+
+    - title: Omron/Fotek Square Probe Conversion Mounts
+      url: /02a_Omron.html
+      output: web, pdf
+
+    - title: Inductive Probe Conversion Mounts
+      url: /02a_Inductive.html
+      output: web, pdf
+# End Conversion Mounts
+
+# Mounts by Printer 
+  - title: Modular Docks & Mounts By Printer
+    output: web, pdf
+    folderitems:
+
+    - title: Mounts & Docks By Printer
+      url: /02b_mounts_by_printer.html
+      output: web, pdf
+
+    subfolders:
+    - title: Ender Series
+      output: web, pdf
+      subfolderitems:
+
+        - title: Ender 3 Series
+          url: /02c_Ender3.html
           output: web, pdf
 
-        - title: Omron/Fotek Square Probe Conversion Mounts
-          url: /02a_Omron.html
+        - title: Ender 5 Series
+          url: /02c_Ender5.html
           output: web, pdf
-
-      subfolders:
-      - title: Modular By Printer
-        url: /02b_mounts_by_printer.html
-        output: web, pdf
-        subfolderitems:    
-
-        subfolders:
-        - title: Ender Series
-          url: /02c_Ender.html
-          output: web, pdf
-          subfolderitems:    
-
-          - title: Ender 3 Series
-            url: /02c_Ender3.html
-            output: web, pdf
-
-          - title: Ender 5 Series
-            url: /02c_Ender5.html
-            output: web, pdf
 #         End Ender Series
 
-        - title: Railcore
-          url: /02c_Railcore.html
-          output: web, pdf
+    - title: Railcore
+      url: /02c_Railcore.html
+      output: web, pdf
 
 #     Start V-Core Series
-        - title: V-Core
-          url: /02c_VCore.html
-          output: web, pdf
+    - title: V-Core
+      url: /02c_VCore.html
+      output: web, pdf
 
