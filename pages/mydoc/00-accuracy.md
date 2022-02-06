@@ -8,7 +8,7 @@ folder: mydoc
 toc: false
 summary: Background 
 ---
-## Probe Accuracy Testing
+### Probe Accuracy Testing
 
 Little to no application data was available for the types of switches used in Euclid Probe. Therefore, the engineers and designers who created Euclid Probe embarked on their own testing campaign to qualify the switches and the other components used in construction. This includes mechanical accuracy testing of the individual switches, the entire probe assembly, and actual probe deployment and probe docking cycles on our test printers.
 
@@ -30,7 +30,7 @@ Also not the population of the probe points in relationship to the standard of d
   
 </div>
 
-## How accurate is Euclid Probe? 
+### How accurate is Euclid Probe? 
 Generally speaking, an order of magnitude more accurate than the nearest competing devices or technologies. 
 
 The probing results will vary based on the firmware and mechanical system of the printer, but we have seen repeatabilities  approaching 0.0005mm.  
