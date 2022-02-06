@@ -101,14 +101,19 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Mounts & Docks By Printer
+    - title: Mounts & Docks By Printer Overview
       url: /02b_mounts_by_printer.html
       output: web, pdf
 
-    subfolders:
-    - title: Ender Series
-      output: web, pdf
-      subfolderitems:
+#     Start of Ender Series
+      subfolders:
+      - title: Ender Series
+        output: web, pdf
+        subfolderitems:
+
+        - title: Ender Series Overview
+          url: /02c_Ender3.html
+          output: web, pdf
 
         - title: Ender 3 Series
           url: /02c_Ender3.html
@@ -117,14 +122,46 @@ entries:
         - title: Ender 5 Series
           url: /02c_Ender5.html
           output: web, pdf
-#         End Ender Series
+#     End Ender Series
 
     - title: Railcore
       url: /02c_Railcore.html
       output: web, pdf
 
-#     Start V-Core Series
-    - title: V-Core
-      url: /02c_VCore.html
-      output: web, pdf
+#     Start of VCore Series
+      subfolders:
+      - title: Rat-Rig V-Core
+        output: web, pdf
+        subfolderitems:
 
+        - title: Rat-Rig Overview
+          url: /02c_VCore.html
+          output: web, pdf
+
+        - title: V-Core 3
+          url: /02c_VCore3.html
+          output: web, pdf
+
+        - title: V-Core Legacy
+          url: /02c_VCoreLegacy.html
+          output: web, pdf
+#     End of VCore Series
+
+#     Start of Voron Series
+      subfolders:
+      - title: Voron 
+        output: web, pdf
+        subfolderitems:
+
+        - title: Voron Overview
+          url: /02c_VCore.html
+          output: web, pdf
+
+        - title: Voron 2.4
+          url: /02c_Voron2.html
+          output: web, pdf
+
+        - title: Voron Trident
+          url: /02c_VoronTrident.html
+          output: web, pdf
+#     End Voron Series

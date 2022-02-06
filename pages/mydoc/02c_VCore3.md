@@ -1,9 +1,9 @@
 ---
-title: "Railcore"
-keywords: Railcore
+title: "VCore3"
+keywords: probe dock, tool mount
 tags: [mounts, docks]
 last_updated: January 24, 2022
-permalink: 02c_Railcore.html
+permalink: 02c_VCore3.html
 sidebar: mydoc_sidebar
 folder: mydoc
 toc: false
