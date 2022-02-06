@@ -14,7 +14,7 @@ summary: Euclid Probe Kit Assembly Instructions
 Reminder that community discussion and support is available as a subgroup to the <a href='https://discord.gg/jfnVrUx2uK'>CroXY Discord</a> <a href='https://discord.gg/jfnVrUx2uK'> <img src="images\CroXYDiscord.png" alt="CroXY Discord"></a>
 <hr>
 ### TL:DR 
-Open the bag carefully; sort your parts: solder the header and switch; attach your magnets; screw the toolboard to the mount; attach your dock; config your FW; print happily ever after!
+Open the bag carefully; sort your parts: solder the header and switch; attach your magnets; screw the toolboard to the mount; attach your dock; config your FW and print perfect first layers happily ever after!
 
 ### Step 1 – Board Preparation:
 The Euclid Probe kit will arrive in a small zip-sealed baggie. Beware, there are small parts that can be easily lost.
@@ -176,8 +176,8 @@ Nail polish or model builder's enamel works well too painted over the top.
 <table>
 <tbody>
 <tr>
-    <td> <a href="images\01_assembly\01_solder_jigF.JPG" data-lity>
-        <img src="images\01_assembly\01_solder_jigF.JPG" style="width:400px; border:2px solid CornflowerBlue">
+    <td> <a href="images\01_assembly\01_solder_jigF.jpg" data-lity>
+        <img src="images\01_assembly\01_solder_jigF.jpg" style="width:400px; border:2px solid CornflowerBlue">
       </a></td>
     <td> <a href="images\01_assembly\01_insulate_clipd.jpg" data-lity>
         <img src="images\01_assembly\01_insulate_clipd.jpg" style="width:400px; border:2px solid CornflowerBlue">

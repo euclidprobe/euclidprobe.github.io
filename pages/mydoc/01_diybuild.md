@@ -33,7 +33,11 @@ Aisler <a href='https://aisler.net/p/PHODHLTM'>  https://aisler.net/p/PHODHLTM</
 
 ## Assembly Instructions
 
-The same PCB is used for both the upper and lower half, and uses 4, 1/4x1/8 axialy polarized magnets, an SPDT snap action switch, M2 & M3 mounting screws, and some other random bits and bobs you probably have laying about. 
+The same PCB is used for both the upper and lower half, and uses 
+- 4, 1/4x1/8 axialy polarized magnets, 
+- SPDT snap action switch, 
+- M2 & M3 mounting screws, 
+- and some other random bits and bobs you probably have laying about. 
 
 The parts list specifies a snap action switch. Almost any subminature switch will work. The circuit only uses the Normally Closed (NC) half of the switch as a momentary pushbutton. Testing has shown that other switches of the same package size will work and their repeatability is good enough for use as a Z probe. 
 
