@@ -11,15 +11,23 @@ summary: Euclid Probe Docks
 
 ### Determine the best orientataion of the tool board and probe before assembly.
 
-The orientation of the tool board does not nescessarily have to match the orientation of the probe. 
+The orientation of the tool board does not necessarily have to match the orientation of the probe. 
 
-The probe is designed to enter the dock like an arrow, the wider section self-centerting the PCB as it enters in case of any misalignment. 
+The probe is designed to enter the dock like an arrow, the wider section self-centering the PCB as it enters in case of any misalignment. 
+
+<div id="pic0" style="width:500px; margin:3">
+<img src="images\02_dock_entry.jpg"><br>  
+</div>  
 
 The 'arrows' can point in opposite ways. In fact, this is the orientaion for an i3 style printer like an Ender3 or Wanhao i3, where the tool board motion points it to Xmin and the probe entering the Y-moving dock towards Xmax.   
 
+<div id="pic0" style="width:500px; margin:3">
+<img src="images\02_Ender3_probe_dock.jpg"><br>  
+</div>  
+
 The usual probe dock is meant to be printed in an upright orientation to support the shoulder that the probe rests against when docked. 
 
-The version with a registration boss is provided to key into another part and to provide for some lateral adjustmemt. It is sized for an M3 screw as a draw bolt. The size of the boss is 6mm high by 1.5mm deep.
+The version with a registration boss is provided to key into another part and to provide for some lateral adjustment. It is sized for an M3 screw as a draw bolt. The size of the boss is 6mm high by 1.5mm deep.
 
 The verical hole in the top of the dock was originally intended to provide a pocket for either a cylinder magnet or screw to provide something for the front magnet to attract to and retain the probe. Through testing, it was determined that neither is required. 
 

@@ -1,5 +1,5 @@
 ---
-title: "Euclid Probe Dock & Mounts"
+title: "Euclid Probe Docks & Mounts"
 keywords: probe dock, tool mount
 tags: [mounts, docks]
 last_updated: January 28, 2022
@@ -7,7 +7,7 @@ permalink: 02_docks_mounts.html
 sidebar: mydoc_sidebar
 folder: mydoc
 toc: false
-summary: Euclid Probe Docks & Probes 
+summary: Euclid Probe Modular Docks & Probe Mounts 
 ---
 
 A critical piece of Euclid Probe’s reliability is the captive dock for holding the probe when not in use.
