@@ -112,7 +112,7 @@ entries:
         subfolderitems:
 
         - title: Ender Series Overview
-          url: /02c_Ender3.html
+          url: /02c_Ender.html
           output: web, pdf
 
         - title: Ender 3 Series
@@ -147,8 +147,8 @@ entries:
           output: web, pdf
 #     End of VCore Series
 
+
 #     Start of Voron Series
-      subfolders:
       - title: Voron 
         output: web, pdf
         subfolderitems:
@@ -165,3 +165,101 @@ entries:
           url: /02c_VoronTrident.html
           output: web, pdf
 #     End Voron Series
+
+# Start Wiring Section
+  - title: Wiring Euclid 
+    output: web, pdf
+    folderitems:
+
+    - title: Duet2 Controller Wiring
+#      url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: Duet3 Controller Wiring
+#      url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: Smoothieboard 
+#       url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: RAMPS Type Controllers
+#       url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: Toolhead Boars Connections
+#       url: /02_docks_mounts.html
+      output: web, pdf
+
+      subfolders:
+    - title: BTT Controllers
+#       url: /02_docks_mounts.html
+      output: web, pdf
+      subfolderitems:
+
+        - title: SKR Boards- LPC chip
+#          url: /02c_Ender.html
+          output: web, pdf
+
+        - title: SKR Pro Boards
+#          url: /02c_Ender.html
+          output: web, pdf
+
+        - title: Octopus Version 1.0 Boards 
+#          url: /02c_Ender.html
+          output: web, pdf
+
+        - title: Octopus Version 1.1 Boards 
+#          url: /02c_Ender.html
+          output: web, pdf
+
+        - title: Octopus Version 1.2 Boards 
+#          url: /02c_Ender.html
+          output: web, pdf
+# End Wiring Section
+
+
+# Start Firmware Config
+  - title: Firmware Configurations
+    output: web, pdf
+    folderitems:
+
+    - title: Duet / RepRap Firmware 2.x
+#      url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: Duet / RepRap Firmware 3.x
+#      url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: klipper
+      url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: Smoothie
+#       url: /02_docks_mounts.html
+      output: web, pdf
+# End Firmware Config
+
+# Start Firmware Macros
+  - title: Firmware Macros 
+    output: web, pdf
+    folderitems:
+
+    - title: Duet / RepRap Firmware 2.x
+#      url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: Duet / RepRap Firmware 3.x
+#      url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: klipper
+#       url: /02_docks_mounts.html
+      output: web, pdf
+
+    - title: Smoothie
+#       url: /02_docks_mounts.html
+      output: web, pdf
+# End Firmware Macro
+

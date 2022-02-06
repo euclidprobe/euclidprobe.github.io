@@ -7,7 +7,7 @@ permalink: 02c_VoronTrident.html
 sidebar: mydoc_sidebar
 folder: mydoc
 toc: false
-summary: Euclid Probe Docks & Probes 
+summary: Voron Trident Probe Docks & Mount 
 ---
 
 ## Mounts by Printer Voron Trident
