@@ -40,7 +40,6 @@ The modular building blocks provided are meant to be integrated into users own p
         <img src="images\02_ProbeV4_model2.jpg" style="width:400px; border:2px solid CornflowerBlue"></a>
 </div>  
 
-
 <a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/ProbeV4.stp"><b>Probe Assembly as a solid model, .stp format </b></a>  
 
 <a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/ProbeV4.stp"><b>Probe Assembly as a solid model, .DXF format </b></a>  
