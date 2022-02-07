@@ -27,11 +27,11 @@ The kit contains the PCB set, screws, SMD nuts, a switch, magnets and wiring con
         <img src="images\01_assembly\01_kit_contents.jpg" style="width:400px; border:2px solid CornflowerBlue">
       </a>
 
-Leave the two PCB’s attached to the rail for now. It will aid in the solder assembly of the components.  
+{% include tip.html content="Leave the two PCB’s attached to the rail. It will aid in the solder assembly of the components." %}  
 
-Determine the orientation for the plunger on the switch:
- -  Most installations will favor the plunger to the rear of the probe. That way the eccentricity between the nozzle and plunger is minimized. <br>
- Note the COM-NC pins on the switch correspond to the holes on the PCB labeled COM and NC.  
+Determine the best orientation for the plunger on the switch:
+ -  Ideally, the switch plunger should be closest to the nozzle when the probe is deployed. Most installations will have the plunger towards the square end of the probe PCB.  
+ -  Note the COM-NC pins on the switch correspond to the holes on the PCB labeled COM and NC. The switch can install either way.  
 
 <div style="width:100%;text-align:center;">
 <table>
@@ -48,7 +48,7 @@ Determine the orientation for the plunger on the switch:
 </table>
 </div>
 
- -  Installations on printers like Ender3 will benefit from the plunger towards the front of the probe.  
+ -  Installations on printers like Ender3 where the tool board and probe board point in opposite directions will benefit from the switch plunger towards the front of the probe PCB, pointing towards the nozzle.  
 
 <div style="width:100%;text-align:center;">
 <table>
@@ -94,7 +94,7 @@ Dynamic preview of stl for download:
           auto_resize:true,
           models: 
           [ 
-            {filename:"../stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl", color:"#1E73BE", scale:4, rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+            {filename:"../stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl", color:"#1E73BE", scale:0.8, rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
           ]
       }
     );
@@ -102,22 +102,30 @@ Dynamic preview of stl for download:
 
 ### Step 2 - Board Assembly:
 
-The solder jig provided as an aid to hold and align the thru-hole parts. It is not required, but makes for easier assembly. 
-
 <b>Install the wiring connector to upper tool board. </b> This PCB has the outline of the JST-XH socket header printed on the backside and has the surface mounted components installed to the front side. 
 
-Install the connector from the backside of the board so that all the thru-hole soldering will occur on the front side. The socket header may be interchanged with straight male pins to use the Dupont style connector.
-Solder the switch and connector to the PCB boards.
+Install the connector from the backside of the board so that all the thru-hole soldering will occur on the front side. The socket header may be interchanged with header pins to use Dupont style wiring connector.
 
-{% include warning.html content="<b>Solder the center pin only so that final adjustments can be made. If the position is too far off, then adjust by reflowing the solder joint.</b>" %}
+{% include warning.html content="<b>Solder the center pin only so that final adjustments can be made. If the position is too far off, then adjust it by reflowing the solder joint.</b>" %}
 
 <b>Install the switch to the probe board with the footprint labeled SW1.</b> Install the switch from the backside. Note the pin labeling on the PCB silk screen printing and align the plunger fore or aft to suit. 
 
-It is important to fully seat the switch against the PCB when soldering. This eliminates any potential movement of the switch due to bending of the exposed pins, maintaining the best possible probe accuracy.
+<b>It is important to fully seat the switch against the PCB when soldering.</b> This eliminates any potential movement of the switch due to bending of the exposed pins, maintaining the best possible probe accuracy.
 
-{% include tip.html content="If not using the solder jig, it is helpful to use a dot of superglue to attach the switch and the connector the board before soldering.<br>
-The pre-glued components will aid in keeping the PCB’s inverted and stable for hand soldering without a jig." %}
+<b>Check the alignments of both the header and switch. </b>Adjust as needed and solder the remaining pins of the switch and connector to the PCB boards.
 
+{% include tip.html content="If not using the solder jig, it is helpful to use a dot of superglue to attach the switch and the connector the board before soldering. The pre-glued components will aid in keeping the PCB’s inverted and stable for hand soldering without a jig." %}
+
+<b>Soldering Tips</b>  
+Soldering is an essential skill to have. Good tutorials exist online. Here is an example-
+<a href="https://learn.adafruit.com/lets-put-leds-in-things/soldering?embeds=allow" target="blank">adafruit Soldering 101</a><br> 
+Good joint? Bad Joint? 
+
+<div style="width:100%;text-align:center;">
+ <a href="images\01_assembly\soldering101.png" data-lity>
+        <img src="images\01_assembly\soldering101.png" style="width:400px; border:2px solid CornflowerBlue"></a>
+</div>
+<p></p>
 
 <div style="width:100%;text-align:center;">
 <table>
@@ -149,7 +157,8 @@ The pre-glued components will aid in keeping the PCB’s inverted and stable for
 </tbody>
 </table>
 </div>
-<!-- DivTable.com -->
+
+
 <div style="width:100%;text-align:center;">
 <table>
 <tbody>
@@ -188,10 +197,10 @@ It is suggested to insulate the exposed terminals of the top PCB by:
 </tr>
 </tbody>
 </table>
-</div>
+</div>   
 
 
-### Step 3 – Magnet Installation
+### Step 3 – Magnet Installation:
 In the kit there are:
 - 4, M2x0.4 by 5mm long screws
 - 4 countersunk magnets, 
@@ -229,7 +238,7 @@ If not using the jig, place the shoulder of one of the SMD nuts into one of the 
 
 The SMD nut is shallower than the PCB thickness and tightening the screw will cause the magnet to bear against the plated hole, creating the electrical connection. The magnet should now be protruding on the opposite side of the PCB board from the switch.
 
-{% include warning.html content="<b>Tighten the screw snug tight. Overtightening may result in cracking of the magnets! </b>" %}
+{% include warning.html content="<b>Tighten the screw snug tight. Overtightening may result in breaking of the magnets! </b>" %}
 
 <div style="width:100%;text-align:center;">
 <table>
@@ -275,7 +284,7 @@ The SMD nut is shallower than the PCB thickness and tightening the screw will ca
 </table>
 </div>
 
-Install the remaining magnets and SMD nuts similarly into the open holes of the Probe Board and Tool Board. There might be an interference on the inside edges of the holder and the protruding pins- carefully eject the magnet and tighten the M2 screw. 
+Install the remaining magnets and SMD nuts similarly into the open holes of the Probe Board and Tool Board. There might be an interference on the inside edges of the holder and the protruding pins- carefully eject the magnet and tighten the M2 screw.  
 
 ### Step 4 - Separate the Boards
 
@@ -301,20 +310,23 @@ Use a file or nailfile / sandpaper to dress the rear edges of the toolboard. Thi
 </tbody>
 </table>
 </div>
+<p></p>   
 
-### Step 5 – Magnet alignment check:
-Place the two boards together and verify that the mating faces are drawn together. If they are not, swapping the magnets top/bottom on one side, or end for end on one board usually corrects the misalignment. 
+### Step 5 – Magnet alignment check:   
+Place the two boards together and verify that the mating faces are drawn together. 
+
+If they are not, swapping the magnets ether top/bottom on one side, or end for end on one board usually corrects the misalignment.  
 <div style="width:100%;text-align:center;">
  <a href="\images\01_assembly\01_mag_check.jpg" data-lity>
         <img src="images\01_assembly\01_mag_check.jpg" style="width:400px; border:2px solid CornflowerBlue">
       </a>
-</div>
+</div>  
 
 Grasp the pair of coupled boards between your thumbs and forefingers and try to rock them side to side. If any of the magnet faces are not coplanar, you might feel or hear a slight clicking.
 
-If you believe that this is present, try to identify the pair that is suspect, loosen the fixing screw on one of the magnets, rotate it slightly and re-tighten. This usually takes care of the problem.
+If you believe that this is present, try to identify the pair that is suspect, loosen the fixing screw on one of the magnets, rotate it slightly and re-tighten. This usually takes care of the problem.  
 
-### Step 6 - Attach to Mount
+### Step 6 - Attach to Mount:
 
 Using the provided M2.5 self-tapping screws, or mounting system of your choice, attach the toolbaord PCB to the mount. 
 <div style="width:100%;text-align:center;">
