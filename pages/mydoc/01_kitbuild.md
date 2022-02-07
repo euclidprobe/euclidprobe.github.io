@@ -17,7 +17,7 @@ Reminder that community discussion and support is available as a subgroup to the
 Open the bag carefully; sort your parts: solder the header and switch; attach your magnets; screw the toolboard to the mount; attach your dock; config your FW and print perfect first layers happily ever after!
 
 ### Step 1 – Board Preparation:
-The Euclid Probe kit will arrive in a small zip-sealed baggie. Beware, there are small parts that can be easily lost.
+The Euclid Probe kit will arrive in a small zip-sealed baggie. Beware, there are small parts that can be easily lost. Currently, there are 2 versions of the PCB- 5V and 24V capable. Assembly is the same for both. 
 
 <img src="images\01_assembly\baggie-300x202.jpg">  
 

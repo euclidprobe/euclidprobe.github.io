@@ -171,6 +171,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Wiring Overview
+      url: /03_wiring.html
+      output: web, pdf
+
     - title: Duet2 Controller Wiring
 #      url: /02_docks_mounts.html
       output: web, pdf
@@ -187,7 +191,7 @@ entries:
 #       url: /02_docks_mounts.html
       output: web, pdf
 
-    - title: Toolhead Boars Connections
+    - title: Toolhead Board Connections
 #       url: /02_docks_mounts.html
       output: web, pdf
 
