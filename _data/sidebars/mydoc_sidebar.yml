@@ -40,7 +40,6 @@ entries:
       output: web, pdf
 # End Overview Level
 
-
 # Start Assembly Instructions section
   - title: Assembly Instructions
     output: web, pdf
@@ -228,20 +227,29 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Firmware Configuration
+      url: /05_firmware_overview.html
+      output: web, pdf
+
     - title: Duet / RepRap Firmware 2.x
-#      url: /02_docks_mounts.html
+      url: /05_rrf2.html
       output: web, pdf
 
     - title: Duet / RepRap Firmware 3.x
-#      url: /02_docks_mounts.html
+      url: /05_rrf3.html
       output: web, pdf
 
     - title: klipper
-      url: /02_docks_mounts.html
+      url: /05_klipper.html
       output: web, pdf
 
+    - title: Marlin
+      url: /05_marlin.html
+      output: web, pdf
+# End Firmware Config
+
     - title: Smoothie
-#       url: /02_docks_mounts.html
+      url: /05_smoothie.html
       output: web, pdf
 # End Firmware Config
 
@@ -250,12 +258,16 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Macro Overviews
+      url: /06_macros_overview.html
+      output: web, pdf
+
     - title: Duet / RepRap Firmware 2.x
-#      url: /02_docks_mounts.html
+      url: /06_rrf2.html
       output: web, pdf
 
     - title: Duet / RepRap Firmware 3.x
-#      url: /02_docks_mounts.html
+      url: /06_rrf3.html
       output: web, pdf
 
     - title: klipper

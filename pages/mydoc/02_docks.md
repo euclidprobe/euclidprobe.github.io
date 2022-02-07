@@ -9,7 +9,7 @@ toc: false
 summary: Euclid Probe Docks 
 ---
 
-### Determine the best orientataion of the tool board and probe before assembly.
+### Determine the best orientation of the tool board and probe before assembly.
 
 The orientation of the tool board does not necessarily have to match the orientation of the probe. 
 
@@ -19,17 +19,52 @@ The probe is designed to enter the dock like an arrow, the wider section self-ce
 <img src="images\02_dock_entry.jpg"><br>  
 </div>  
 
-The 'arrows' can point in opposite ways. In fact, this is the orientaion for an i3 style printer like an Ender3 or Wanhao i3, where the tool board motion points it to Xmin and the probe entering the Y-moving dock towards Xmax.   
+
+The 'arrows' can point in opposite ways. In fact, this is the orientation for an i3 style printer like an Ender3 or Wanhao i3, where the tool board motion points it to Xmin and the probe entering the Y-moving dock towards Xmax.   
 
 <div id="pic0" style="width:500px; margin:3">
 <img src="images\02_Ender3_probe_dock.jpg"><br>  
 </div>  
 
-The usual probe dock is meant to be printed in an upright orientation to support the shoulder that the probe rests against when docked. 
+###  Locating the Probe Dock
+Printer mounted docks are needed for automatic deployment and retraction. Depending on the firmware's gcode programming capabilities, the dock can be either fixed frame or moving bed mounted.
+
+The best place to put the dock is in a area that is outside of the printing boundary – in an overrun where things like purge buckets or nozzle wipers, tool docks, etc… are the perfect location for Euclid’s dock.
+
+If your printer does not have such an area, then an area roughly 15mm x 30mm in X & Y needs to be dedicated for the dock.  
+
+The ideal location provides for both in and out motion of the probe into the dock, and as well a swiping action perpendicular to the dock to strip the probe from the toolboard.  
+
+Most often, this location ends up being in one of the back corners of any X-Y type machines. 
+
+On deltas style printers, the dock ideally mounts next to one of the rear towers.  
+
+Keep the dock and the dock mount as short as possible so it's as stiff as possible.
+
+### Setting the Probe Dock Height
+The elevation of the dock is critical for consistent, problem free deployment and retraction.
+
+The ideal probe dock and toolboard designs allow for adjustments of the dock vertically so that when the probe is in the dock, it can meet the toolboard and be raised by the magnets to the proper elevation to clear the exit gate.
+
+<div style="width:100%;text-align:center;"> <a href="images\02_Dock_Height_2.jpg" data-lity>
+<img src="images\02_Dock_Height_2.jpg" style="width:400px; border:2px solid CornflowerBlue"></a>
+
+<a href="images\02_Dock_Alignment.jpg " data-lity>
+<img src="images\02_Dock_Alignment.jpg" style="width:400px; border:2px solid CornflowerBlue"></a></div>  
+
+<div style="width:100%;text-align:center;"> <a href="images\02_Front-Probe.png " data-lity>
+<img src="images\02_Front-Probe.png " style="width:400px; border:2px solid CornflowerBlue"></a>
+
+<a href="images\02_Front-Undocked.png " data-lity>
+<img src=" images\02_Front-Undocked.png" style="width:400px; border:2px solid CornflowerBlue"></a></div>
+
+### Printing the Dock
+The usual probe dock is meant to be printed in an upright orientation with the print in place supports under the shoulder that the probe rests against when docked. 
 
 The version with a registration boss is provided to key into another part and to provide for some lateral adjustment. It is sized for an M3 screw as a draw bolt. The size of the boss is 6mm high by 1.5mm deep.
 
-The verical hole in the top of the dock was originally intended to provide a pocket for either a cylinder magnet or screw to provide something for the front magnet to attract to and retain the probe. Through testing, it was determined that neither is required. 
+### What are the holes for?
+The vertical hole in the top of the dock was originally intended to provide a pocket for either a cylinder magnet or steel screw to provide something for the front magnet to attract to and retain the probe. Through testing, it was determined that neither is required. 
 
 However, this hole has been left in place to provide a space for a HALL effect sensor to be inserted and act as a visual indicator or part of a probe detection circuit. This will be covered in later sections.  
 
@@ -99,5 +134,5 @@ However, this hole has been left in place to provide a space for a HALL effect s
 </table>
 
 ---  
-Reminder that community discussion and support is available as a subgroup to the <a href='https://discord.gg/jfnVrUx2uK'>CroXY Discord</a> <a href='https://discord.gg/jfnVrUx2uK'> <img src="images\CroXYDiscord.png" alt="CroXY Discord"></a>
+Community discussion and support is available as a subgroup to the <a href='https://discord.gg/jfnVrUx2uK'>CroXY Discord</a> <a href='https://discord.gg/jfnVrUx2uK'> <img src="images\CroXYDiscord.png" alt="CroXY Discord"></a>
 
