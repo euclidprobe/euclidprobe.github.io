@@ -1,0 +1,100 @@
+---
+title: "Marlin example macros"
+keywords: firmware, settings, offsets
+tags: [firmware, offsets]
+last_updated: February 5, 2022
+permalink: 06_marlin.html
+sidebar: mydoc_sidebar
+folder: mydoc
+toc: true
+summary: Marlin Macros
+---
+
+### Marlin Macro Overview
+
+Marlin configuration is highly dependent on the controller board used. The following is a general outline for deployment and retraction, part of the Configuration.h and Config_adv files (The hardware definition is addressed in the previous section).  
+
+Marlin has a few probe deploy strategies built in. The one that we have found to work the best is the Allen Key Probe module. 
+
+Once the deploy and retract strategies are defined in the firmware, then the execution is automatic on demand. 
+
+The full board setup, probe and Allen Key setup are bundled in the Ender3 config files as example. 
+
+{% include note.html content="Marlin stepwise deploy and stow strategy is not difficult. The challenge is the tedious nature of writing it into the firmware config file and recompiling.  Users are encouraged to work out the gcode movements as much as they can as a standalone scripts before entering it into the firmware and recompiling." %}
+
+Example gcode script for probe deployment. The coordinates in the Configuration snip below and macros are coordinated to the previous example images. 
+
+
+### Example deploy.g  
+
+ ```
+ G28 X Y              ; home X & Y
+ G28 Z                ; Z safe homing
+ G0 X100 Y0 Z20 F3000 ; Move to pre-flight - high elevation
+ G0 X100 Y0 Z0 F3000  ; Move to pre-flight - low elevation
+ G0 X0 Y0 Z0 F1200    ; Move over dock
+ G4 P250              ; wait 
+ G0 X0 Y40 Z0 F300    ; exit dock
+ ``` 
+
+<div style="width:100%;text-align:center;"> <a href="images\06_DeploySteps.png" data-lity> <img src="images\06_DeploySteps.png" style="width:400px; border:2px solid CornflowerBlue"></a></div>
+
+
+### Example retract.g  
+
+```
+G0 X0 Y40 Z20 F300   ; Move ahead of dock - high elevation
+G0 X0 Y40 Z00 F300   ; Move ahead of dock - low elevation
+G0 X0 Y0 Z0 F1200    ; Enter Dock
+G0 X100 Y0 Z0 F3000  ; Swipf by moving right FAST
+```
+
+<div style="width:100%;text-align:center;"> <a href="images\06_Retract Steps.png" data-lity> <img src="images\06_Retract Steps.png" style="width:400px; border:2px solid CornflowerBlue"></a></div>
+
+
+### Configuration.h info
+
+After the above macro scripts successfully execute to deploy and stow the probe, transfer the information to the Configuration.h file section. 
+
+```cpp
+/
+// For Z_PROBE_ALLEN_KEY see the Delta example configurations.
+//
+// 
+/**
+ * Allen key retractable z-probe as seen on many Kossel delta printers - https://reprap.org/wiki/Kossel#Automatic_bed_leveling_probe
+ * Deploys by touching z-axis belt. Retracts by pushing the probe down. Uses Z_MIN_PIN.
+ */
+#define Z_PROBE_ALLEN_KEY
+
+#if ENABLED(Z_PROBE_ALLEN_KEY)
+  // 2 or 3 sets of coordinates for deploying and retracting the spring loaded touch probe on G29,
+  // if servo actuated touch probe is not defined. Uncomment as appropriate for your printer/probe.
+
+  #define Z_PROBE_ALLEN_KEY_DEPLOY_1 { 100, 0, 20 }  // Dock side approach position
+  #define Z_PROBE_ALLEN_KEY_DEPLOY_1_FEEDRATE XY_PROBE_FEEDRATE
+
+  #define Z_PROBE_ALLEN_KEY_DEPLOY_2 { 100, 0, 0 }  // Drop to dock elevation for probe coupling
+  #define Z_PROBE_ALLEN_KEY_DEPLOY_2_FEEDRATE (XY_PROBE_FEEDRATE)/10
+
+  #define Z_PROBE_ALLEN_KEY_DEPLOY_3 { 0, 0, 0 } // Translate probe out of dock 
+  #define Z_PROBE_ALLEN_KEY_DEPLOY_3_FEEDRATE XY_PROBE_FEEDRATE
+
+  #define Z_PROBE_ALLEN_KEY_DEPLOY_4 { 0, 40, 0 } // Vertically lift probe up to clear bed & dock 
+  #define Z_PROBE_ALLEN_KEY_DEPLOY_4_FEEDRATE XY_PROBE_FEEDRATE
+
+  #define Z_PROBE_ALLEN_KEY_STOW_1 { 0, 40, 20 } // Move the probe into X,Y dock approach position
+  #define Z_PROBE_ALLEN_KEY_STOW_1_FEEDRATE XY_PROBE_FEEDRATE
+
+  #define Z_PROBE_ALLEN_KEY_STOW_2 { 0, 40, 0 } // Move probe down to dock level entry position
+  #define Z_PROBE_ALLEN_KEY_STOW_2_FEEDRATE (XY_PROBE_FEEDRATE)/10
+
+  #define Z_PROBE_ALLEN_KEY_STOW_3 { 0, 0, 0 } // Move probe into dock
+  #define Z_PROBE_ALLEN_KEY_STOW_3_FEEDRATE XY_PROBE_FEEDRATE
+
+  #define Z_PROBE_ALLEN_KEY_STOW_4 { 100, 0, 0 } // Swipe probe off of mount 
+  #define Z_PROBE_ALLEN_KEY_STOW_4_FEEDRATE XY_PROBE_FEEDRATE
+
+#endif // Z_PROBE_ALLEN_KEY
+````
+
