@@ -29,17 +29,18 @@ In response to customer inquiry, bulk packs of Euclid Probe are available at sli
 
 ### Resellers:
 
-US: LukesLabOnline  
-US: 713Maker  
+US: <a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank"><img src="images\LLLogo.jpg">  &nbsp; LukesLab.Online</a>  
+US: <a href="https://713maker.com/en/euclid" target="blank"><img src="images\713makercom.jpg">  &nbsp; &nbsp; 713maker.com</a>  
 
-Denmark: 3do.dk  
+Denmark: <a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank"><img src="images\3do.dk.png">  &nbsp;  &nbsp; 3do.dk</a>
 
-EU- Germany:  
-EU- Portugal:  
+EU- Germany:  En Route!   
+EU- Portugal:  En Route!  
 
+UK:  <a href="https://www.jayuk.org/" target="blank"><img src="images\jays.png">  &nbsp;  &nbsp; Jay's UK</a> En ROUTE!  
 UK:  
-UK:  
 
+AUS: <a href="https://www.raven3dtech.com.au/" target="blank"><img src="images\ravenlogo.webp"> &nbsp;  &nbsp;Raven 3D Tech</a>  
 
 ### DIY Build  
 The gerbers for DIY boards are hosted at OSHPark and Aisler. No part of the purchases made at OSHPark or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
