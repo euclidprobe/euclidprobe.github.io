@@ -66,10 +66,10 @@ Determine the orientation for the plunger on the switch:
 </div>
 
 Determine how you will be attaching the upper tool board PCB to your carriage. The mount holes in the upper board are drilled thru 2.5mm⌀:  
-- Use the included M2.5x6 self tapping screws into the pilot holes for the provided mounts.  
-- Tap pilot holes for with an M3 tap so that you can secure it from above and have concealed fasteners.  
+- Use the included M2.5 self tapping screws into the pilot holes for the provided mounts.  
+- Tap the PCB pilot holes with an M3 tap so that you can secure it from above and have concealed fasteners.  
 - Drill through with M3mm⌀ and use M3 screws to secure to M3 heatserts embedded in your carriage. This is a popular method.  
-- Countersink for concealed fasteners. There is sufficient material in the PCB to countersink the screw holes to use flat head screws for a flush installation to threaded holes above.  
+- Countersink for concealed fasteners. There is sufficient material in the PCB to countersink the screw holes to use flat head screws for a flush installation into holes above.  
 - The holes are positioned such that if heatserts were used in a carriage, there will be sufficient cover in the margins between the JST connector housing clearance hole and the inserts.  
 
 ### Assembly Aid
@@ -166,11 +166,14 @@ The pre-glued components will aid in keeping the PCB’s inverted and stable for
 </div>
 
 
-After soldering you can clip the excess length of the solder pins. 
+After soldering clip the excess length of the solder pins. 
 
-It is suggested to insulate the exposed terminals of the top side of the probe PCB by placing a piece of Kapton tape (not included) or similar non-conductive material to insulate the exposed terminals.  A small piece of blue tape or electrical tape works well too. Ordinary Scotch tape is good to about 100C if noting else is available. 
-
-Nail polish or model builder's enamel works well too painted over the top. 
+It is suggested to insulate the exposed terminals of the top PCB by:
+- painting clear nail polish or model builder's enamel 
+- placing a piece of Kapton tape (not included) over the exposed pins
+- a small piece of blue tape
+- a small piece of electrical tape 
+- ordinary Scotch tape is good to about 100C if nothing else is available. 
 
 <div style="width:100%;text-align:center;">
 <table>
