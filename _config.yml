@@ -42,7 +42,7 @@ exclude:
 
 feedback_subject_line: Euclid Probe Inquiry # Jekyll documentation theme
 
-feedback_email: info#euclidprobe.com # tomjoht@gmail.com
+feedback_email: info@euclidprobe.com # tomjoht@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
