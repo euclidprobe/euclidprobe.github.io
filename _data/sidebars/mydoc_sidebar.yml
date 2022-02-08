@@ -102,6 +102,7 @@ entries:
 
     - title: Mounts & Docks By Printer Overview
       url: /02b_mounts_by_printer.html
+#      url: https://github.com/nionio6915/Euclid_Probe/blob/main/stls/readme.md
       output: web, pdf
 
 #     Start of Ender Series

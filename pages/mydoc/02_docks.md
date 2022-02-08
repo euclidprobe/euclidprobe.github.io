@@ -29,9 +29,11 @@ The 'arrows' can point in opposite ways. In fact, this is the orientation for an
 ###  Locating the Probe Dock
 Printer mounted docks are needed for automatic deployment and retraction. Depending on the firmware's gcode programming capabilities, the dock can be either fixed frame or moving bed mounted.
 
-The best place to put the dock is in a area that is outside of the printing boundary – in an overrun where things like purge buckets or nozzle wipers, tool docks, etc… are the perfect location for Euclid’s dock.
+The best place to put the dock is in a area that is outside of the printing boundary – the overrun area where things like purge buckets, nozzle wipers, tool docks, etc… live. This is the perfect location for Euclid’s dock.   
 
-If your printer does not have such an area, then an area roughly 15mm x 30mm in X & Y needs to be dedicated for the dock.  
+If your printer does not have such an area, then an area roughly 15mm x 30mm in X & Y needs to be dedicated for the dock.  It might sound worse than it is- even in the toughest adaptation, the max loss to print area was 4mm x 15mm. 
+
+The best advice we can offer is to look at the adaptations that are published in the .stls and CAD folder for inspiration. 
 
 The ideal location provides for both in and out motion of the probe into the dock, and as well a swiping action perpendicular to the dock to strip the probe from the toolboard.  
 
@@ -41,7 +43,20 @@ On deltas style printers, the dock ideally mounts next to one of the rear towers
 
 Keep the dock and the dock mount as short as possible so it's as stiff as possible.
 
-### Setting the Probe Dock Height
+## Servo actuated docks & Linear stages
+In our experience, servo actuated docks have failed mechanically and offer poor repeatability. Docks attached to compound lever or bellcrank actuated mechanisms have performed better, but their inherent complexity and 'fussiness' were abandoned for the simplicity of a linear rail actuator mechanism.
+
+Here is an example of an inexpensive linear stage with 50mm of travel moving the dock into the print area and retracting it. IT uses a NEMA11 motor, leadscrew and a section of ball bearing rail to provide repeatable controlled motion. 
+
+<div style="width:100%;text-align:center;"> 
+<a href="images\02_linear_stageB.jpg" data-lity>
+<img src="images\02_linear_stageB.jpg" style="width:300px; border:2px solid CornflowerBlue"></a>
+
+<a href="https://www.youtube.com/watch?v=IKLWkvJxWOw" data-lity>
+<img src="images\02_linear_stage.jpg" style="width:300px; border:2px solid CornflowerBlue"></a>  
+</div>
+
+#### Setting the Probe Dock Height
 The elevation of the dock is critical for consistent, problem free deployment and retraction.
 
 The ideal probe dock and toolboard designs allow for adjustments of the dock vertically so that when the probe is in the dock, it can meet the toolboard and be raised by the magnets to the proper elevation to clear the exit gate.
