@@ -7,15 +7,24 @@ permalink: 01_preflight.html
 sidebar: mydoc_sidebar
 folder: mydoc
 toc: false
-summary: Euclid Probe Assembly Planning 
+summary: Euclid Probe Deployment Planning 
 ---
-### Determine the best orientataion of the tool board and probe before assembly.
 
-The orientation of the tool board does not nescessarily have to match the orientation of the probe. 
+### What voltage? 
+Most controllers use either 3.3V or 5V for their MCU, aka <b>VCC</b>. Most of the modern controllers are also VCC voltage tolerant on their IO pins- meaning they probably wont get hurt if you accidentally feed a pin VCC voltage.  The most reliable, least risky connection of Euclid PRobe to your controller is via an unused endstop pin.  
 
-The probe is designed to enter the dock like an arrow, the wider section self-centerting the PCB in case of misalignment. 
+We have developed a 24V version of Euclid probe for direct wiring on 24V toolhead boards and dedicated 24V capable probe ports. However, using the higher voltage comes with more risk- the controller logic is still 3.3V/5V and if you are not careful, or have a happy accident and put 24V on an input pin, you will create the blue magic smoke. 
 
-The 'arrows' can point in opposite ways. In fact, this is the orientaion for an i3 style printer like an Ender3 or Wanhao i3, where the mount points to Xmin and the probe enters the moving dock towards Xmax.   
+{% include tip.html content="After soldering, clip the protruding solder pins flush and cover the exposed solder joints with a bit of tape or paint with nailpolish to insulate. This keeps the blue magic in the genie bottle" %}
+
+
+### Determine the best orientation of the tool board and probe before assembly.
+
+The orientation of the tool board does not necessarily have to match the orientation of the probe. 
+
+The probe is designed to enter the dock like an arrow, the wider section self-centering the PCB in case of misalignment. 
+
+The 'arrows' can point in opposite ways. In fact, this is the orientation for an i3 style printer like an Ender3 or Wanhao i3, where the mount points to Xmin and the probe enters the moving dock towards Xmax.   
 
 Guide blocks used to aid in the assembly and for hole drilling and tap aligning are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/stls/Assembly%20Jigs' target="_blank"> here.</a> They are not required but helpful to users who are not confident in their assembly skills. 
 

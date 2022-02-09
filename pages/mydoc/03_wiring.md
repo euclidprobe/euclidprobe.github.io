@@ -25,6 +25,8 @@ If your controller is not high voltage capable, the the standard 5V model is suf
 
 {% include warning.html content="If a 5V model is connected to 24V at the VCC pin, the LED's and resistors can not tolerate the higher current and will likely burn up" %} 
 
+{% include tip.html content="After soldering, clip the protruding solder pins flush and cover the exposed solder joints with a bit of tape or paint with nailpolish to insulate. This keeps the blue magic in the genie bottle" %}
+
 ### Basic Wiring: 2-wire mode
 The Euclid Probe can be wired and function with as few as 2 wires connecting the SIG & GND pins on the toolboard to the controller. The LED’s will not illuminate in 2-wire mode.
 

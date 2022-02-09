@@ -14,6 +14,9 @@ summary: Where to get the highly accurate, magnetically coupled, Z probe
 ### Buy a kit from a reseller 
 Due to numerous inquiries and customer demand, we have begun producing kits and make them available through select resellers.  Part of the proceeds of these sales directly support both the creators of Euclid Probe and the reseller. These funds provide for further research and development for Euclid Probe, the continual dock and mount creation and adaptations, and the ongoing firmware improvements. 
 
+### DIY Build
+See below
+
 ### We don't offshore 
 We don't offshore the labor to package and label Euclid kits- we believe in the ethos of putting community first and that sound business practices can serve a greater good.  
 
