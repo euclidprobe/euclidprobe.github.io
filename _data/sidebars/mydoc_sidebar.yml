@@ -177,22 +177,27 @@ entries:
 
     - title: Duet2 Controller Wiring
 #      url: /02_docks_mounts.html
+      url: /03_wiring.html 
       output: web, pdf
 
     - title: Duet3 Controller Wiring
 #      url: /02_docks_mounts.html
+      url: /03_wiring.html
       output: web, pdf
 
     - title: Smoothieboard 
 #       url: /02_docks_mounts.html
+      url: /03_wiring.html
       output: web, pdf
 
     - title: RAMPS Type Controllers
 #       url: /02_docks_mounts.html
+      url: /03_wiring.html
       output: web, pdf
 
     - title: Toolhead Board Connections
 #       url: /02_docks_mounts.html
+      url: /03_wiring.html
       output: web, pdf
 
       subfolders:

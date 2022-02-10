@@ -9,6 +9,9 @@ folder: mydoc
 toc: true
 summary: Electrical Requirements - Wiring the Tool Board
 ---
+
+Febraury 5, 2022: We are updating page maintenance and updating product images. Each of the controller pages will be a little sparse as we progress. 
+
 ### Commisioning
 The first step in commissioning Euclid Probe is deciding if the device will be wired as a Z-Probe or an endstop. Euclid Probe can be configured in most printer firmwares as both and endstop and as a probe.  
 
