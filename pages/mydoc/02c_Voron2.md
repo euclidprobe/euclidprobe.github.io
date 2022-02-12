@@ -14,3 +14,5 @@ summary: Euclid Probe Docks & Probes
 Page currently undergoing maintenance. 
 
 The following .zip files includes .step and .DXF files of all the modular docks and mounts for CAD interchange.
+
+The Voron 2.4 probe dock is designed to attach to the side of the 2020 bedrail extrusion. The mount has vertical slots to provide for fine adjustments in elevation. Depending on the bed material and print surface, this mount may bottom out against the floor of the printer.
