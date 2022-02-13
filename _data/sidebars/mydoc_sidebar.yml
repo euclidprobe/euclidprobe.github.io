@@ -38,6 +38,10 @@ entries:
     - title: Probe Accuracy
       url: /00-accuracy.html
       output: web, pdf
+
+    - title: Which Voltage to get-24V or Regular? 
+      url: /00-voltage.html
+      output: web, pdf
 # End Overview Level
 
 # Start Assembly Instructions section
