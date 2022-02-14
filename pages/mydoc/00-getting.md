@@ -32,18 +32,18 @@ In response to customer inquiry, bulk packs of Euclid Probe are available at sli
 
 ### Resellers:
 
-US: <a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank"><img src="images\LLLogo.jpg">  &nbsp; LukesLab.Online</a>  
-US: <a href="https://713maker.com/en/euclid" target="blank"><img src="images\713makercom.jpg">  &nbsp; &nbsp; 713maker.com</a>  
+<a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank"><img src="images\LLLogo.jpg">  &nbsp; LukesLab.Online</a>  <img src="images\country\150USA.png">  
+<a href="https://713maker.com/en/euclid" target="blank"><img src="images\713makercom.jpg">  &nbsp; &nbsp; 713maker.com</a>  <img src="images\country\150USA.png">  
 
-Denmark: <a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank"><img src="images\3do.dk.png">  &nbsp;  &nbsp; 3do.dk</a>
+<a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank"><img src="images\3do.dk.png">  &nbsp;  &nbsp; 3do.dk</a>  <img src="images\country\150DK.png">  
 
-EU- Germany:  En Route!   
-EU- Portugal:  En Route!  
+<a href="https://gingerbeard3d.de/" target="blank"><img src="images\gingerbeard.png">  &nbsp;  &nbsp; Gingerbeaerd3D</a>  <img src="images\country\150EU.png">  
+<a href="https://www.ratrig.com/" target="blank"><img src="images\ratriglogo.png">  &nbsp;  &nbsp; RatRig</a>  <img src="images\country\150EU.png">  
 
-UK:  <a href="https://www.jayuk.org/" target="blank"><img src="images\jays.png">  &nbsp;  &nbsp; Jay's UK</a> En ROUTE!  
+UK:  <a href="https://www.jayuk.org/" target="blank"><img src="images\jays.png">  &nbsp;  &nbsp; Jay's UK</a>  <img src="images\country\150UK.png">  
 UK:  
 
-AUS: <a href="https://www.raven3dtech.com.au/" target="blank"><img src="images\ravenlogo.webp"> &nbsp;  &nbsp;Raven 3D Tech</a>  
+AUS: <a href="https://www.raven3dtech.com.au/" target="blank"><img src="images\ravenlogo.webp"> &nbsp;  &nbsp;Raven 3D Tech</a>  <img src="images\country\150AUS.png">  
 
 ### DIY Build  
 The gerbers for DIY boards are hosted at OSHPark and Aisler. No part of the purchases made at OSHPark or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
