@@ -51,3 +51,40 @@ After some consulting with the user, we advised them to place paper shims over t
       <p><span style="color:blue">Click image to enlarge</span>.</p>
   </a>
 </div>
+
+
+### No, really its that good! 
+
+Here is actual output from a user who is using a Euclid Probe on a Railcore 300ZL printer- 2 iterations of their bed tilt adjustment macro- 
+
+```
+23:08:32  // probe at 10.000,10.000 is z=9.526562
+23:08:33  // probe at 10.000,10.000 is z=9.530000
+23:08:34  // probe at 10.000,10.000 is z=9.529375
+23:08:36  // probe at 295.000,116.000 is z=9.431875
+23:08:37  // probe at 295.000,116.000 is z=9.430937
+23:08:38  // probe at 295.000,116.000 is z=9.430937
+23:08:40  // probe at 10.000,239.000 is z=9.483750
+23:08:41  // probe at 10.000,239.000 is z=9.482812
+23:08:42  // probe at 10.000,239.000 is z=9.482812
+23:08:42  // Making the following Z adjustments:
+// stepper_z = 0.119567
+// stepper_z1 = 0.069290
+// stepper_z2 = 0.004405
+23:08:42  // Retries: 0/4 Probed points range: 0.097396 tolerance: 0.005000
+23:08:43  // probe at 10.000,10.000 is z=9.419345
+23:08:44  // probe at 10.000,10.000 is z=9.419657
+23:08:45  // probe at 10.000,10.000 is z=9.419032
+23:08:47  // probe at 295.000,116.000 is z=9.417470
+23:08:48  // probe at 295.000,116.000 is z=9.417470
+23:08:49  // probe at 295.000,116.000 is z=9.417157
+23:08:51  // probe at 10.000,239.000 is z=9.419970
+23:08:52  // probe at 10.000,239.000 is z=9.419657
+23:08:53  // probe at 10.000,239.000 is z=9.419345
+23:08:53  // Making the following Z adjustments:
+// stepper_z = -0.000527
+// stepper_z1 = -0.000184
+// stepper_z2 = -0.002831
+23:08:53  // Retries: 1/4 Probed points range: 0.002292 tolerance: 0.005000
+23:08:53  // Docking Euclid probe
+```

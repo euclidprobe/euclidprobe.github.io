@@ -35,20 +35,36 @@ As always, if you need assistance or have questions, please feel free to contact
   </td>
 </tr>
 <tr>
-<td>5V Version</td>
-<td>24V Version</td>
+  <td>5V Version</td>
+  <td>24V Version</td>
 </tr>
 <tr>
-<td>Note the absence of 24V markings<P>  
-    Note the size and orientation of SMT components</p></td>
-<td>Note the 24V markings on the PCB<P>  
-    Note the size and orientation of SMT components</p></td>
+  <td>Note the absence of 24V markings<P>  
+      Note the size and orientation of SMT components</p></td>
+  <td>Note the 24V markings on the PCB<P>  
+      Note the size and orientation of SMT components</p></td>
 </tr>
 <tr>
-<td><span style="color:blue">Click images to enlarge</span>
-</td>
-<td><span style="color:blue">Click images to enlarge</span>
-</td>
+  <td><span style="color:blue">Click images to enlarge</span>
+  </td>
+  <td><span style="color:blue">Click images to enlarge</span>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://tinyurl.com/yawtohnf" data-lity>
+    <img src="images\00-falstad.jpg" style="width:400px; border:2px solid CornflowerBlue"></a>
+  </td>
+  <td>
+    <a href="https://tinyurl.com/y9l7q26f" data-lity>
+    <img src="images\00-falstad.jpg" style="width:400px; border:2px solid CornflowerBlue"></a>
+  </td>    
+</tr>
+<tr>
+  <td>Euclid as typical 3.3V/5V endstop or Z-Probe input simulation<p>
+  <span style="color:blue">Click images to enlarge and simulate</span></p></td>
+  <td>Euclid as 24V Z-Probe input simulation<p>
+  <span style="color:blue">Click images to enlarge and simulate</span></p></td>
 </tr>
 </table>
 </div>
