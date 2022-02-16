@@ -42,7 +42,11 @@ entries:
           output: web, pdf
 
         - title: DIY 
+<<<<<<< HEAD
           url: /00_diy.html
+=======
+          url: /00_DIY.html
+>>>>>>> gh-pages
           output: web, pdf
 
         - title: Industrial, High Temp & Bulk Buy
