@@ -9,11 +9,13 @@ toc: false
 summary: What is the difference in voltage versions? 
 ---
 ### Different Voltage Versions
-Currently there are 2 versions of Euclid Probe kits available. There is now difference in price. 
+Currently there are 2 versions of Euclid Probe kits available. There is no difference in price. 
 
-The standard version was developed to use the controller's logic voltage to illuminate the LED's. Generally speaking, 16bit boards used 5V and 32bit boards used 3.3V.  All Euclid Probe versions will work with these controllers. Example controllers include MEGA/RAMPS, Duet3d controllers, 32bit LPC based controllers like Smoothieboard, SKR1.4, MKS Base, etc...  
+The standard version was developed to use a normal endstop port on the controller, and the VCC logic voltage to illuminate the LED's. 
 
-With the development of the high voltage capable controllers that use a remote toolboard, we developed a version of Euclid Probe that will work with all voltages including 24V voltage provided by these toolboards to power the LED's and return the signal via the wiring bundle to the controller. Do not directly wire a regular 5V Euclid to 24V, it will most likely burn out the LEDs and resistors. 
+Generally speaking, 16bit boards used 5V and 32bit boards used 3.3V. Example controllers include MEGA/RAMPS, Duet3d controllers, 32bit LPC based controllers like Smoothieboard, SKR1.4, MKS Base, etc... All Euclid Probe versions will work with these controllers when plugged into a normal endstop port. 
+
+With the development of the high voltage capable controllers that make use of a remote toolboard, we developed a version of Euclid Probe that works with all voltages, including the 24V voltage provided by these toolboards to power the LED's and return the PROBE signal via the wiring bundle to the controller. Do not directly wire a regular 5V Euclid to 24V, it will most likely burn out the LEDs and resistors. 
 
 The 24V capable PROBE ports on the various controllers are not standard or uniform. While we do our best to try and provide users all the necessary documentation as we encounter the various controllers.  Users should expect to coordinate the wiring of Euclid Probe to their controller and their firmware configuration. 
 

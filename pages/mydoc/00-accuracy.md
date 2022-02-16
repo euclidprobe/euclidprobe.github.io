@@ -16,7 +16,7 @@ To date, over 500,00 probe deploy-probe-retract cycles with a moving Z-axis dock
 
 The gathered data was compiled and analyzed to compare the performance between different switch manufactures and models. The overall results have been quite revealing- the usual suspects are not as accurate as they are purported to be, and the other brands and models often dismissed are actually quite accurate.  
 
-Repeatabilities often approach 0.0001mm.  
+Repeatabilities often approach 0.001mm.  
 
 Here is an example of a single switch’s probing results performed at room temperature. Note the trends of the blue vertical bars showing the trigger point in the speed ranges noted at the top.   
 
@@ -54,7 +54,6 @@ After some consulting with the user, we advised them to place paper shims over t
 
 
 ### No, really its that good! 
-
 Here is actual output from a user who is using a Euclid Probe on a Railcore 300ZL printer- 2 iterations of their bed tilt adjustment macro- 
 
 ```
@@ -88,3 +87,130 @@ Here is actual output from a user who is using a Euclid Probe on a Railcore 300Z
 23:08:53  // Retries: 1/4 Probed points range: 0.002292 tolerance: 0.005000
 23:08:53  // Docking Euclid probe
 ```
+
+### Don't take our word for it, look at what the competition says .... 
+The original data for the following table was published at BLTouch's website.
+  <a href="images\00-BLTouch.png" data-lity>
+    <img src="images\00-BLTouch.png" style="width:50px; border:2px solid CornflowerBlue"></a>  
+
+ We've added a couple of row and columns to fill in some missing data...  
+ TH3D does not publish and data for EZABL. 
+
+<div style="width:100%;text-align:center;">
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-vfn0{background-color:#efefef;border-color:#000000;text-align:center;vertical-align:top}
+.tg .tg-g5f9{background-color:#3166ff;border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-73oq{border-color:#000000;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-g5f9">Sensor</th>
+    <th class="tg-g5f9">BLTouch<br> (Hall)</th>
+    <th class="tg-g5f9">Proximity<br>Inductive</th>
+    <th class="tg-g5f9">Proximty<br>Optical</th>
+    <th class="tg-g5f9">Micro Switch<br> with SG90 Servo</th>
+    <th class="tg-g5f9">EZABL</th>
+    <th class="tg-g5f9">Euclid Probe</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-73oq">Sensor Type</td>
+    <td class="tg-73oq">contact</td>
+    <td class="tg-73oq">non-contact</td>
+    <td class="tg-73oq">non-conact</td>
+    <td class="tg-73oq">contact</td>
+    <td class="tg-73oq">non-contact</td>
+    <td class="tg-73oq">contact</td>    
+  </tr>
+  <tr>
+    <td class="tg-vfn0">Standard Deviation</td>
+    <td class="tg-vfn0">&le;0.01</td>
+    <td class="tg-vfn0">&le;0.2</td>
+    <td class="tg-vfn0">&le;0.01</td>
+    <td class="tg-vfn0">&le;0.3</td>
+    <td class="tg-vfn0">?</td>
+    <td class="tg-vfn0">&le;0.0015</td>
+  </tr>
+  <tr>
+    <td class="tg-73oq">Repeated Accuracy</td>
+    <td class="tg-73oq">&le;1%</td>
+    <td class="tg-73oq">&le;5%</td>
+    <td class="tg-73oq">&le;1%</td>
+    <td class="tg-73oq">&le;5%</td>
+    <td class="tg-73oq">?</td>
+    <td class="tg-73oq">&le;0.2%</td>
+  </tr>
+  <tr>
+    <td class="tg-vfn0">Bed Material</td>
+    <td class="tg-vfn0">Unlimited</td>
+    <td class="tg-vfn0">Metallic</td>
+    <td class="tg-vfn0">Glass X</td>
+    <td class="tg-vfn0">Unlimited</td>
+    <td class="tg-vfn0">?</td>
+    <td class="tg-vfn0">Unlimited</td>
+  </tr>
+  <tr>
+    <td class="tg-73oq">Max Current</td>
+    <td class="tg-73oq">&le;300mA</td>
+    <td class="tg-73oq">&le;200mA</td>
+    <td class="tg-73oq">&le;2300mA</td>
+    <td class="tg-73oq">&le;300mA</td>
+    <td class="tg-73oq">?</td>
+    <td class="tg-73oq">6mA</td>
+  </tr>
+  <tr>
+    <td class="tg-vfn0">Current Consumption</td>
+    <td class="tg-vfn0">20mA</td>
+    <td class="tg-vfn0">20mA</td>
+    <td class="tg-vfn0">20mA</td>
+    <td class="tg-vfn0">200mA w/t jitter<br>20mA w/o jitter</td>
+    <td class="tg-vfn0">?</td>
+    <td class="tg-vfn0">6mA when deployed<br>0mA when docked</td>
+  </tr>
+  <tr>
+    <td class="tg-73oq">Affected by Bed Heat</td>
+    <td class="tg-73oq"><b><span style="color:red">&#10004;</span></b></td>
+    <td class="tg-73oq"><b><span style="color:red">&#10004;</span></b></td>
+    <td class="tg-73oq">?</td>
+    <td class="tg-73oq">?</td>
+    <td class="tg-73oq">?</td>
+    <td class="tg-73oq"><b><span style="color:green">NO</span></b></td>
+  </tr>
+   <tr>
+    <td class="tg-vfn0">Affected by Magnetism</td>
+    <td class="tg-vfn0"><b><span style="color:red"> &#10004;</span></b> </td>
+    <td class="tg-vfn0"><b><span style="color:red">&#10004;</span></b> </td>
+    <td class="tg-vfn0"></td>
+    <td class="tg-vfn0"></td>
+    <td class="tg-vfn0">?</td>
+    <td class="tg-vfn0"><b><span style="color:green">NO</span></b></td>
+  </tr>
+  <tr>
+    <td class="tg-73oq">Notes:</td>
+    <td class="tg-73oq">Proprietary cable with Molex Picoblade</td>
+    <td class="tg-73oq">Accuracy of NPN and PNP type sensors vary widely by manuf'r</td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq"></td>
+    <td class="tg-73oq">Requires external controller module and external 12V power supply</td>
+    <td class="tg-73oq"><b><span style="color:green">24V Input capable</span></b></td>
+  </tr>
+     <tr>
+    <td class="tg-vfn0">Cost (not including shipping</td>
+    <td class="tg-vfn0">&ge;$40USD</td>
+    <td class="tg-vfn0">&ge;$15USD</td>
+    <td class="tg-vfn0">&ge;$25USD</td>
+    <td class="tg-vfn0">&ge;$10USD</td>
+    <td class="tg-vfn0">&ge;$65USD</td>
+    <td class="tg-vfn0">$25USD</td>
+  </tr>
+</tbody>
+</table>
+</div>
+(BTLtouch is a registered product of ANTCLABS, Republic of Korea. EZABL&#8482; trademarked by TH3DStudio.) 
