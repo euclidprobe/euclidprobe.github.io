@@ -31,8 +31,28 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: How to get Euclid Probe
-      url: /00-getting.html
+#     Start of Ender Series
+      subfolders:
+      - title: How to Get Euclid Probe
+        output: web, pdf
+        subfolderitems:
+
+        - title: Buy a Kit
+          url: /00_kit.html
+          output: web, pdf
+
+        - title: DIY 
+          url: /00_DIY.html
+          output: web, pdf
+
+        - title: Industrial, High Temp & Bulk Buy
+          url: /00_HT.html
+          output: web, pdf
+#     End Ender Series
+
+
+    - title: Comparisons to other probes
+      url: /00-others.html
       output: web, pdf
 
     - title: Probe Accuracy
