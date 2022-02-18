@@ -60,8 +60,8 @@ We believe in the importance to serve those in need locally over the maximizatio
   </tr>
 
   <tr>
-    <td class="tg-0lax"><a href="https://gingerbeard3d.de/" target="blank"><img src="images\gingerbeard.png">&nbsp;&nbsp;</a></td>
-    <td class="tg-0lax"><a href="https://gingerbeard3d.de/" target="blank">&nbsp;&nbsp; Gingerbeaerd3D&nbsp;&nbsp;</a></td>
+    <td class="tg-0lax"><a href="https://gingerbeard3d.de/" target="blank"><img src="images\gingerbeard2.png">&nbsp;&nbsp;</a></td>
+    <td class="tg-0lax"><a href="https://gingerbeard3d.de/" target="blank">&nbsp;&nbsp; Gingerbeard3D&nbsp;&nbsp;</a></td>
     <td class="tg-0lax">&nbsp;&nbsp;</td>
     <td class="tg-0lax"><img src="images\country\150EU.png"></td>
   </tr>

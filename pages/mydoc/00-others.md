@@ -11,9 +11,9 @@ summary: Comparing Euclid Probe to other devices
 ## How Easy is it to setup and use Euclid Probe? 
 
 ### Look at the forums and support channels for yourself ....
-Look at the various forums and channels at the help requests for other devices and probes, and the kinds of help requests people put up. The chatter is overwhelmingly about the difficulty in setting up the popular devices and what happens when they break down or don't work.  
+Look at the various forums and channels at the help requests for other devices and probes, and the kinds of help requests people put up. The chatter is overwhelmingly about the difficulty in setting up the other popular devices and what happens when they break down or just don't work.  
 
-Now look around and see what kinds of requests are out there for Euclid Probe. There are not that many! Euclid is as simple and efficient as a probe can get. The most often raised concern is how to customize the macros or tweaking a mount or dock. There are an overwhelming number of comments from user who essentially say the same thing:<b> "Bolt it on, configure your firmware, print happily ever after"</b>  
+Now look around and see what kinds of requests are out there for Euclid Probe. There are not that many! Euclid is as simple and efficient as a probe can get. The most often raised concern is how to customize the macros or tweaking a mount or dock. There are an overwhelming number of comments from users who essentially say the same thing:<b> "Bolt it on, configure your firmware, print happily ever after"</b>  
 
 ### Don't take our word for it, look at what the competition says .... 
 The original data in the following table was originally published at BLTouch's website.

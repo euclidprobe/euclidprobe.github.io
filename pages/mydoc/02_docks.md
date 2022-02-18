@@ -44,16 +44,25 @@ On deltas style printers, the dock ideally mounts next to one of the rear towers
 Keep the dock and the dock mount as short as possible so it's as stiff as possible.
 
 ## Servo actuated docks & Linear stages
-In our experience, servo actuated docks have failed mechanically and offer poor repeatability. Docks attached to compound lever or bellcrank actuated mechanisms have performed better, but their inherent complexity and 'fussiness' were abandoned for the simplicity of a linear rail actuator mechanism.
+Docks attached to compound levers or bellcrank actuated mechanisms have performed better than direct attached docks to servo arms. These setups work, but we don't currently have the resources to develop. 
+
+Here is an example of Jay_s' servo setup on his Voron V0.1:  
+<div style="width:100%;text-align:center;"> 
+<a href="https://www.youtube.com/watch?v=wlnXIud-uro" data-lity>  
+<img src="images\03_jays_servo.png" style="width:300px; border:2px solid CornflowerBlue"></a>  
+</div>
 
 Here is an example of an inexpensive linear stage with 50mm of travel moving the dock into the print area and retracting it. IT uses a NEMA11 motor, leadscrew and a section of ball bearing rail to provide repeatable controlled motion. 
-
 <div style="width:100%;text-align:center;"> 
+
+<a href="https://smile.amazon.com/Befenybay-Effective-Travel-Stepper-Actuator/dp/B087NMCGPV" target="blank"> Linear stage at Amazon Example</a>  <br>
+
 <a href="images\02_linear_stageB.jpg" data-lity>
 <img src="images\02_linear_stageB.jpg" style="width:300px; border:2px solid CornflowerBlue"></a>
 
 <a href="https://www.youtube.com/watch?v=IKLWkvJxWOw" data-lity>
 <img src="images\02_linear_stage.jpg" style="width:300px; border:2px solid CornflowerBlue"></a>  
+
 </div>
 
 #### Setting the Probe Dock Height
