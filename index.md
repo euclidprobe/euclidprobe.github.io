@@ -38,7 +38,7 @@ Discussion and support is available as a subgroup to the <a href='https://discor
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/v4Yb8aLyh6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/jMHCGlAa3Z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/g_zH5Vf-0wA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/vwaNEc17TdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
