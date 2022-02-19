@@ -21,6 +21,9 @@ The main example given is for a fixed dock (X, Y, Z constant), with a Z endstop,
 
 If a series of probing commands is desired, then it is recommended that and M401 and M402 pair bracket the sequence of gcodes. See the macro examples homez.g and bed4point.g macros for recommendations.  
 
+{% include warning.html content="When implementing 3rd party macros, pay particular attention to any variables that reference things like Z-Travel height or Z moves after probing or probe pickup.<br>
+We recommend a Z-move or travel height of 15mm to ensure that there is enough clearance between the probe and bed." %}
+
 {% include tip.html content="The most up-to-date macros are in the github repository as a bundled .zip file for download - [Euclid github repo](https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/klipper)" %}
 
 {% include note.html content="klipper macro syntax does not play well with jekyll\Liquid. The below macro example is presented as an image of the machine code.  The following imost up-to-date macros are in the github repository - [Euclid klipper github repo](https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/klipper)" %}
