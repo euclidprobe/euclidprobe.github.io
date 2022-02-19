@@ -37,7 +37,7 @@ In response to customer inquiry, bulk packs of Euclid Probe are available at sli
 
 <a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank"><img src="images\3do.dk.png">  &nbsp;  &nbsp; 3do.dk</a>  <img src="images\country\150DK.png">  
 
-<a href="https://gingerbeard3d.de/" target="blank"><img src="images\gingerbeard2.png">  &nbsp;  &nbsp; Gingerbeard3D</a>  <img src="images\country\150EU.png">  
+<a href="https://gingerbeard3d.de/produkt/euclid-probe/" target="blank"><img src="images\gingerbeard2.png">  &nbsp;  &nbsp; Gingerbeard3D</a>  <img src="images\country\150EU.png">  
 <a href="https://www.ratrig.com/" target="blank"><img src="images\ratriglogo.png">  &nbsp;  &nbsp; RatRig</a>  <img src="images\country\150EU.png">  
 
 UK:  <a href="https://www.jayuk.org/" target="blank"><img src="images\jays.png">  &nbsp;  &nbsp; Jay's UK</a>  <img src="images\country\150UK.png">  
