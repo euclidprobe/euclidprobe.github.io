@@ -68,6 +68,7 @@ body {
 
 
 
+/* .breadcrumb > .active {color: #777 !important;} DJP EDIT */ 
 
 .breadcrumb > .active {color: #777 !important;}
 
@@ -356,13 +357,22 @@ a.accordion-toggle, a.accordion-collapsed {
     content: '\25b4';
 }
 
+/* DJP EDIT ADD 
+    font-weight: bold;
+        color: #f5f5f5;
+    */
 .nav a:hover, .nav li.active > a {
     background-color: #8D8D8D;
-    color: #f5f5f5;
+    font-weight: bold;
+    color: white#ffffff;
 }
 
 .nav > li.active > a  {
 background-color: #347DBE;
+/* DJP EDIT ADD 
+    font-weight: bold;
+    */
+    font-weight: bold;
 }
 
 .nav li a {
@@ -1010,8 +1020,9 @@ span.label.label-primary {
 .nav li.active > a.subfoldersTitle {
     background-color: whitesmoke;
     font-weight: bold;
-    color: black;
+    color: #191970;
     }
+/*DJP edit color to red from black*/
 
 a code {
     color: #248EC2;
