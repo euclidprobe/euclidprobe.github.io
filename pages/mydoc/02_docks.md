@@ -6,7 +6,7 @@ permalink: 02_docks.html
 sidebar: mydoc_sidebar
 folder: mydoc
 toc: false
-summary: Euclid Probe Docks 
+summary: Euclid Probe Docks & Servo Mechanisms
 ---
 
 ### Determine the best orientation of the tool board and probe before assembly.

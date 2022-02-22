@@ -8,7 +8,6 @@ folder: mydoc
 toc: false
 summary: Comparing Euclid Probe to other devices
 ---
-## How Easy is it to setup and use Euclid Probe? 
 
 ### Look at the forums and support channels for yourself ....
 Look at the various forums and channels at the help requests for other devices and probes, and the kinds of help requests people put up. The chatter is overwhelmingly about the difficulty in setting up the other popular devices and what happens when they break down or just don't work.  

@@ -91,7 +91,7 @@ entries:
       url: /02_docks_mounts.html
       output: web, pdf
 
-    - title: Modular Docks
+    - title: Modular Docks & Servo Mechanisms
       url: /02_docks.html
       output: web, pdf
 

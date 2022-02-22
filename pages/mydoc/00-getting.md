@@ -9,7 +9,11 @@ toc: false
 summary: Where to get the highly accurate, magnetically coupled, Z probe
 ---
 
-## How to get Euclid Probe
+## How to get Euclid Probe, How Easy is it to setup and use Euclid Probe? 
+Deploying Euclid is a matter of determining the probe mount and a docking solution to your printer. For some of the more popular printers, many of the schemes are already worked out. If you are starting from scratch on a custom deployment, we try to give you the building blocks and outline the important stuff you need to work out.
+
+Assembling the probe kit is a matter of through-hole soldering the header and switch and assembling the magnets.  Some of the resellers offer assembly as a value added service. We are fortunate that all of our resellers take pride in their customer service, so if you need help, ask them or us. 
+
 
 ### Buy a kit from a reseller 
 Due to numerous inquiries and customer demand, we have begun producing kits and make them available through select resellers.  Part of the proceeds of these sales directly support both the creators of Euclid Probe and the reseller. These funds provide for further research and development for Euclid Probe, the continual dock and mount creation and adaptations, and the ongoing firmware improvements. 
