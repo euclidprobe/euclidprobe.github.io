@@ -54,9 +54,9 @@ We believe in the importance to serve those in need locally over the maximizatio
 
   <tr>
     <td class="tg-0lax"><a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank"><img src="images\3do.dk.png"></a></td>
-    <td class="tg-0lax"><a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank">&nbsp;&nbsp;3do.dk&nbsp;&nbsp;</a></td>
+    <td class="tg-0lax"><a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank">&nbsp;&nbsp;3do.eu&nbsp;&nbsp;</a></td>
     <td class="tg-0lax">&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><img src="images\country\150DK.png"></td>
+    <td class="tg-0lax"><img src="images\country\150EU.png"></td>
   </tr>
 
   <tr>
