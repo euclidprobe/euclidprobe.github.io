@@ -27,3 +27,6 @@ A note about the relative differences in source pricing- Aisler costs run a litt
 OSHPark.com <a href='https://oshpark.com/shared_projects/k646v9BY'>https://oshpark.com/shared_projects/k646v9BY</a>
 
 Aisler <a href='https://aisler.net/p/PHODHLTM'>  https://aisler.net/p/PHODHLTM</a>
+
+### DIY Assembly Instructions
+DIY Assembly Instructions are <a href="/01_diybuild.html">here</a>

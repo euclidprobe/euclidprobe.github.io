@@ -199,14 +199,54 @@ entries:
       url: /03_wiring.html
       output: web, pdf
 
+    - title: BTT Controllers
+      url: /03_btt.html
+      output: web, pdf
+
+#        subfolderitems:
+  
+#          - title: SKR Boards- LPC chip
+# #          url: /02c_Ender.html
+#           output: web, pdf
+# 
+#         - title: SKR Pro Boards
+# #          url: /02c_Ender.html
+#           output: web, pdf
+# 
+#         - title: Octopus Version 1.0 Boards 
+# #          url: /02c_Ender.html
+#           output: web, pdf
+# 
+#         - title: Octopus Version 1.1 Boards 
+# #          url: /02c_Ender.html
+#           output: web, pdf
+# 
+#         - title: Octopus Version 1.2 Boards 
+# #          url: /02c_Ender.html
+#           output: web, pdf
+
+#      folderitems:  
     - title: Duet2 Controller Wiring
-#      url: /02_docks_mounts.html
-      url: /03_wiring.html 
+      url: /03_duet2.html 
       output: web, pdf
 
     - title: Duet3 Controller Wiring
-#      url: /02_docks_mounts.html
-      url: /03_wiring.html
+      url: /03_duet3.html 
+      output: web, pdf
+
+    - title: Fystec Controllers 
+#       url: /02_docks_mounts.html
+      url: /03_misc.html#panucatt-rearm-commissioning
+      output: web, pdf
+
+    - title: MKS Controllers 
+#       url: /02_docks_mounts.html
+      url: /03_misc.html#mks_base-commissioning
+      output: web, pdf
+
+    - title: Panucatt ReARM
+#       url: /02_docks_mounts.html
+      url: /03_misc.html#panucatt-rearm-commissioning
       output: web, pdf
 
     - title: Smoothieboard 
@@ -215,40 +255,13 @@ entries:
       output: web, pdf
 
     - title: RAMPS Type Controllers
-#       url: /02_docks_mounts.html
-      url: /03_wiring.html
+      url: /03_misc.html#ramp-controller-commissioning
       output: web, pdf
 
     - title: Toolhead Board Connections
 #       url: /02_docks_mounts.html
       url: /03_wiring.html
       output: web, pdf
-
-      subfolders:
-    - title: BTT Controllers
-#       url: /02_docks_mounts.html
-      output: web, pdf
-      subfolderitems:
-
-        - title: SKR Boards- LPC chip
-#          url: /02c_Ender.html
-          output: web, pdf
-
-        - title: SKR Pro Boards
-#          url: /02c_Ender.html
-          output: web, pdf
-
-        - title: Octopus Version 1.0 Boards 
-#          url: /02c_Ender.html
-          output: web, pdf
-
-        - title: Octopus Version 1.1 Boards 
-#          url: /02c_Ender.html
-          output: web, pdf
-
-        - title: Octopus Version 1.2 Boards 
-#          url: /02c_Ender.html
-          output: web, pdf
 # End Wiring Section
 
 
