@@ -17,6 +17,8 @@ Another good resource for determining the probe offsets is discussed on this <a 
 
 <div style="width:100%;text-align:center;"> <a href="images\05_probe-offsets.png" data-lity> <img src="images\05_probe-offsets.png" style="width:450px; border:2px solid CornflowerBlue"></a></div>
 
+{% include tip.html content="Configure the Z probe offset at the temperatures that you will most be printing at: nozzle, bed and chamber. The offset will vary if you calibrate at 180C nozzle, 50C bed and 20C chamber/ambient compared to 245C nozzle, 100C bed and 60 chamber!" %}
+
 ### Probing Speeds
 In general terms, we recommend singe probing speeds of 2mm/sec to start with.  
 If your firmware can perform 2-speed probing, 5mm/sec & 2mm/sec would be reasonable starting points.  
