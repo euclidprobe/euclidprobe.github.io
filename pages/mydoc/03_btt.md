@@ -52,6 +52,72 @@ SKR Mini series mainboards can use either the standard 5V or 24V Euclid models. 
 </tr>
 </table>
 
+### SKR Pro Controller Commissioning
+SKR Pro mainboards can use either the standard 5V or 24V Euclid models. Wire Euclid Probe to any open endstop connector or the Probe connection sockets with care.    
+<table>
+<tr>
+   <td> <a href="images\04-wiring\boards_BTT\Slide10.PNG" data-lity>
+        <img src="images\04-wiring\boards_BTT\Slide10.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
+   </td>
+</tr>
+<tr>
+   <td><b>SKR Pro Mainboard Wiring Diagram as Probe</b></td>
+</tr>
+<tr>
+   <td> <a href="images\04-wiring\boards_BTT\Slide9.PNG" data-lity>
+        <img src="images\04-wiring\boards_BTT\Slide9.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
+   </td>
+</tr>
+<tr>
+   <td><b>SKR Pro Mainboard Wiring Diagram as Endstop</b></td>
+</tr>
+</table>
+
+### SKR 2.0 Controller Commissioning
+SKR Pro mainboards can use either the standard 5V or 24V Euclid models. Wire Euclid Probe to any open endstop connector or the Probe connection sockets with care.    
+<table>
+<tr>
+   <td> <a href="images\04-wiring\boards_BTT\Slide12.PNG" data-lity>
+        <img src="images\04-wiring\boards_BTT\Slide12.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
+   </td>
+</tr>
+<tr>
+   <td><b>SKR 2.0 Mainboard Wiring Diagram as Probe</b></td>
+</tr>
+<tr>
+   <td> <a href="images\04-wiring\boards_BTT\Slide11.PNG" data-lity>
+        <img src="images\04-wiring\boards_BTT\Slide11.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
+   </td>
+</tr>
+<tr>
+   <td><b>SKR Pro Mainboard Wiring Diagram as Endstop</b></td>
+</tr>
+</table>
+
+
+### GTR Controller Commissioning
+GTR mainboards can use either the standard 5V or 24V Euclid models. Wire Euclid Probe to any open endstop connector or the Probe connection sockets with care.    
+<table>
+<tr>
+   <td> <a href="images\04-wiring\boards_BTT\Slide13.PNG" data-lity>
+        <img src="images\04-wiring\boards_BTT\Slide13.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
+   </td>
+</tr>
+<tr>
+   <td><b>GTR Mainboard Wiring Diagram as Endstop</b></td>
+</tr>
+<tr>
+   <td> <a href="images\04-wiring\boards_BTT\Slide12.PNG" data-lity>
+        <img src="images\04-wiring\boards_BTT\Slide12.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
+   </td>
+</tr>
+<tr>
+   <td><b>GTR Mainboard Wiring Diagram as Probe</b></td>
+</tr>
+</table>
+
+
+
 ### Octopus Commissioning
 BTT Octopus has numerous revisions and only the Pro is illustrated below currently. Users are encouraged to verify their deployment needs and coordinate with the schematic and documentation for their specific model. 
 
@@ -73,6 +139,13 @@ Octopus can use either the standard 5V or 24V Euclid models whether Euclid Probe
 <tr>
    <td><b>Octopus Pro Wiring Diagram with Euclid Probe on Endstop Circuit</b></td>
 </tr>
+</table>
+
+### Octopus with Remote Toolboard Commissioning
+BTT Octopus has numerous revisions and only the Pro is illustrated below currently. Users are encouraged to verify their deployment needs and coordinate with the schematic and documentation for their specific model. 
+
+Octopus can use either the standard 5V or 24V Euclid models whether Euclid Probe is going to be connected to an open endstop connector or 24V capable probe port. 
+<table>
 <tr>
    <td> <a href="images\04-wiring\boards_BTT\Slide3.PNG" data-lity>
         <img src="images\04-wiring\boards_BTT\Slide3.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>

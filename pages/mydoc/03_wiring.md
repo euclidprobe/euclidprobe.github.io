@@ -22,13 +22,13 @@ Refer to your printers firmware documentation for determining the most ideal way
 Wiring to other ports such as dedicated Z-probe or remote I/O ports are also possible. 
 
 ### 5V & 24V Version Differences 
-Euclid Probe can be wired direct to a remote toolboard that provides 24V sensing voltage and used with a controller that has a 24V probe input. In this application, the 24V version is most appropriate. The 24V version is also all voltage capable.  
+Euclid Probe can be wired direct to a remote toolboard that provides 24V sensing voltage and used with a controller that has a 24V probe input. In this application, the 24V version is most appropriate. The 24V version is all voltage capable.  
 
 If your controller is not high voltage capable, the the standard 5V model is sufficient.  This includes RAMPS based controllers, Duet2 and Duet3 hardware, most LPC and STM based controllers without high voltage inputs. 
 
 {% include warning.html content="If a 5V model is connected to 24V at the VCC pin, the LED's and resistors can not tolerate the higher current and will likely burn up" %} 
 
-{% include tip.html content="After soldering, clip the protruding solder pins flush and cover the exposed solder joints with a bit of tape or paint with nailpolish to insulate. This keeps the blue magic in the genie bottle" %}
+{% include tip.html content="After soldering, clip the protruding solder pins flush and cover the exposed solder joints with a bit of tape or paint with nailpolish to insulate. This keeps the blue magic smoke genie in the bottle" %}
 
 ### Basic Wiring: 2-wire mode
 The Euclid Probe can be wired and function with as few as 2 wires connecting the SIG & GND pins on the toolboard to the controller. The LED’s will not illuminate in 2-wire mode.
@@ -57,12 +57,12 @@ The LED's will blink off when the machine is probing the bed." %}
 
 Early Euclid boards and current DIY boards have a connector pinout that is ordred GND-SIG-VCC. If a pre-terminated endstop cable is used to connect Euclid to the controller, two of the terminals will likely need to be re-pinned. 
 
-Current Euclid Probes and future DIY have the more conventional SIG-GND-VCC pin order and can be connected with a premade straight through endstop cable.  
+Current Euclid Probe kits have, and future DIY boards will have, the more conventional SIG-GND-VCC pin order and can be connected with a premade straight through endstop cable.  
 
 ### Replacing a BLTouch / CR Touch device
 Some controllers have a dedicated 5-pin connecters for these devices. Two of these pins are dedicated to the SIG-GND function of the device as I/O and the other 3-pins are dedicated to the operation of the internal mechanical devices as servo devices. 
 
-The probe signal pin may or may not be 5V tolerant. It is recommended to use an unused endstop connector instead. 
+The probe signal pin may or may not be 5V tolerant. It is recommended to verify your controller's requirements and if in doubt, use an unused endstop connector instead. 
 <div style="width:100%;text-align:center;">
  <a href="images\04_BLT_example.jpg" data-lity>
         <img src="images\04_BLT_example.jpg" style="width:400px; border:2px solid CornflowerBlue"></a>

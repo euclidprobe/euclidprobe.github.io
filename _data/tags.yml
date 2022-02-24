@@ -64,5 +64,9 @@ allowed-tags:
   - MKS
   - ReArm
   - RAMPS
+  - FLY
+  - Mellow
+  - FLY-Mellow
   
+
 # Copyright 2021 Google LLC

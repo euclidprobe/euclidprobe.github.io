@@ -234,9 +234,14 @@ entries:
       url: /03_duet3.html 
       output: web, pdf
 
+    - title: FLY-Mellow Controllers 
+#       url: /02_docks_mounts.html
+      url: /03_fly.html
+      output: web, pdf
+
     - title: Fystec Controllers 
 #       url: /02_docks_mounts.html
-      url: /03_misc.html#panucatt-rearm-commissioning
+      url: /03_misc.html#fystec-spider-commissioning
       output: web, pdf
 
     - title: MKS Controllers 
@@ -251,7 +256,7 @@ entries:
 
     - title: Smoothieboard 
 #       url: /02_docks_mounts.html
-      url: /03_wiring.html
+      url: /03_smoothie.html
       output: web, pdf
 
     - title: RAMPS Type Controllers
