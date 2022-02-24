@@ -52,5 +52,17 @@ allowed-tags:
   - white box
   - custom
   - Euclid Probe
-
+  - wiring
+  - Duet2
+  - Duet3
+  - BTT 
+  - Biqu
+  - Octopus
+  - SKR
+  - Spider
+  - Fystec
+  - MKS
+  - ReArm
+  - RAMPS
+  
 # Copyright 2021 Google LLC
