@@ -33,7 +33,7 @@ The 24V version was developed to wire natively to the provided probe port on the
 </center>
 </div>
 
-#### Are you using a remote CAB-BUS controller?  
+#### Are you using a remote CAN-BUS controller?  
 <div style="width:100%">
 <center>
 <table>
