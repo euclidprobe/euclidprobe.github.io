@@ -28,5 +28,8 @@ OSHPark.com <a href='https://oshpark.com/shared_projects/k646v9BY'>https://oshpa
 
 Aisler <a href='https://aisler.net/p/PHODHLTM'>  https://aisler.net/p/PHODHLTM</a>
 
+
+<div style="width:100%;text-align:center;"> <a href="images\00-aisler.png" data-lity> <img src="images\00-aisler.png" style="width:450px; border:2px solid CornflowerBlue"></a></div>
+
 ### DIY Assembly Instructions
 DIY Assembly Instructions are <a href="/01_diybuild.html">here</a>
