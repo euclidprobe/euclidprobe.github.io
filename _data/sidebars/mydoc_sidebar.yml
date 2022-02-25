@@ -59,7 +59,7 @@ entries:
       url: /00-accuracy.html
       output: web, pdf
 
-    - title: Which Voltage to get-24V or Regular? 
+    - title: Which Voltage to get-5V or 24V? 
       url: /00-voltage.html
       output: web, pdf
 # End Overview Level

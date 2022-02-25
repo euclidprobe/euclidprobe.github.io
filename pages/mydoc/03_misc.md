@@ -62,7 +62,7 @@ Wiring to the probe connector via a toolboard requres coordination- do not wire 
     </td>
  </tr>
  <tr>
-     <td><b>>Fystec Spider Wiring Diagram as endstop</b>
+     <td><b>Fystec Spider Wiring Diagram as endstop</b>
      </td>
  </tr>
  <tr>
@@ -71,7 +71,7 @@ Wiring to the probe connector via a toolboard requres coordination- do not wire 
      </td>
  </tr>
  <tr>
-     <td><b>>Fystec Spider Wiring Diagram to toolboard</b>
+     <td><b>Fystec Spider Wiring Diagram to toolboard</b>
      </td>
  </tr>
 

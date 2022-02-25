@@ -9,17 +9,70 @@ toc: false
 summary: What is the difference in voltage versions? 
 ---
 ### Different Voltage Versions
-Currently there are 2 versions of Euclid Probe kits available. There is no difference in price. 
+Currently there are 2 versions of Euclid Probe kits available. There is no difference in price. The voltage only matters if you intend to illuminate the LEDs as status and function indicators. 
 
-The standard version was developed to use a normal endstop port on the controller, and the VCC logic voltage to illuminate the LED's. 
+The 5V standard version was developed to use a normal endstop port and endstop cable to the controller, and the VCC logic voltage to illuminate the LED's. This is the more universal application. Logic voltage will likely never become more that 3.3V or 5V.
 
-Generally speaking, 16bit boards used 5V and 32bit boards used 3.3V. Example controllers include MEGA/RAMPS, Duet3d controllers, 32bit LPC based controllers like Smoothieboard, SKR1.4, MKS Base, etc... All Euclid Probe versions will work with these controllers when plugged into a normal endstop port. 
+The 24V version was developed to wire natively to the provided probe port on the remote toolboards that can not provide logic voltage onboard.  
 
-With the development of the high voltage capable controllers that make use of a remote toolboard, we developed a version of Euclid Probe that works with all voltages, including the 24V voltage provided by these toolboards to power the LED's and return the PROBE signal via the wiring bundle to the controller. Do not directly wire a regular 5V Euclid to 24V, it will most likely burn out the LEDs and resistors. 
+#### Are you deploying to an endstop port? 
+<div style="width:100%">
+<center>
+<table>
+<tr>
+   <td> <a href="images\04-wiring\boards_BTT\Slide5.PNG" data-lity>
+<img src="images\04-wiring\boards_BTT\Slide5.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
+  </td>
+</tr>  
+<tr>
+  <td>
+   <b>Then all you need is the 5V version</b>
+  </td>
+</tr>
+</table>
+</center>
+</div>
+
+#### Are you using a remote CAB-BUS controller?  
+<div style="width:100%">
+<center>
+<table>
+<tr>
+   <td> <a href="images\04_CANB_example.jpg" data-lity>
+        <img src="images\04_CANB_example.jpg" style="width:250px; border:2px solid CornflowerBlue"></a>
+  </td>
+</tr>  
+<tr>
+  <td>
+   <b>Then all you need is the 5V version</b>
+  </td>
+</tr>
+</table>
+</center> 
+</div>
+
+#### Are you using a remote toolboard? 
+<div style="width:100%">
+<center>
+<table>
+<tr>
+   <td><a href="images\04-wiring\boards_BTT\Slide4.PNG" data-lity>
+       <img src="images\04-wiring\boards_BTT\Slide4.PNG" style="width:400px; border:2px solid CornflowerBlue"></a>  
+    </td>
+</tr>  
+<tr>
+  <td>
+   <b>Then all you need is the 24V version</b>
+  </td>
+</tr>
+</table>
+</center> 
+</div>
+
+### Logic Voltages
+Generally speaking, 16bit boards used 5V logic and 32bit boards used 3.3V logic. Example 16bit controllers include MEGA/RAMPS. AM based Duet3d controllers, LPC based controllers like Smoothieboard, SKR1.4, MKS Base, etc... All Euclid Probe versions will work with these controllers when plugged into a normal endstop port. 
 
 The 24V capable PROBE ports on the various controllers are not standard or uniform. While we do our best to try and provide users all the necessary documentation as we encounter the various controllers.  Users should expect to coordinate the wiring of Euclid Probe to their controller and their firmware configuration. 
-
-{% include tip.html content="24V Euclid version works with all voltages." %}
 
 As always, if you need assistance or have questions, please feel free to contact us via the Feedback link above of via the Discord channel. 
 
