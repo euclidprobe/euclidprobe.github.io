@@ -9,17 +9,21 @@ folder: mydoc
 toc: true
 summary: Electrical Requirements - Wiring the Tool Board
 ---
-
-Febraury 5, 2022: We are updating page maintenance and updating product images. Each of the controller pages will be a little sparse as we progress. 
-
 ### Commisioning
 The first step in commissioning Euclid Probe is deciding if the device will be wired as a Z-Probe or an endstop. Euclid Probe can be configured in most printer firmwares as both and endstop and as a probe.  
 
-Refer to your printers firmware documentation for determining the most ideal way for your configuration.
+Refer to your printers firmware documentation for determining the most ideal way for your configuration.  
 
-{% include tip.html content="The most direct method of wiring Euclid Probe is connecting it to an unused endstop connector." %} 
+{% include tip.html content="The most direct method of wiring Euclid Probe is connecting it to an unused endstop connector." %}  
 
-Wiring to other ports such as dedicated Z-probe or remote I/O ports are also possible. 
+Wiring to other ports such as dedicated Z-probe or remote I/O ports are also possible.  
+
+### Note the Pin Order
+There are differences in the pin order for the wiring socket holes between board versions. Version 2.0 of the PCB was made more consistent to the pinouts of production controllers.  
+
+Users are encouraged to verify the pin and wiring order for their particular printer. 
+
+<div style="width:100%;text-align:center;"> <a href="images\04-wiring\pcb_parts\Slide2.PNG" data-lity> <img src="images\04-wiring\pcb_parts\Slide2.PNG" style="width:450px; border:2px solid CornflowerBlue"></a></div>
 
 ### 5V & 24V Version Differences 
 Euclid Probe can be wired direct to a remote toolboard that provides 24V sensing voltage and used with a controller that has a 24V probe input. In this application, the 24V version is most appropriate. The 24V version is all voltage capable.  

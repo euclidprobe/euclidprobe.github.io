@@ -14,6 +14,8 @@ summary: Marlin Firmware Settings
 ### Marlin Probe device configuration
 Marlin configuration is highly dependent on the controller board used. The following is a general outline of the hardware definition only. The probe deployment and retraction, also part of the Configuration.h file is addressed in the next pages and Ender3 and Ender5 printer examples.
 
+Marlin deployments have been done using probes of the type 'FIXED_PROBE' and 'ALLEN_KEY" types. 
+
 <div style="width:100%;text-align:center;"> 
 <a href="images\05_probe-offsets-sm.png" data-lity> <img src="images\05_probe-offsets-sm.png" style="width:450px; border:2px solid CornflowerBlue"></a></div>
 

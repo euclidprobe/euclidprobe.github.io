@@ -7,83 +7,33 @@ permalink: 06_marlin.html
 sidebar: mydoc_sidebar
 folder: mydoc
 toc: true
-summary: Marlin Macros
+summary: Marlin Probe types and macros
 ---
 
-### Marlin Macro Overview
+Marlin has a few different probe types and probe deploy strategies that can be used, and has built in probe detection.  
 
-Marlin configuration is highly dependent on the controller board used. The following is a general outline for deployment and retraction, part of the Configuration.h and Config_adv files (The hardware definition is addressed in the previous section).  
-
-```cpp
-//===========================================================================
-//============================== Endstop Settings ===========================
-//===========================================================================
-// @section homing
-
-// Specify here all the endstop connectors that are connected to any endstop or probe.
-// Almost all printers will be using one per axis. Probes will use one or more of the
-// extra connectors. Leave undefined any used for non-endstop and non-probe purposes.
-#define USE_XMIN_PLUG
-#define USE_YMIN_PLUG
-#define USE_ZMIN_PLUG
-...
-#define USE_ZMAX_PLUG // ENABLE IF USING Z_MAX FOR PROBE
-````
-
-```cpp
-
-// Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
-...
-#define Z_MIN_PROBE_ENDSTOP_INVERTING false // Set to true to invert the logic of the probe.
-```
+The critical part to deciding which probe type to enable will depend on the mechanics and presence of a Z-endstop for the printer. 
 
 
-```cpp
-//===========================================================================
-//============================= Z Probe Options =============================
-//===========================================================================
-// @section probes
+### Fixed Mounted Probes
+For printers like moving bed / fixed gantry printers, the ```FIXED MOUNTED PROBE``` is one probe option.  Delta printers could also use this this type.  A fixed dock will always be at a fixed Z elevation and therefore no Z movement is needed to deploy or stow the probe. This type of installation would need a custom g-code macro to deploy and stow the probe before use. 
 
-//
-// See https://marlinfw.org/docs/configuration/probes.html
-//
+If the Z elevation can be established via an Z-min or Z-max endstop prior to deployment, then a printer that has a bed attached dock and moving Z-gantry could use the same scheme.  
 
-/**
- * Enable this option for a probe connected to the Z-MIN pin.
- * The probe replaces the Z-MIN endstop and is used for Z homing.
- * (Automatically enables USE_PROBE_FOR_Z_HOMING.)
- */
-// #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN // 
+Marlin has a limited set of built in G-code macro variables that could be populated with the required deploy and stow macros that get saved to the SD card and recalled as part of the printer startup. This type of installation would make use of the ```M810 - M819 ```commands. 
 
-...
+Credit to Teaching Tech for reminding us of this method of gcode macros. 
 
-/**
- * Z_MIN_PROBE_PIN
- *
- * Define this pin if the probe is not connected to Z_MIN_PIN.
- * If not defined the default pin for the selected MOTHERBOARD
- * will be used. Most of the time the default is what you want.
- *
- *  - The simplest option is to use a free endstop connector.
- *
- *  - RAMPS 1.3/1.4 boards may use the 5V, GND, and Aux4->D32 pin:
- *    - For simple switches connect...
- *      - normally-closed switches to GND and D32.
- *      - normally-open switches to 5V and D32.
- */
-#define Z_MIN_PROBE_PIN PA4 // Pin 32 is the RAMPS default
-                            // Our Ender-3 test printer with Creality 4.2.2 controller
-                            // uses the filament runout sensor connector 
-````
+### Allen Key Probes
+The one probe type that we have found to work and use the most is the ```ALLEN_KEY_PROBE``` type. While it may be a little more fussy to coordinate and script the dock and stow motions into the ```Configuration.h``` file, it allows the printer to use the native ```M401 / M402``` functionality for things like G29 without having to wrap them between custom gcode macros.  
 
 
-Marlin has a few probe deploy strategies built in. The one that we have found to work the best is the Allen Key Probe module. 
-
-Once the deploy and retract strategies are defined in the firmware, then the execution is automatic on demand. 
+### Marlin Allen Key Probe Type and Macro Overview
+The following is a general outline for deployment and retraction, part of the Configuration.h and Config_adv files (The hardware definition is addressed in the previous section).  Once the deploy and retract strategies are defined, they can be inserted into the firmware, then their execution is automatic on demand. 
 
 The full board setup, probe and Allen Key setup are bundled in the Ender3 config files as example. 
 
-{% include note.html content="Marlin stepwise deploy and stow strategy is not difficult. The challenge is the tedious nature of writing it into the firmware config file and recompiling.  Users are encouraged to work out the gcode movements as much as they can as a standalone scripts before entering it into the firmware and recompiling." %}
+{% include note.html content="Developing the Marlin stepwise deploy and stow strategy is not difficult. The challenge is the tedious nature of writing it into the firmware config file and recompiling.  Users are encouraged to work out the gcode movements as much as they can as a standalone scripts before entering it into the firmware and recompiling." %}
 
 Example gcode script for probe deployment. The coordinates in the Configuration snip below and macros are coordinated to the previous example images. 
 
