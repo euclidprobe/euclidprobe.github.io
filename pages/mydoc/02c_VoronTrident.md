@@ -11,12 +11,15 @@ summary: Voron Trident Probe Docks & Mount
 ---
 
 ## Gantry Mounted Voron Trident Dock
+This version of the Voron Trident mount was collaboratively developed with Trident users to be located at the left-rear motor mount. 
 
-This version of the Voron Trident mount was collaboratively developed with Trident users to be located at the left-rear motor mount. It requires the replacing the motor mount screws to M5x20 and utilizes an M5x20 screw and nut to connect the dock to the mount. There is a keyhole to insert the nut into the adjustment channel.
+It requires the replacing the motor mount screws with 2-M5x20 screws and utilizes an M5x20 screw and an M5 nut as thru bolt to connect the dock to the mount. 
+
+There is a keyhole to insert the nut into the adjustment channel- insert the screw, just start nut on the screw, and put it in the keyhole.
 
 <div style="width:100%;text-align:center;">
 <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/images/Trident_TopMount.png" data-lity>
-<img src="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/images/Trident_TopMount.png" style="width:300px; border:2px solid CornflowerBlue"></a>
+<img src="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/images/Trident_TopMount.png" style="width:400px; border:2px solid CornflowerBlue"></a>
 </div>
 
 <div style="width:100%;text-align:center;">
