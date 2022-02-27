@@ -5,7 +5,7 @@ tags: [docks]
 permalink: 02_docks.html
 sidebar: mydoc_sidebar
 folder: mydoc
-toc: false
+toc: true
 summary: Euclid Probe Docks & Servo Mechanisms
 ---
 
@@ -19,6 +19,7 @@ The probe is designed to enter the dock like an arrow, the wider section self-ce
 <img src="images\02_dock_entry.jpg"><br>  
 </div>  
 
+{% include tip.html content="It is important to consider the [dock setting height](/02_docks.html#setting-the-probe-dock-height)" %}  
 
 The 'arrows' can point in opposite ways. In fact, this is the orientation for an i3 style printer like an Ender3 or Wanhao i3, where the tool board motion points it to Xmin and the probe entering the Y-moving dock towards Xmax.   
 
@@ -43,7 +44,7 @@ On deltas style printers, the dock ideally mounts next to one of the rear towers
 
 Keep the dock and the dock mount as short as possible so it's as stiff as possible.
 
-## Servo actuated docks & Linear stages
+### Servo actuated docks & Linear stages
 Docks attached to compound levers or bellcrank actuated mechanisms have performed better than direct attached docks to servo arms. These setups work, but we don't currently have the resources to develop. 
 
 Here is an example of Jay_s' servo setup on his Voron V0.1:  
@@ -65,10 +66,12 @@ Here is an example of an inexpensive linear stage with 50mm of travel moving the
 
 </div>
 
-#### Setting the Probe Dock Height
+### Setting the Probe Dock Height
 The elevation of the dock is critical for consistent, problem free deployment and retraction.
 
 The ideal probe dock and toolboard designs allow for adjustments of the dock vertically so that when the probe is in the dock, it can meet the toolboard and be raised by the magnets to the proper elevation to clear the exit gate.
+
+There are usually built in adjustment slots in the preconfigured docks for various printer models.  
 
 <div style="width:100%;text-align:center;"> <a href="images\02_Dock_Height_2.jpg" data-lity>
 <img src="images\02_Dock_Height_2.jpg" style="width:400px; border:2px solid CornflowerBlue"></a>

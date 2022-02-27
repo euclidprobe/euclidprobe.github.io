@@ -10,10 +10,74 @@ toc: false
 summary: Voron Trident Probe Docks & Mount 
 ---
 
-## Mounts by Printer Voron Trident
-Page currently undergoing maintenance. 
+## Gantry Mounted Voron Trident Dock
 
-The following .zip files includes .step and .DXF files of all the modular docks and mounts for CAD interchange.
+This version of the Voron Trident mount was collaboratively developed with Trident users to be located at the left-rear motor mount. It requires the replacing the motor mount screws to M5x20 and utilizes an M5x20 screw and nut to connect the dock to the mount. There is a keyhole to insert the nut into the adjustment channel.
 
-Frame mounted Voron Trident Mount
-This version of the Voron Trident mount was collaboratively developed with Trident users to be located at the left-rear motor mount. It requires the replacing the motor mount screws to M5x20 and utilizes an M5x16 screw and nut to connect the dock to the mount. There is a keyhole to insert the nut into the adjustment channel.
+<div style="width:100%;text-align:center;">
+<a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/images/Trident_TopMount.png" data-lity>
+<img src="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/images/Trident_TopMount.png" style="width:300px; border:2px solid CornflowerBlue"></a>
+</div>
+
+<div style="width:100%;text-align:center;">
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:3px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:3px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <td class="tg-0pky">
+    <div id="stl_cont" style="width:350px;margin:1">
+      <script>
+        var stl_viewer=new StlViewer
+        (
+          document.getElementById("stl_cont"), 
+          {
+              allow_drag_and_drop: false,
+              auto_rotate:true,
+              auto_resize:true,
+              models: 
+              [ 
+                {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountCloseV4.stl",     color:"#1E73BE", scale:0.35, rotationx:5.0, rotationy:-0.50,     rotationz:0.0} 
+              ]
+          }
+        );
+      </script>
+    </div>
+    </td>
+    <td class="tg-0pky">
+    <div id="stl_cont" style="width:350px;margin:1">
+      <script>
+         var stl_viewer=new StlViewer
+         (
+           document.getElementById("stl_cont"), 
+           {
+               allow_drag_and_drop: false,
+               auto_rotate:true,
+               auto_resize:true,
+               models: 
+               [ 
+                 {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountDockCloseV4.stl",      color:"#1E73BE", scale:0.35, rotationx:5.0, rotationy:-0.50,      rotationz:0.0} 
+               ]
+           }
+         );
+     </script>
+    </div> 
+    </td>
+  </tr>
+
+  <tr>
+    <td class="tg-0pky">Voron Trident Dock Mount</td>
+    <td class="tg-0pky">Voron Trident Dock</td>
+  </tr>
+
+</tbody>
+</table>
+</div>
+
+

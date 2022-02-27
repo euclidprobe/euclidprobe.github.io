@@ -15,7 +15,7 @@ Due to the organic and idiomatic nature of klipper, there is no standard method 
 
 {% include tip.html content="In the following example we maintain the use of M401 and M402 for probe deploy and retract for gcode consistency. Users are encouraged to modify the code to suit their tastes and needs." %}
 
-User contributed macros for various printers and configurations are shared in the klipper folder as well. These are offered as a convenience only and are thus unsupported. 
+User contributed macros for various printers and configurations are shared in the klipper folder as well. These are offered as a convenience only and are thus unsupported. We have attempted to name them so that the printer is in the filename. 
 
 The main example given is for a fixed dock (X, Y, Z constant), with a Z endstop,  with a few example macros. 
 

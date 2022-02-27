@@ -66,7 +66,7 @@ lift_speed: 30
 ```  
 Here is an example of - <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Klipper/00-euclid_exampleV3.cfg" target="blank">euclid.cfg</a> file. 
 
-The full compliment of various user submitted klipper files is <a href="https://github.com/nionio6915/Euclid_Probe/main/Firmware_Examples/Klipper/00-euclid_exampleV3.cfg"> in the Firmware Examples/klipper folder</a>.  
+The full compliment of various user submitted klipper files is <a href="https://github.com/nionio6915/Euclid_Probe/main/Firmware_Examples/Klipper/" target="blank"> in the Firmware Examples/klipper folder</a>.  
 
 
 ### Setting Z offset elevation
