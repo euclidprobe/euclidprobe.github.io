@@ -5,76 +5,17 @@ tags: [FAQ]
 permalink: 00-voltage.html
 sidebar: mydoc_sidebar
 folder: mydoc
-toc: false
+toc: true
 summary: What is the difference in voltage versions? 
 ---
 ### Different Voltage Versions
-Currently there are 2 versions of Euclid Probe kits available, 5V & 24V. There is no difference in price. The voltage only matters if you intend to illuminate the LEDs as status and function indicators. 
+Currently there are 2 versions of Euclid Probe kits available, 5V & 24V. There is no difference in price. 
 
-The 5V standard version was developed to use a normal endstop port and endstop cable to the controller, and the VCC logic voltage to illuminate the LED's. This is the more universal application. Logic voltage will likely never become more that 3.3V or 5V.
+The voltage only matters if you intend to illuminate the LEDs as status and function indicators and from where you get that power from. 
 
-The 24V version was developed to wire natively to the provided probe port on the remote toolboards that can not provide logic voltage onboard.  The 24V version will work connected to 3.3V and 5V endstop ports, though the LED's might be a little dim in comparison. 
+The 5V standard version usea a normal endstop port and direct endstop cable to the controller. The VCC logic voltage on that endstop will illuminate the LED's. This is the more universal application. Logic voltage will likely never become more that 3.3V or 5V in future controllers.
 
-#### Are you deploying to an endstop port? 
-<div style="width:100%">
-<center>
-<table>
-<tr>
-   <td> <a href="images\04-wiring\boards_BTT\Slide5.PNG" data-lity>
-<img src="images\04-wiring\boards_BTT\Slide5.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
-  </td>
-</tr>  
-<tr>
-  <td>
-   <b>Then all you need is the 5V version</b>
-  </td>
-</tr>
-</table>
-</center>
-</div>
-
-#### Are you using a remote CAN-BUS controller?  
-<div style="width:100%">
-<center>
-<table>
-<tr>
-   <td> <a href="images\04_CANB_example.jpg" data-lity>
-        <img src="images\04_CANB_example.jpg" style="width:250px; border:2px solid CornflowerBlue"></a>
-  </td>
-</tr>  
-<tr>
-  <td>
-   <b>Then all you need is the 5V version</b>
-  </td>
-</tr>
-</table>
-</center> 
-</div>
-
-#### Are you using a remote toolboard? 
-<div style="width:100%">
-<center>
-<table>
-<tr>
-   <td><a href="images\04-wiring\boards_BTT\Slide4.PNG" data-lity>
-       <img src="images\04-wiring\boards_BTT\Slide4.PNG" style="width:400px; border:2px solid CornflowerBlue"></a>  
-    </td>
-</tr>  
-<tr>
-  <td>
-   <b>Then all you need is the 24V version</b>
-  </td>
-</tr>
-</table>
-</center> 
-</div>
-
-### Logic Voltages
-Generally speaking, 16bit boards used 5V logic and 32bit boards used 3.3V logic. Example 16bit controllers include MEGA/RAMPS. AM based Duet3d controllers, LPC based controllers like Smoothieboard, SKR1.4, MKS Base, etc... All Euclid Probe versions will work with these controllers when plugged into a normal endstop port. 
-
-The 24V capable PROBE ports on the various controllers are not standard or uniform. While we do our best to try and provide users all the necessary documentation as we encounter the various controllers.  Users should expect to coordinate the wiring of Euclid Probe to their controller and their firmware configuration. 
-
-As always, if you need assistance or have questions, please feel free to contact us via the Feedback link above of via the Discord channel. 
+The 24V version was developed to wire natively to the V pin on the probe port on the remote toolboards that use of the 24V provided.
 
 <div style="width:100%;text-align:center;">
 <table>
@@ -105,6 +46,33 @@ As always, if you need assistance or have questions, please feel free to contact
   <td><span style="color:blue">Click images to enlarge</span>
   </td>
 </tr>
+</table>
+</div>  
+
+
+{% include tip.html content="The 24V version will ALSO work connected to 3.3V/5V endstop ports on the same controllers. However, the LED's might be a little dim in comparison. " %}  
+
+
+<div style="width:100%;text-align: center;align-items: center">
+<table>
+<tr>
+   <td> <a href="images\01_assembly\3.3V.jpg" data-lity>
+   <img src="images\01_assembly\3.3V.jpg" style="width:300px; border:2px solid CornflowerBlue"></a>
+   </td>
+   <td> <a href="images\01_assembly\5V.jpg" data-lity>
+   <img src="images\01_assembly\5V.jpg" style="width:300px; border:2px solid CornflowerBlue"></a>
+   </td>
+   <td> <a href="images\01_assembly\24V.jpg" data-lity>
+   <img src="images\01_assembly\24V.jpg" style="width:300px; border:2px solid CornflowerBlue"></a>
+   </td>
+</tr>
+<tr>
+   <td style="width:300px"><span style="width: 100%;text-align: center;align-items: center">24V Euclid Probe Prototype on 3.3V</span></td>
+   <td style="width:300px"><span style="width: 100%;text-align: center;align-items: center">24V Euclid Probe Prototype on 5V</span></td>
+   <td style="width:300px"><span style="width: 100%;text-align: center;align-items: center">24V Euclid Probe Prototype on 24V</span></td>
+</tr>
+</table>
+<table>
 <tr>
   <td>
     <a href="https://tinyurl.com/yawtohnf" data-lity>
@@ -123,3 +91,57 @@ As always, if you need assistance or have questions, please feel free to contact
 </tr>
 </table>
 </div>
+
+###  Are you deploying to an endstop port?  
+<table>
+<tr>
+   <td> <a href="images\04-wiring\boards_BTT\Slide5.PNG" data-lity>
+<img src="images\04-wiring\boards_BTT\Slide5.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
+  </td>
+</tr>  
+<tr>
+  <td>
+   <b>Then all you need is the 5V version</b>
+  </td>
+</tr>
+</table>
+
+###  Are you using a remote CAN-BUS controller?  
+<table>
+<tr>
+   <td> <a href="images\04_CANB_example.jpg" data-lity>
+        <img src="images\04_CANB_example.jpg" style="width:250px; border:2px solid CornflowerBlue"></a>
+  </td>
+</tr>  
+<tr>
+  <td>
+   <b>Then all you need is the 5V version</b>
+  </td>
+</tr>
+</table>
+
+
+###  Are you using a remote toolboard?  
+
+<table>
+<tr>
+   <td><a href="images\04-wiring\boards_BTT\Slide4.PNG" data-lity>
+       <img src="images\04-wiring\boards_BTT\Slide4.PNG" style="width:400px; border:2px solid CornflowerBlue"></a>  
+    </td>
+</tr>  
+<tr>
+  <td>
+   <b>Then all you need is the 24V version</b>
+  </td>
+</tr>
+</table>
+
+
+###  Logic Voltages  
+
+Generally speaking, 16bit boards used 5V logic and 32bit boards used 3.3V logic. Example 16bit controllers include MEGA/RAMPS. AM based Duet3d controllers, LPC based controllers like Smoothieboard, SKR1.4, MKS Base, etc... All Euclid Probe versions will work with these controllers when plugged into a normal endstop port.  
+
+The 24V capable PROBE ports on the various controllers are not standard or uniform. While we do our best to try and provide users all the necessary documentation as we encounter the various controllers.  Users should expect to coordinate the wiring of Euclid Probe to their controller and their firmware configuration.  
+
+As always, if you need assistance or have questions, please feel free to contact us via the Feedback link above of via the Discord channel.  
+

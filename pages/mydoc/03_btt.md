@@ -117,11 +117,19 @@ GTR mainboards can use either the standard 5V or 24V Euclid models. Wire Euclid 
 </table>
 
 
-
 ### Octopus Commissioning
-BTT Octopus has numerous revisions and only the Pro is illustrated below currently. Users are encouraged to verify their deployment needs and coordinate with the schematic and documentation for their specific model. 
+BTT Octopus has numerous revisions and only one is illustrated below currently. Users are encouraged to verify their deployment needs and coordinate with the schematic and documentation for their specific model. 
 
 Octopus can use either the standard 5V or 24V Euclid models whether Euclid Probe is going to be connected to an open endstop connector or 24V capable probe port. 
+
+If you are using klipper with the Octopus, there are some considerations to make- notably the use of the optocoupled probe port circuit and the BAT85 diode on a remote toolboard. 
+
+If Euclid Probe is to be wired to the Probe Port (pin PB7), you may need to set the probe pin LOW in order for the firmware to recognize the operation (~PB7). See Section 2.7 in the Octopus User Guide under Probe Port Wiring
+
+If Euclid Probe is to be wired to the Endstop Port (pin PG11), you will need to use the BAT85 diode and set the probe pin HIGH in order for the firmware to recognize the operation (^PG11). See Section 2.7 in the Octopus User Guide under Probe Port Wiring
+
+The topic we get the most inquiry about is the opto-coupled probe port on the Octopus.
+
 <table>
 <tr>
    <td> <a href="images\04-wiring\boards_BTT\Slide1.PNG" data-lity>
