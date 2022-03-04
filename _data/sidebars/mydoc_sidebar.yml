@@ -31,7 +31,6 @@ entries:
       output: web, pdf
       type: homepage
 
-#     Start of Ender Series
       subfolders:
       - title: How to Get Euclid Probe
         output: web, pdf
@@ -48,19 +47,17 @@ entries:
         - title: Industrial, High Temp & Bulk Buy
           url: /00_HT.html
           output: web, pdf
-#     End Ender Series
 
-
-    - title: Comparisons to other probes
-      url: /00-others.html
+    - title: Which Voltage to get - 5V or 24V? 
+      url: /00-voltage.html
       output: web, pdf
-
+      
     - title: Probe Accuracy
       url: /00-accuracy.html
       output: web, pdf
 
-    - title: Which Voltage to get - 5V or 24V? 
-      url: /00-voltage.html
+    - title: Comparisons to other probes
+      url: /00-others.html
       output: web, pdf
 # End Overview Level
 
