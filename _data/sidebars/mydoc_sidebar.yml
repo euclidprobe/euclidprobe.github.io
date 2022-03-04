@@ -48,10 +48,10 @@ entries:
           url: /00_HT.html
           output: web, pdf
 
-    - title: Which Voltage to get - 5V or 24V? 
+    - title: Voltage - 5V or 24V? 
       url: /00-voltage.html
       output: web, pdf
-      
+
     - title: Probe Accuracy
       url: /00-accuracy.html
       output: web, pdf
