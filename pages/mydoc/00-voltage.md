@@ -9,11 +9,11 @@ toc: true
 summary: What is the difference in voltage versions? 
 ---
 ### Different Voltage Versions
-Currently there are 2 versions of Euclid Probe kits available, 5V & 24V. There is no difference in price. 
+Currently there are 2 versions of Euclid Probe kits available, 5V & 24V. There is no difference in price. The PCB's and circuitry are the same. the 24V components are bulked up to handle driving the LED's at the higher voltage. 
 
 The voltage only matters if you intend to illuminate the LEDs as status and function indicators and from where you get that power from. 
 
-The 5V standard version usea a normal endstop port and direct endstop cable to the controller. The VCC logic voltage on that endstop will illuminate the LED's. This is the more universal application. Logic voltage will likely never become more that 3.3V or 5V in future controllers.
+The 5V standard version uses a normal endstop port and direct endstop cable to the controller. The VCC logic voltage on that endstop will illuminate the LED's. This is the more universal application. Logic voltage will likely never become more that 3.3V or 5V in future controllers.
 
 The 24V version was developed to wire natively to the V pin on the probe port on the remote toolboards that use of the 24V provided.
 
