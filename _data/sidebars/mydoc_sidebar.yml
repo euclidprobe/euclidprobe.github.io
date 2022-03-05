@@ -175,7 +175,7 @@ entries:
         subfolderitems:
 
         - title: Voron Overview
-          url: /02c_VCore.html
+          url: /02c_Voron.html
           output: web, pdf
 
         - title: Voron 2.4
