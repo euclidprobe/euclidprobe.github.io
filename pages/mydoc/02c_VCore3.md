@@ -99,4 +99,10 @@ summary: Euclid Probe Docks & Mounts RatRig V-Core3
     <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/V-Core/V-Core3/Euclid_EVA_MountV5_M2.5SelfTapping.stl">V-Core3 EVA Carriage Mount</a></td>
 </tr>
 </tbody>
-</table>
+</table>  
+</div>  
+
+## CAD Files
+The current CAD files are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/CAD' target="_blank"><b> available here in the repo.</b></a>
+
+

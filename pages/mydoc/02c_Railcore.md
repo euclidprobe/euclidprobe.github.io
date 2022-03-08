@@ -226,5 +226,6 @@ The Overhead mount attaches to nuts in the bottom slot of the rear extrusion. Th
 </table>
 </div>
 
-
+## CAD Files
+The current CAD files are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/CAD' target="_blank"><b> available here in the repo.</b></a>
 

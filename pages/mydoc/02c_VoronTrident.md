@@ -28,6 +28,7 @@ There is a keyhole to insert the nut into the adjustment channel- insert the scr
 
 <a href="images\02-voron\Trident_TopMountXRay2.png" data-lity>
 <img src="images\02-voron\Trident_TopMountXRay2.png" style="height:250px; border:2px solid CornflowerBlue"></a>
+</div>
 
 <div style="width:100%;text-align:center;">
 <style type="text/css">
@@ -90,6 +91,7 @@ There is a keyhole to insert the nut into the adjustment channel- insert the scr
 
 </tbody>
 </table>
-</div>
+</div>  
 
-
+## CAD Files
+The current CAD files are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/CAD' target="_blank"><b> available here in the repo.</b></a>

@@ -22,3 +22,4 @@ The initial EVA carriage mounts was proportioned for Duct V2.1 Straight and has 
 The EVA 2.4 mount was designed to fit around the regular tri-horn mount. Use with either the mid-width or wide width tri-horn will require spacers to adjust the mount outwards, and will result in a reduced print area.
 The V-Core3 dock is proportioned for 3030 extrusion.
 The V-Core Legacy dock is proportioned to fit under the 2040 front extrusion. This dock is in 2 parts and uses an M3 drawbolt to provide a small amount of vertical adjustability .
+

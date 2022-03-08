@@ -135,5 +135,8 @@ summary: Euclid Probe Docks & Mounts RatRig V-Core Legacy (2040 Extrusions)
 
 </tbody>
 </table>
+</div>  
 
+## CAD Files
+The current CAD files are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/CAD' target="_blank"><b> available here in the repo.</b></a>  
 
