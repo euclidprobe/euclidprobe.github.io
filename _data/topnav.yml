@@ -5,14 +5,16 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/nionio6915/Euclid_Probe # https://github.com/tomjoht/documentation-theme-jekyll
-    - title: News
-      url: /news
+    # - title: News
+    #   url: /news
     # - title: Build Instructions
     #   url: /Configurator
     - title: Discord
       external_url: https://discord.gg/jfnVrUx2uK
     - title: Youtube
       external_url: https://www.youtube.com/channel/UCIUXRiUfHCOrqRxitcH9O6g  
+    - title: twitter
+      external_url: https://twitter.com/euclidprobe
 
 #Topnav dropdowns
 # topnav_dropdowns:
