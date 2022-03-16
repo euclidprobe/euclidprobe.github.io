@@ -11,13 +11,41 @@ summary: Voron Trident Probe Docks & Mount
 ---
 
 ## Gantry Mounted Voron Trident Dock
-This version of the Voron Trident mount was collaboratively developed with Trident users to be located at the left-rear motor mount. 
+The Voron Trident mounts were collaboratively developed with Trident users to be located at the left-rear motor mount.  Version 2 is the most current- we leave Version 1 here as well for reference.
 
 The toolboard can be mounted to either the native carriage or to the standard Omron adapter. 
 
-Attaching the dock mount involves replacing the motor mount screws with 2-M5x20 screws and utilizes an M5x20 screw with an M5 nut as thru bolt to connect the dock to the mount. 
+Attaching the Version1 Dock Mount involves replacing the motor mount screws with 2-M5x20 screws and utilizes an M5x20 screw with an M5 nut as thru bolt to connect the dock to the mount. 
 
 There is a keyhole to insert the nut into the adjustment channel- insert the screw into the hole in the dock, just start nut on the screw, and put the nut in the keyhole slide down and tighten snug tight.
+
+The updated Version2 Dock Mount also involves replacing the motor mount screws with 2-M5x20 screws but is not height adjustable. 
+
+
+<div style="width:100%;text-align:center;">
+<a href="images\02-voron\VoronGantryMountRev2.jpg" data-lity>
+<img src="images\02-voron\VoronGantryMountRev2.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+
+<div id="stl_cont00" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont00"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:110,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/EuclidGantryMountyRev2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+  </div>
+
+
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\Trident_TopMount.png" data-lity>
@@ -85,8 +113,8 @@ There is a keyhole to insert the nut into the adjustment channel- insert the scr
   </tr>
 
   <tr>
-    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountCloseV4.stl">Voron Trident Dock Mount</a></td>
-    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountDockCloseV4.stl">Voron Trident Dock</a></td>
+    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountCloseV4.stl">Voron Trident Dock Mount Version 1</a></td>
+    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountDockCloseV4.stl">Voron Trident Dock Version 2 </a></td>
   </tr>
 
 </tbody>

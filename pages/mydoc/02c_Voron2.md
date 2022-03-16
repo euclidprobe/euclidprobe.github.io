@@ -37,6 +37,7 @@ The standard Omron mount is 0 degree relative rotation to the mounting face of t
 
 The Omron90 mount includes a 90 degree relative rotation to the mounting face. Adjustment slots are similar to the original device.  The orientation is to utilize docking and undocking motions in the Y axis orientation for those upgrading from other devices to maintain the 
 existing macros. Designed to be printed upside-down without supports.  
+
 <div style="width:100%;text-align:center;"> <a href="stls\Omron\02_OmronFotec.png" data-lity>
 <img src="stls\Omron\02_OmronFotec.png" style="height:315px; border:2px solid CornflowerBlue"></a>  
 
@@ -44,17 +45,48 @@ existing macros. Designed to be printed upside-down without supports.
 <img src="stls\Omron\02_OmronFotec90.png" style="height:315px; border:2px solid CornflowerBlue"></a>  
 </div>  
 
-Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/stls/Mount%20Adapters/Omron' target="_blank"><b> here.</b></a>
-
+Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/stls/Mount%20Adapters/Omron' target="_blank"><b> here.</b></a>   
 
 ## Clockwork2 Native Mounts  
 We are waiting for the official release of Clockwork 2 to release our native Afterburner Mounts. 
 
 
 ## Clockwork1 Native Docks & Dock Mounts  
-The mount attaches with longer screws in the holes of the left side motor bracket and clears the radius of the cable chain. 3-M5x20 screws required.  
-     
-The dock attaches to the mount with an M5 nut dropped in the keyholed channel and thru-bolts with an M5x20 screw. Adjust the elevation as required to allow for a clean exit of the probe PCB. Fine tuning and tweaking credited to Dattas.
+The mounts attach with longer screws in the holes of the left side motor bracket and clears the radius of the cable chain. 2-M5x20 screws required.  
+
+### Gantry Mount Version 2
+Version 2 of the gantry mount is fixed in height and location. It provides clearance for a stepper motor plug or wire/cable outlet as well.  A recess for either a magnet or M3 nut has been provided in the nose of the doc to server as a keeper for the probe. This was developed with the collaboration of Discord user Deepsiks.   
+
+<div style="width:100%;text-align:center;">
+<a href="images\02-voron\VoronGantryMountRev2.jpg" data-lity>
+<img src="images\02-voron\VoronGantryMountRev2.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+
+<div id="stl_cont00" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont00"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:200,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/EuclidGantryMountyRev2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+  </div>  
+  </div>
+
+<a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/EuclidGantryMountyRev2.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2</a>  
+
+
+### Gantry Mount Version 1   
+The previous Version 1 mount also attaches to the rear extrusion of the gantry, with longer screws (2-M5x20's) in the left side motor bracket.  Vertical adjustment by the thru-bolt on the bottom using an M5x16. Fine vertical adjustment via the slotted holes in the Omron mount. 
+
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\Trident_TopMount.png" data-lity>
@@ -66,10 +98,13 @@ The dock attaches to the mount with an M5 nut dropped in the keyholed channel an
 <a href="images\02-voron\Trident_TopMountXRay2.png" data-lity>
 <img src="images\02-voron\Trident_TopMountXRay2.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
 </div> 
+ 
 
-## Gantry Dock & Mount
-This mount attaches to the rear extrusion of the gantry, attaches with longer screws, M5x16, in the native holes of the left side motor bracket. Requires the use of the Omron90 mount. Lateral adjustment bu the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron mount. Currently untested and unproven to our knowledge- please contact us if difficulties are encountered.  
-This configuration should be compatible with the other detachable probe macros for Voron. 
+### Gantry Mount 90 Degree Probe 
+This dock is orientated in the Y direction and attaches to the rear extrusion of the gantry, in the native holes of the left side motor bracket. Requires the use of the Omron90 degree mount. Attaches with longer screws, M5x20. 
+Lateral Y adjustment via the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron90 mount, or with shims between the Y adjuster. 
+
+This configuration should be compatible with the other detachable probe macros for Voron.  
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\Voron2.4_XRailMount2.png" data-lity>
@@ -79,15 +114,7 @@ This configuration should be compatible with the other detachable probe macros f
 <img src="images\02-voron\Voron2.4_XRailMount.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
 </div>
 
-## 90 Degree Gantry Dock & Mount
-This dock is orientated in the X direction and attaches to the rear extrusion of the gantry, in the native holes of the left side motor bracket. Requires the use of the Omron90 mount or Native Afterburner Carriage. Attaches with longer screws, M5x16, . Lateral Y adjustment via the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron mount or with shims between the Y adjuster. Currently untested and unproven to our knowledge- please contact us if difficulties are encountered. This configuration should be compatible with the other detachable probe macros for Voron.  
-<div style="width:100%;text-align:center;">
-<a href="images\02-voron\Voron2.4_XRailMount90.png" data-lity>
-<img src="images\02-voron\Voron2.4_XRailMount90.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
 
-<a href="images\02-voron\Voron2.4_XRailMount90a.png" data-lity>
-<img src="images\02-voron\Voron2.4_XRailMount90a.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
-</div>
 
 
 ## Voron 2.4 Bed Rail Mounted Dock  
