@@ -64,7 +64,7 @@ lift_speed: 30
 # where euclid.cfg is the filename with all the probe deploy and retract and probing macros
 
 ```  
-Here is an example of - <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Klipper/00-euclid_exampleV3.cfg" target="blank">euclid.cfg</a> file. 
+Here is an example of - <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Klipper/00-euclid_exampleV4.cfg" target="blank">euclid.cfg</a> file. 
 
 The full compliment of various user submitted klipper files is <a href="https://github.com/nionio6915/Euclid_Probe/main/Firmware_Examples/Klipper/" target="blank"> in the Firmware Examples/klipper folder</a>.  
 
