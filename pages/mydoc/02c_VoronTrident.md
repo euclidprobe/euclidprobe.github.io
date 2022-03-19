@@ -11,39 +11,43 @@ summary: Voron Trident Probe Docks & Mount
 ---
 
 ## Gantry Mounted Voron Trident Dock
-The Voron Trident mounts were collaboratively developed with Trident users to be located at the left-rear motor mount.  Version 2 is the most current- we leave Version 1 here as well for reference.
+The Voron Trident mounts were collaboratively developed with Trident users to be located at the left-rear motor mount.  Version 2 is the most current- we leave Version 1 here as well for reference. The toolboard can be mounted to either the native carriage or to the standard Omron adapter. 
 
-The toolboard can be mounted to either the native carriage or to the standard Omron adapter. 
 
-Attaching the Version1 Dock Mount involves replacing the motor mount screws with 2-M5x20 screws and utilizes an M5x20 screw with an M5 nut as thru bolt to connect the dock to the mount. 
+### Gantry Mount Version 2
+Version 2 of the gantry mount is fixed in height and location. It provides clearance for a stepper motor plug or wire/cable outlet as well.  
 
-There is a keyhole to insert the nut into the adjustment channel- insert the screw into the hole in the dock, just start nut on the screw, and put the nut in the keyhole slide down and tighten snug tight.
+A recess for either a magnet or M3 nut has been provided in the nose of the dock to server as a keeper for the probe.  
 
-The updated Version2 Dock Mount also involves replacing the motor mount screws with 2-M5x20 screws but is not height adjustable. 
-
+This mount attaches through and clamps the left side motor mount bracket with an M5x16 and M5x30 screw from the BOM. Two small shear lug rings are provided to key the dock to the motor mount- if the print quality of the two parts is not the greatest, they might interfere and removal is recommended.  This was developed with the collaboration of Discord users Dattas, Deepsiks and Kyleisah.  
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\VoronGantryMountRev2.jpg" data-lity>
 <img src="images\02-voron\VoronGantryMountRev2.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+</div>
 
-<div id="stl_cont00" style="width:450px;height:450px;margin:0 auto;">
+
+<div id="stl_cont0" style="width:450px;height:450px;margin:0 auto;">
   <script>
     var stl_viewer=new StlViewer
     (
-      document.getElementById("stl_cont00"), 
+      document.getElementById("stl_cont0"), 
       {
           allow_drag_and_drop: false, 
           auto_rotate:true,
           auto_resize:true,
-          zoom:110,
+          zoom:200,
           models: 
           [ 
-            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/EuclidGantryMountyRev2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
           ]
       }
     );
   </script>
-  </div>
+  </div>  
+
+<a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2</a>  
+
 
 
 
@@ -71,11 +75,11 @@ The updated Version2 Dock Mount also involves replacing the motor mount screws w
 <tbody>
   <tr>
     <td class="tg-0pky">
-    <div id="stl_cont0" style="width:450px;height:450px;margin:0 auto;">
+    <div id="stl_cont01" style="width:450px;height:450px;margin:0 auto;">
       <script>
         var stl_viewer=new StlViewer
         (
-          document.getElementById("stl_cont0"), 
+          document.getElementById("stl_cont01"), 
           {
               allow_drag_and_drop: false, 
               auto_rotate:true,
@@ -91,11 +95,11 @@ The updated Version2 Dock Mount also involves replacing the motor mount screws w
     </div>
     </td>
     <td class="tg-0pky">
-    <div id="stl_cont1" style="width:450px;height:450px;margin:5 auto">
+    <div id="stl_cont02" style="width:450px;height:450px;margin:5 auto">
       <script>
          var stl_viewer=new StlViewer
          (
-           document.getElementById("stl_cont1"), 
+           document.getElementById("stl_cont02"), 
            {
                allow_drag_and_drop: false,
                auto_rotate:true,

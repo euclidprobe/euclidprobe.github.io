@@ -55,7 +55,8 @@ We are waiting for the official release of Clockwork 2 to release our native Aft
 The mounts attach with longer screws in the holes of the left side motor bracket and clears the radius of the cable chain. 2-M5x20 screws required.  
 
 ### Gantry Mount Version 2
-Version 2 of the gantry mount is fixed in height and location. It provides clearance for a stepper motor plug or wire/cable outlet as well.  A recess for either a magnet or M3 nut has been provided in the nose of the doc to server as a keeper for the probe. This was developed with the collaboration of Discord user Deepsiks.   
+Version 2 of the gantry mount is fixed in height and location. It provides clearance for a stepper motor plug or wire/cable outlet as well.  A recess for either a magnet or M3 nut has been provided in the nose of the dock to server as a keeper for the probe. This was developed with the collaboration of Discord user Deepsiks and Kyleisah.   
+The mount attaches through and clamps the left side motor mount bracket with an M5x16 and M5x30 screw from the BOM. Two small shear lug rings are provided to key the dock to the motor mount- if the print quality of the parts is not the greatest, they might interfere and removal is recommended.  
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\VoronGantryMountRev2.jpg" data-lity>
@@ -73,7 +74,7 @@ Version 2 of the gantry mount is fixed in height and location. It provides clear
           zoom:200,
           models: 
           [ 
-            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/EuclidGantryMountyRev2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
           ]
       }
     );
@@ -81,11 +82,11 @@ Version 2 of the gantry mount is fixed in height and location. It provides clear
   </div>  
   </div>
 
-<a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/EuclidGantryMountyRev2.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2</a>  
+<a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2</a>  
 
 
 ### Gantry Mount Version 1   
-The previous Version 1 mount also attaches to the rear extrusion of the gantry, with longer screws (2-M5x20's) in the left side motor bracket.  Vertical adjustment by the thru-bolt on the bottom using an M5x16. Fine vertical adjustment via the slotted holes in the Omron mount. 
+The previous Version 1 mount also attaches to the rear extrusion of the gantry, with longer screws (2-M5x20's) in the left side motor bracket.  Vertical adjustment by the thru-bolt on the bottom using an M5x16. Fine vertical adjustment via the slotted holes in the Omron mount. We leave this here for historical value for those who implemented it already.
 
 
 <div style="width:100%;text-align:center;">
