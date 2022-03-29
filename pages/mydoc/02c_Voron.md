@@ -39,7 +39,7 @@ The left and right halves of the Afterburner carriage are modified to accept the
 </div>  
 
 ## Omron Mounts  
-The standard Omron mount is 0 degree relative rotation to the mounting face of the Omron device. Adjustment slots are similar to the original device.  Designed to be printed upside-down without supports.  
+The standard Omron mount is 0 degree relative rotation to the mounting face of the Omron device. Adjustment slots are similar to the original device.  Designed to be printed upside-down without supports.  Screens are out of date, but the stls and CAD models are updated
 
 <div style="width:100%;text-align:center;"> <a href="stls\Omron\02_OmronFotec.png" data-lity>
 <img src="stls\Omron\02_OmronFotec.png" style="height:315px; border:2px solid CornflowerBlue"></a>  
@@ -51,11 +51,11 @@ The standard Omron mount is 0 degree relative rotation to the mounting face of t
 Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/stls/Mount%20Adapters/Omron' target="_blank"><b> here.</b></a>
 
 
-## Clockwork2 Native Mounts  
-We are waiting for the official release of Clockwork 2 to release our native Afterburner Mounts. 
+## Clockwork2 Native Mounts  aka Stealthburner 
+We are waiting for the official release to implement our adaptations to the native Stealthburner. When we asked the Voron dev's, they asked us to wait and we are honoring their request.  
 
 
-## Clockwork2 Native Dock & Mount  
+## Trident Native Gantry Dock & Mount Version 1 
 The mount attaches with longer screws in the holes of the left side motor bracket and clears the radius of the cable chain. 3-M5x20 screws required.  
      
 The dock attaches to the mount with an M5 nut dropped in the keyholed channel and thru-bolts with an M5x20 screw. Adjust the elevation as required to allow for a clean exit of the probe PCB. Fine tuning and tweaking credited to Dattas.
@@ -71,7 +71,7 @@ The dock attaches to the mount with an M5 nut dropped in the keyholed channel an
 <img src="images\02-voron\Trident_TopMountXRay2.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
 </div> 
 
-## Gantry Dock & Mount
+## Straight Armed Gantry Dock & Mount
 This mount attaches to the rear extrusion of the gantry, attaches with longer screws, M5x16, in the native holes of the left side motor bracket. Requires the use of the Omron90 mount. Lateral adjustment bu the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron mount. Currently untested and unproven to our knowledge- please contact us if difficulties are encountered.  
 This configuration should be compatible with the other detachable probe macros for Voron. 
 

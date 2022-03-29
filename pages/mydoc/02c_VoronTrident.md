@@ -50,7 +50,7 @@ This mount attaches through and clamps the left side motor mount bracket with an
 
 
 
-
+### Gantry Mount Version 1
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\Trident_TopMount.png" data-lity>
 <img src="images\02-voron\Trident_TopMount.png" style="height:250px; border:2px solid CornflowerBlue"></a>
@@ -87,7 +87,7 @@ This mount attaches through and clamps the left side motor mount bracket with an
               zoom:110,
               models: 
               [ 
-                {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountCloseV4.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+                {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountCloseV1.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
               ]
           }
         );
@@ -107,7 +107,7 @@ This mount attaches through and clamps the left side motor mount bracket with an
                zoom:110,
                models: 
                [ 
-                 {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountDockCloseV4.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+                 {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountDockCloseV1.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
                ]
            }
          );
@@ -118,7 +118,7 @@ This mount attaches through and clamps the left side motor mount bracket with an
 
   <tr>
     <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountCloseV4.stl">Voron Trident Dock Mount Version 1</a></td>
-    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountDockCloseV4.stl">Voron Trident Dock Version 2 </a></td>
+    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Trident_TopMountDockCloseV4.stl">Voron Trident Dock Version 1 </a></td>
   </tr>
 
 </tbody>
