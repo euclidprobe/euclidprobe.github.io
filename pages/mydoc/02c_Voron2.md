@@ -52,17 +52,37 @@ We are waiting for the official release of Clockwork 2 to release our native Aft
 
 
 ## Clockwork1 Native Docks & Dock Mounts  
-The mounts attach with longer screws in the holes of the left side motor bracket and clears the radius of the cable chain. 2-M5x20 screws required.  
+### Gantry Mount Version 1  & Mirror
+Gantry mount Version 1.1 utilizes M5x16 and M5x30 screws from the BOM to attach through the left side motor mount bracket into the extrusion.  The 1.1 mirrored version provides clearance to the motor wiring if present.  
+<p></p>
+<b> Version 1.1 mirrored is the currently preferred gantry mounted dock and dock mount.</b>  
+<p></p>
+Vertical adjustment of the dock is done by loosening the hidden M5x16 thru-bolt screw via the keyhole in the front of the dock and raising/lowering the dock vertically with the keyed slot.  The M5 nut is captured in the keyhole/slot in the dock mount.  
+<p></p>
+<div style="width:100%;text-align:center;">
+<a href="images\02-voron\VoronGantryMountRev1.1Mirrored.jpg" data-lity>
+<img src="images\02-voron\VoronGantryMountRev1.1Mirrored.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+<a href="images\02-voron\VoronGantryMountRev1.1Mirrored2.jpg" data-lity>
+<img src="images\02-voron\VoronGantryMountRev1.1Mirrored2.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+<a href="images\02-voron\Trident_TopMountXRay2.png" data-lity>
+<img src="images\02-voron\Trident_TopMountXRay2.png" style="height:250px; border:2px solid CornflowerBlue"></a>
+</div>
+
+Version 1 utilized non-BOM fasteners for attachment. We leave Version 1 in the archive for convenience.  
+
+<div style="width:100%;text-align:center;">
+<a href="images\02-voron\Trident_TopMount.png" data-lity>
+<img src="images\02-voron\Trident_TopMount.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
+</div>  
 
 ### Gantry Mount Version 2
-Version 2 of the gantry mount is fixed in height and location. It requires the use of the Omron conversion mount to provide fine tuning of the probe height. 
+Version 2 of the gantry mount is fixed in height and location. This mount is intended to utilize the Omron adapter to fine tune the height of the probe into the dock.  
 
 Version 2 SHORT of the gantry mount is fixed in height and location and is for users of the native carriage shells.It requires the use of shims to provide fine tuning of the probe height. 
 
-The Version 2 mmounts provide clearance for a stepper motor plug or wire/cable outlet as well.  A recess for either a magnet or M3 nut has been provided in the nose of the dock to server as a keeper for the probe. This was developed with the collaboration of Discord user Deepsiks and Kyleisah.  
+A recess for either a magnet or M3 nut has been provided in the nose of the dock to server as a keeper for the probe.  
 
-The mount attaches through and clamps the left side motor mount bracket with an M5x16 and M5x30 screw from the BOM. Two small shear lug rings are provided to key the dock to the motor mount- if the print quality of the parts is not the best, they might interfere and their removal is recommended.  
-
+This mount attaches through and clamps the left side motor mount bracket with an M5x16 and M5x30 screw from the BOM. Two small shear lug rings are provided to key the dock to the motor mount- if the print quality of the two parts is not the greatest, they might interfere and removal is recommended.  This was developed with the collaboration of Discord users Dattas, Deepsiks and Kyleisah.
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\VoronGantryMountRev2.jpg" data-lity>
@@ -124,28 +144,6 @@ The mount attaches through and clamps the left side motor mount bracket with an 
   </table>  
   </div>  
 
-
-
-### Gantry Mount Version 1  & Mirror
-The previous Version 1 mount also attaches to the rear extrusion of the gantry, with longer screws in the left side motor bracket.  The mount attaches through and clamps the left side motor mount bracket with an M5x16 and M5x30 screw from the BOM.  
-
-Vertical adjustment by the thru-bolt on the bottom using an M5x16 screw. Fine vertical adjustment via the slotted holes in the Omron mount. 
-
-We leave this here for historical value for those who implemented it already.
-
-
-<div style="width:100%;text-align:center;">
-<a href="images\02-voron\Trident_TopMount.png" data-lity>
-<img src="images\02-voron\Trident_TopMount.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
-
-<a href="images\02-voron\Trident_TopMountXRay.png" data-lity>
-<img src="images\02-voron\Trident_TopMountXRay.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
-
-<a href="images\02-voron\Trident_TopMountXRay2.png" data-lity>
-<img src="images\02-voron\Trident_TopMountXRay2.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
-</div>   
- 
-
 ### Gantry Mount 90 Degree Probe 
 This dock is orientated in the Y direction and attaches to the rear extrusion of the gantry, in the native holes of the left side motor bracket. Requires the use of the Omron90 degree mount. Attaches with longer screws, M5x20. 
 Lateral Y adjustment via the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron90 mount, or with shims between the Y adjuster. 
@@ -159,9 +157,6 @@ This configuration should be compatible with the other detachable probe macros f
 <a href="images\02-voron\Voron2.4_XRailMount.png" data-lity>
 <img src="images\02-voron\Voron2.4_XRailMount.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
 </div>
-
-
-
 
 ## Voron 2.4 Bed Rail Mounted Dock  
 The bed mounts are provided in 2 heights to suit the overall stack height of the bed plate and printing surfaces. This dock has been tested by multiple users. Fine tuning and tweaking credited to kageurufu.  

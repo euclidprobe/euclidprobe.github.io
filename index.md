@@ -14,7 +14,15 @@ The highly accurate, magnetically coupled Z-Probe that is not affected by bed te
 
 Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling and for electrical contacts and dimensional accuracy. It is simply the most reliable and secure method for attaching the magnets to the parts. The Z-Probe circuit is completed when the probe is attached to the dock.
 
-##  <span style="color:red">Update 3/18/2022:</span>
+## <span style="color:red">Update 3/25/2022:</span>
+Parts are HERE! We are happy to announce that parts are here and we have begun the post processing/kitting and are starting to send out stock to resellers.  He hope to have every one resupplied by the end of next week. 
+<div style="width:100%;text-align:center;">
+<a href="images\24V_restock.jpg" data-lity>
+<img src="images\24V_restock.jpg" style="height:300px; border:2px solid CornflowerBlue"></a>  
+</div>  
+<p></p>
+
+## Update 3/18/2022:
 We are still waiting for the parts to arrive. We are hopeful that once COVID lockdown in Shenzhen is lifted, that our outstanding shipments will ship out. 
 
 <b>BUT the good news is that the following resellers have some stock on their shelves- </b>
