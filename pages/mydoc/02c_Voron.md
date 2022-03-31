@@ -6,22 +6,23 @@ last_updated: February 5, 2022
 permalink: 02c_Voron.html
 sidebar: mydoc_sidebar
 folder: mydoc
-toc: false
+toc: true
 summary: Voron Probe Docks & Mounts Overview 
 ---
 
-## Mounts by Printer Voron
-Page currently undergoing maintenance. 
-Screen snips and stls in are <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/">in the github repo</a>
+## Mounts & Docks for Voron
+Below is a general summary for Voron printers. More specific information on the individual model pages. 
 
-Existing Voron 2.4’s can utilize the Fotek converstion mount or the modified AfterBurner shells offered below which locate the toolboard in the same location as the inductive probe.
+Screen snips, CAD's and stl's in are <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/" targer="blank">in the github repo</a> and linked from the individual pages. 
 
-Github user v6cl posted a video to Youtube that we came across and were impressed by their deployment. They designed a ‘skinny mount’ to open up the cooling vents in the toolhead.
+Voron printers can utilize the Omton/Fotek conversion mount for existing builds. 
 
-# Repository of stl's for Voron printers
+Modified carraige shells (both MGN9 & MGN 12 versions) locate the toolboard in the same realtive (X,Y) location as the inductive probe, but ~4.5mm higher. 
+
+{% include note.html content="Using conversion mounts offers the most flexibility and fine tuning of probe height." %}
 
 ## Clcockwork1 - 2xMGN9 Rail & MGN12 - Afterburner Native Mounts
-The left and right halves of the Afterburner carriage are modified to accept the probe with M3 screws and heatserts from underneath. Fine tuning and tweaking credited to garbqgebag.  
+The left and right halves of the Afterburner carriage are modified to accept the probe with M3 screws and heatserts or M2.5 self tapping screws from underneath. Fine tuning and tweaking credited to garbqgebag.  
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\afterburner-1.8.png" data-lity>
@@ -50,15 +51,30 @@ The standard Omron mount is 0 degree relative rotation to the mounting face of t
 
 Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/stls/Mount%20Adapters/Omron' target="_blank"><b> here.</b></a>
 
+## Skinny Mount- Improved Airflow mount by v6cl 
+Github user v6cl posted a video to Youtube that we came across and we were impressed by their deployment. They designed a ‘skinny mount’ to  <a href="https://github.com/v6cl/My-Voron2.4-Customs/tree/main/euclid_mount_slim" targer="blank">open up the cooling vents in the toolhead.</a>
 
-## Clockwork2 Native Mounts  aka Stealthburner 
-We are waiting for the official release to implement our adaptations to the native Stealthburner. When we asked the Voron dev's, they asked us to wait and we are honoring their request.  
+<div style="width:100%;text-align:center;"> <a href="images\02-voron\v6cl.png" data-lity>
+<img src="images\02-voron\v6cl.png" style="height:315px; border:2px solid CornflowerBlue"></a>  
+
+ <a href="images\02-voron\v6cl_dtl.png" data-lity>
+<img src="images\02-voron\v6cl_dtl.png" style="height:315px; border:2px solid CornflowerBlue"></a>  
+</div>  
+<br>  
+
+Their repo is at <a href="https://github.com/v6cl/My-Voron2.4-Customs">https://github.com/v6cl/My-Voron2.4-Customs</a>  
+
+## Stealthburner 
+We are waiting for the official Voron release to implement our adaptations to Stealthburner. 
+
+When we asked the Voron developers for source files to work on our adaptations, they asked us to wait for their official release and we are honoring their request.  
 
 
-## Trident Native Gantry Dock & Mount Version 1 
-The mount attaches with longer screws in the holes of the left side motor bracket and clears the radius of the cable chain. 3-M5x20 screws required.  
+## Trident & 2.4 Native Gantry Dock & Mount 
+
+The mount attaches with screws in the holes of the left side motor bracket and clears the radius of the cable chain.   
      
-The dock attaches to the mount with an M5 nut dropped in the keyholed channel and thru-bolts with an M5x20 screw. Adjust the elevation as required to allow for a clean exit of the probe PCB. Fine tuning and tweaking credited to Dattas.
+The dock attaches to the mount with an M5 nut dropped in the keyholed channel and thru-bolts with an M5x16 screw. Adjust the elevation as required to allow for a clean exit of the probe PCB. Fine tuning and tweaking credited to Dattas.
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\Trident_TopMount.png" data-lity>
@@ -72,8 +88,9 @@ The dock attaches to the mount with an M5 nut dropped in the keyholed channel an
 </div> 
 
 ## Straight Armed Gantry Dock & Mount
-This mount attaches to the rear extrusion of the gantry, attaches with longer screws, M5x16, in the native holes of the left side motor bracket. Requires the use of the Omron90 mount. Lateral adjustment bu the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron mount. Currently untested and unproven to our knowledge- please contact us if difficulties are encountered.  
-This configuration should be compatible with the other detachable probe macros for Voron. 
+This mount attaches to the rear extrusion of the gantry, in the native holes of the left side motor bracket. Requires the use of the Omron90 mount. Lateral adjustment buy the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron mount. 
+
+This probe orientation / configuration should be compatible with the other detachable probe macros for Voron. 
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\Voron2.4_XRailMount2.png" data-lity>
@@ -84,7 +101,8 @@ This configuration should be compatible with the other detachable probe macros f
 </div>
 
 ## 90 Degree Gantry Dock & Mount
-This dock is orientated in the X direction and attaches to the rear extrusion of the gantry, in the native holes of the left side motor bracket. Requires the use of the Omron90 mount or Native Afterburner Carriage. Attaches with longer screws, M5x16, . Lateral Y adjustment via the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron mount or with shims between the Y adjuster. Currently untested and unproven to our knowledge- please contact us if difficulties are encountered. This configuration should be compatible with the other detachable probe macros for Voron.  
+This dock is orientated in the X direction and attaches to the rear extrusion of the gantry, in the native holes of the left side motor bracket. Requires the use of the Omron90 mount. Attaches with longer screws. Lateral Y adjustment via the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron mount or with shims between the Y adjuster.   
+
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\Voron2.4_XRailMount90.png" data-lity>
 <img src="images\02-voron\Voron2.4_XRailMount90.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
