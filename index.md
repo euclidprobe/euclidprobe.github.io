@@ -10,9 +10,61 @@ summary: The highly accurate, magnetically coupled, Z probe for your 3D printer,
 ---
  <img src="images\Img_Probe.jpg" alt="Euclid Probe"> <img src="images\Img_Probe2.jpg" alt="Euclid Probe 2">  
 
-The highly accurate, magnetically coupled Z-Probe that is not affected by bed temp, bed material, magnetism or surface treatment. Capable of operating up to 80C natively.
+The highly accurate, magnetically coupled Z-Probe that is not affected by bed temp, bed material, magnetism or surface treatment. Capable of operating up to 80C natively, higher temps available.
 
-Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling and for electrical contacts and dimensional accuracy. It is simply the most reliable and secure method for attaching the magnets to the parts. The Z-Probe circuit is completed when the probe is attached to the dock.
+Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling and for electrical contacts and dimensional accuracy. It is simply the most reliable and secure method for attaching the magnets to the parts. The Z-Probe circuit is completed when the probe is attached to the dock.  
+
+<hr>  
+<a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
+<hr>  
+
+## Update 3/28/2022:
+First round of orders have been sent to resellers! The following resellers have some stock on their shelves- </b>
+
+<div style="width:100%;text-align:center;">
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:white;border-style:solid;border-width:4px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:white;border-style:solid;border-width:4px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:middle}
+</style>
+
+<table class="tg">
+  <thead>
+  </thead>
+
+<tbody>
+  <tr>
+    <td class="tg-0lax"><a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank"><img src="images\LLLogo.jpg"></a></td>
+    <td class="tg-0lax"><a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank">&nbsp;&nbsp;LukesLab.Online&nbsp;&nbsp;</a></td>
+    <td class="tg-0lax">&nbsp;  &nbsp; </td>
+    <td class="tg-0lax"><b>5V & 24V kits available/in route!</b></td>
+    <td class="tg-0lax"><img src="images\country\150USA.png"></td>
+  </tr>
+
+  <tr>
+    <td class="tg-0lax"><a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/accessories/others/euclid-probe.html" target="blank"><img src="images\ratriglogo.png"></a></td>
+    <td class="tg-0lax"><a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/accessories/others/euclid-probe.html" target="blank">&nbsp;&nbsp;RatRig&nbsp;&nbsp;</a></td>
+    <td class="tg-0lax">&nbsp;  &nbsp; </td>
+    <td class="tg-0lax"><b>24V and 5V kits available!</b></td>
+    <td class="tg-0lax"><img src="images\country\150EU.png"></td>
+  </tr>
+
+  <tr>
+    <td class="tg-0lax"><a href="https://www.jayuk.org/product/euclid-probe/?v=7516fd43adaa" target="blank"><img src="images\jays.png"></a></td>
+    <td class="tg-0lax"><a href="https://www.jayuk.org/product/euclid-probe/?v=7516fd43adaa" target="blank">&nbsp;&nbsp; Jay's UK&nbsp;&nbsp;</a></td>
+    <td class="tg-0lax">&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><b>5V & 24 kits available in route!</b></td>
+    <td class="tg-0lax"><img src="images\country\150UK.png"></td>
+  </tr>
+
+</tbody>
+</table>
+</div>
+
+Again, we appreciate everyone's patience and understanding in dealing with this unexpected delays.   
 
 ## <span style="color:red">Update 3/25/2022:</span>
 Parts are HERE! We are happy to announce that parts are here and we have begun the post processing/kitting and are starting to send out stock to resellers.  He hope to have every one resupplied by the end of next week. 
@@ -21,6 +73,7 @@ Parts are HERE! We are happy to announce that parts are here and we have begun t
 <img src="images\24V_restock.jpg" style="height:300px; border:2px solid CornflowerBlue"></a>  
 </div>  
 <p></p>
+<hr>
 
 ## Update 3/18/2022:
 We are still waiting for the parts to arrive. We are hopeful that once COVID lockdown in Shenzhen is lifted, that our outstanding shipments will ship out. 
@@ -93,7 +146,7 @@ Euclid Probe can be manually deployed or automatically deployed via gcode macros
 
 Discussion and support is available as a subgroup to the <a href='https://discord.gg/jfnVrUx2uK'>CroXY Discord</a> <a href='https://discord.gg/jfnVrUx2uK'> <img src="images\CroXYDiscord.png" alt="CroXY Discord"></a>
 
-<a href='https://en.wikipedia.org/wiki/Euclid'>Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him.
+
 
 ## License
 **<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.**
