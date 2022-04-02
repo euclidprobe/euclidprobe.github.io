@@ -18,20 +18,9 @@ Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling a
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
-<<<<<<< HEAD
-## Update 3/28/2022:  
-First round of orders have been sent to resellers! The following resellers have some stock on their shelves-  
 
-=======
-<<<<<<< HEAD
-## Update 3/28/2022:   
-First round of orders have been sent to resellers! The following resellers have some stock on their shelves-  
-
-=======
-## Update 3/28/2022:
-First round of orders have been sent to resellers! The following resellers have some stock on their shelves- </b>
->>>>>>> gh-pages
->>>>>>> gh-pages
+## <span style="color:red"> Update 3/28/2022: </span>  
+First round of orders have been sent to resellers! The following resellers have stock on their shelves-  
 
 <div style="width:100%;text-align:center;">
 <style type="text/css">
@@ -44,20 +33,8 @@ First round of orders have been sent to resellers! The following resellers have 
 </style>
 
 <table class="tg">
-<<<<<<< HEAD
-<tbody>
-
-=======
-<<<<<<< HEAD
-<tbody>
-
-=======
-  <thead>
-  </thead>
 
 <tbody>
->>>>>>> gh-pages
->>>>>>> gh-pages
   <tr>
     <td class="tg-0lax"><a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank"><img src="images\LLLogo.jpg"></a></td>
     <td class="tg-0lax"><a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank">&nbsp;&nbsp;LukesLab.Online&nbsp;&nbsp;</a></td>
@@ -67,10 +44,6 @@ First round of orders have been sent to resellers! The following resellers have 
   </tr>
 
   <tr>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> gh-pages
     <td class="tg-0lax"><a href="https://713maker.com/en/euclid" target="blank"><img src="images\713makercom.jpg"></a></td>
      <td class="tg-0lax"><a href="https://713maker.com/en/euclid" target="blank">&nbsp; &nbsp; 713maker.com&nbsp; &nbsp; </a></td>
     <td class="tg-0lax">&nbsp;  &nbsp; </td>
@@ -79,11 +52,6 @@ First round of orders have been sent to resellers! The following resellers have 
   </tr>
 
   <tr>
-<<<<<<< HEAD
-=======
-=======
->>>>>>> gh-pages
->>>>>>> gh-pages
     <td class="tg-0lax"><a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/accessories/others/euclid-probe.html" target="blank"><img src="images\ratriglogo.png"></a></td>
     <td class="tg-0lax"><a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/accessories/others/euclid-probe.html" target="blank">&nbsp;&nbsp;RatRig&nbsp;&nbsp;</a></td>
     <td class="tg-0lax">&nbsp;  &nbsp; </td>
@@ -95,7 +63,7 @@ First round of orders have been sent to resellers! The following resellers have 
     <td class="tg-0lax"><a href="https://www.jayuk.org/product/euclid-probe/?v=7516fd43adaa" target="blank"><img src="images\jays.png"></a></td>
     <td class="tg-0lax"><a href="https://www.jayuk.org/product/euclid-probe/?v=7516fd43adaa" target="blank">&nbsp;&nbsp; Jay's UK&nbsp;&nbsp;</a></td>
     <td class="tg-0lax">&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><b>5V & 24 kits available in route!</b></td>
+    <td class="tg-0lax"><b>5V & 24 kits available/in route!</b></td>
     <td class="tg-0lax"><img src="images\country\150UK.png"></td>
   </tr>
 
@@ -103,13 +71,9 @@ First round of orders have been sent to resellers! The following resellers have 
 </table>
 </div>
 
-<<<<<<< HEAD
 Again, we appreciate everyone's patience, support and understanding in dealing with the recent unexpected delays.  
-=======
-Again, we appreciate everyone's patience and understanding in dealing with this unexpected delays.   
->>>>>>> gh-pages
 
-## <span style="color:red">Update 3/25/2022:</span>
+## Update 3/25/2022:
 Parts are HERE! We are happy to announce that parts are here and we have begun the post processing/kitting and are starting to send out stock to resellers.  He hope to have every one resupplied by the end of next week. 
 <div style="width:100%;text-align:center;">
 <a href="images\24V_restock.jpg" data-lity>
@@ -118,64 +82,13 @@ Parts are HERE! We are happy to announce that parts are here and we have begun t
 <p></p>
 <hr>
 
-## Update 3/18/2022:
-We are still waiting for the parts to arrive. We are hopeful that once COVID lockdown in Shenzhen is lifted, that our outstanding shipments will ship out. 
+## <span style="color:green">Euclid Probe got reviewed by Teaching Tech! </span>  
+<div style="width:100%;text-align:center;">  
+<br>
+ <iframe width="420" height="180" src="https://www.youtube.com/embed/egWpvaTsl10" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-<b>BUT the good news is that the following resellers have some stock on their shelves- </b>
-
-<div style="width:100%;text-align:center;">
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:white;border-style:solid;border-width:4px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:white;border-style:solid;border-width:4px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:middle}
-</style>
-
-<table class="tg">
-  <thead>
-  </thead>
-
-<tbody>
-  <tr>
-    <td class="tg-0lax"><a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank"><img src="images\LLLogo.jpg"></a></td>
-    <td class="tg-0lax"><a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank">&nbsp;&nbsp;LukesLab.Online&nbsp;&nbsp;</a></td>
-    <td class="tg-0lax">&nbsp;  &nbsp; </td>
-    <td class="tg-0lax"><b>5V kits available!</b></td>
-    <td class="tg-0lax"><img src="images\country\150USA.png"></td>
-  </tr>
-
-  <tr>
-    <td class="tg-0lax"><a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/accessories/others/euclid-probe.html" target="blank"><img src="images\ratriglogo.png"></a></td>
-    <td class="tg-0lax"><a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/accessories/others/euclid-probe.html" target="blank">&nbsp;&nbsp;RatRig&nbsp;&nbsp;</a></td>
-    <td class="tg-0lax">&nbsp;  &nbsp; </td>
-    <td class="tg-0lax"><b>24V and 5V kits available!</b></td>
-    <td class="tg-0lax"><img src="images\country\150EU.png"></td>
-  </tr>
-
-  <tr>
-    <td class="tg-0lax"><a href="https://www.jayuk.org/product/euclid-probe/?v=7516fd43adaa" target="blank"><img src="images\jays.png"></a></td>
-    <td class="tg-0lax"><a href="https://www.jayuk.org/product/euclid-probe/?v=7516fd43adaa" target="blank">&nbsp;&nbsp; Jay's UK&nbsp;&nbsp;</a></td>
-    <td class="tg-0lax">&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><b>5V kits available!</b></td>
-    <td class="tg-0lax"><img src="images\country\150UK.png"></td>
-  </tr>
-
-</tbody>
-</table>
 </div>
-
-
-As soon as we know that the rest of of the supplies are on their way to us and they pass our internal QA/QC we will be sending out to resellers. We will by updating our <a href="https://twitter.com/euclidprobe" target="blank"> Twitter feed </a> and this page. Again, we appreciate everyone's patience and understanding in dealing with this unexpected delay.   
-
-##  <span style="color:red">Shipping Update 3/11/2022:</span>
-24V boards are on their way to us! Once they pass our QA/QC we will be sending out to resellers. As soon as stock is received, we will by updating our <a href="https://twitter.com/euclidprobe" target="blank"> Twitter feed </a> and this page, with delivery estimates. We appreciate everyone's patience and understanding in dealing with this unexpected delay.   
-
-## Euclid Probe got reviewed by Teaching Tech! 
-<div style="width:100%;text-align:center;">
- <iframe width="420" height="180" src="https://www.youtube.com/embed/egWpvaTsl10" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>  <br>
+<hr>
 
 Magnetic build plates with textured PEI, smooth glass, Buildtak, GeckoTek, Euclid can sense them all!
 
