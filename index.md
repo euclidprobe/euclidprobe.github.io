@@ -18,9 +18,14 @@ Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling a
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
+<<<<<<< HEAD
 ## Update 3/28/2022:   
 First round of orders have been sent to resellers! The following resellers have some stock on their shelves-  
 
+=======
+## Update 3/28/2022:
+First round of orders have been sent to resellers! The following resellers have some stock on their shelves- </b>
+>>>>>>> gh-pages
 
 <div style="width:100%;text-align:center;">
 <style type="text/css">
@@ -33,8 +38,15 @@ First round of orders have been sent to resellers! The following resellers have 
 </style>
 
 <table class="tg">
+<<<<<<< HEAD
 <tbody>
 
+=======
+  <thead>
+  </thead>
+
+<tbody>
+>>>>>>> gh-pages
   <tr>
     <td class="tg-0lax"><a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank"><img src="images\LLLogo.jpg"></a></td>
     <td class="tg-0lax"><a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank">&nbsp;&nbsp;LukesLab.Online&nbsp;&nbsp;</a></td>
@@ -44,6 +56,7 @@ First round of orders have been sent to resellers! The following resellers have 
   </tr>
 
   <tr>
+<<<<<<< HEAD
     <td class="tg-0lax"><a href="https://713maker.com/en/euclid" target="blank"><img src="images\713makercom.jpg"></a></td>
      <td class="tg-0lax"><a href="https://713maker.com/en/euclid" target="blank">&nbsp; &nbsp; 713maker.com&nbsp; &nbsp; </a></td>
     <td class="tg-0lax">&nbsp;  &nbsp; </td>
@@ -52,6 +65,8 @@ First round of orders have been sent to resellers! The following resellers have 
   </tr>
 
   <tr>
+=======
+>>>>>>> gh-pages
     <td class="tg-0lax"><a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/accessories/others/euclid-probe.html" target="blank"><img src="images\ratriglogo.png"></a></td>
     <td class="tg-0lax"><a href="https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/accessories/others/euclid-probe.html" target="blank">&nbsp;&nbsp;RatRig&nbsp;&nbsp;</a></td>
     <td class="tg-0lax">&nbsp;  &nbsp; </td>
@@ -71,7 +86,11 @@ First round of orders have been sent to resellers! The following resellers have 
 </table>
 </div>
 
+<<<<<<< HEAD
 Again, we appreciate everyone's patience, support and understanding in dealing with the recent unexpected delays.  
+=======
+Again, we appreciate everyone's patience and understanding in dealing with this unexpected delays.   
+>>>>>>> gh-pages
 
 ## <span style="color:red">Update 3/25/2022:</span>
 Parts are HERE! We are happy to announce that parts are here and we have begun the post processing/kitting and are starting to send out stock to resellers.  He hope to have every one resupplied by the end of next week. 
