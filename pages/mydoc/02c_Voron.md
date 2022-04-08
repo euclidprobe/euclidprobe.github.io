@@ -72,9 +72,9 @@ When we asked the Voron developers for source files to work on our adaptations, 
 
 ## Trident & 2.4 Native Gantry Dock & Mount 
 
-The mount attaches with screws in the holes of the left side motor bracket and clears the radius of the cable chain.   
+The mount attaches with screws in the holes of the left side motor bracket and clears the radius of the cable chain. M5x16 & M5x30's  
      
-The dock attaches to the mount with an M5 nut dropped in the keyholed channel and thru-bolts with an M5x16 screw. Adjust the elevation as required to allow for a clean exit of the probe PCB. Fine tuning and tweaking credited to Dattas.
+The dock attaches to the mount with an M5 nut dropped in the keyholed channel and thru-bolts with an M5x16 screw. Adjust the elevation as required to allow for a clean exit of the probe PCB. Fine tuning and tweaking credited to Dattas and StvPtrsn.
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\Trident_TopMount.png" data-lity>
