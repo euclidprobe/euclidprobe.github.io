@@ -18,8 +18,15 @@ Euclid Probe uses screw attached magnets to a PCB for both mechanical coupling a
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
+## <span style="color:red"> Update 4/8/2022: </span>  
+Last of the First round of orders are being sent to resellers! Its been a long week of assembling kits.   <br>
 
-## <span style="color:red"> Update 3/28/2022: </span>  
+We are glad to announce that Euclid Probe is now available at Fabreeko- and it's been Honey Badgered too! We thank the Fabreeko crew for working with us on this collaboration! 
+
+<a href="https://www.fabreeko.com/products/euclid-probe-kit-24v" target="blank"><img src="images\fabreeko.png">  &nbsp; &nbsp; Fabreeko</a>  <img src="images\country\150USA.png">  
+
+
+## Update 3/28/2022:   
 First round of orders have been sent to resellers! The following resellers have stock on their shelves-  
 
 <div style="width:100%;text-align:center;">

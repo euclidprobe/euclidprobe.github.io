@@ -34,7 +34,10 @@ In response to customer inquiry, bulk packs of Euclid Probe are available at sli
 ### Resellers:
 
 <a href="https://lukeslabonline.com/products/euclid-probe-kit" target="blank"><img src="images\LLLogo.jpg">  &nbsp; LukesLab.Online</a>  <img src="images\country\150USA.png">  
+
 <a href="https://713maker.com/en/euclid" target="blank"><img src="images\713makercom.jpg">  &nbsp; &nbsp; 713maker.com</a>  <img src="images\country\150USA.png">  
+
+<a href="https://www.fabreeko.com/products/euclid-probe-kit-24v" target="blank"><img src="images\fabreeko.png">  &nbsp; &nbsp; Fabreeko</a>  <img src="images\country\150USA.png">  
 
 <a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank"><img src="images\3do.dk.png">  &nbsp;  &nbsp; 3do.dk</a>  <img src="images\country\150DK.png">  
 

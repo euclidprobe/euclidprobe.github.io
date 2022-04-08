@@ -55,6 +55,12 @@ We believe in the importance to serve those in need locally over the maximizatio
   </tr>
 
   <tr>
+    <td class="tg-0lax"><a href="https://www.fabreeko.com/products/euclid-probe-kit-24v" target="blank"><img src="images\fabreeko.png"></a></td>
+    <td class="tg-0lax"><a href="https://www.fabreeko.com/products/euclid-probe-kit-24v" target="blank">&nbsp;&nbsp;Fabreeko&nbsp;&nbsp;</a></td>
+    <td class="tg-0lax">&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><img src="images\country\150USA.png"></td>
+  </tr>
+  <tr>
     <td class="tg-0lax"><a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank"><img src="images\3do.dk.png"></a></td>
     <td class="tg-0lax"><a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank">&nbsp;&nbsp;3do.eu&nbsp;&nbsp;</a></td>
     <td class="tg-0lax">&nbsp;&nbsp;</td>
