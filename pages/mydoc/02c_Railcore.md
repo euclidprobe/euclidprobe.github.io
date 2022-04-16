@@ -107,7 +107,7 @@ The Overhead mount attaches to nuts in the bottom slot of the rear extrusion. Th
   </tr>
   <tr>
     <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Rail%20Core/RC_CornerMountV4.5.stl">RailCore Corner Mount</a></td>
-    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Rail%20Core/RC_CornerMountV4.5Dock.stl">RailCore Top Mount</a></td>
+    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Rail%20Core/RailCoreTopMountShort.stl">RailCore Top Mount</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">
@@ -152,8 +152,8 @@ The Overhead mount attaches to nuts in the bottom slot of the rear extrusion. Th
     </td>
   </tr>
   <tr>
-    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Rail%20Core/RC_CornerMountV4.5.stl">RailCore Corner Mount Dock</a></td>
     <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Rail%20Core/RC_CornerMountV4.5Dock.stl">RailCore Corner Mount Dock</a></td>
+    <td class="tg-0pky"><a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Rail%20Core/RailCoreTopMountDock.stl">RailCore Top Mount Dock</a></td>
   </tr>
 </tbody>
 </table>
