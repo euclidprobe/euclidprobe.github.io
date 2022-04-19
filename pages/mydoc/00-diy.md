@@ -24,10 +24,9 @@ The rest of the suggested parts are listed in the DIY Build Instruction. We unde
 A note about the relative differences in source pricing- Aisler costs run a little higher because they donate a portion of their profits to KiCAD development at CERN. We use KiCAD and don't mind paying a little more for this. The production of Aisler boards also seems to be done in the EU and then get shipped to other parts of the world. OSHPark is made in Oregon, USA and shipped as well.  
 
 
-OSHPark.com <a href="https://oshpark.com/shared_projects/sdtf0jrU"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park" target="blank"></a> <img src="images\01_OSHPark.png">  
+OSHPark.com <a href="https://oshpark.com/shared_projects/3qYUvroW" target="blank"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"> </a> <img src="images\01_OSHPark.png">   
 
 Aisler.net <a href="https://aisler.net/p/CXINPTYI" alt="Order from Aisler" target="blank"><img src="images\01_Aisler0.png"></a> <img src="images\01_Aisler2.png">  
-
 
 
 ### DIY Assembly Instructions
