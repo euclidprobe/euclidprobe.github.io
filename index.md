@@ -25,7 +25,7 @@ Available at your reseller- Euclid Inteconnect Cable. Pre-terminated and correct
 <br>Constructed of three properly color coded, UL3266, 22 gauge stranded wires, they are 185mm long and are rated to 125C.  They are beefy, they are tough. They won't let you down like other wires. 
 <br> The irradiated cross-linked polymeric insulation possesses remarkable mechanical and electrical properties, and great flame resistance. This means that your wire insulation will not get soft or burn up under normal usage. If you are printing in the forges of Mandalor, it will probably work there too.  
 
-The standard Euclid kit has both Dupont and JST connector housings and crimps. We've also sent resellers some Molex Micro-Fit 3.0 connect kits and Molex KK style connector kits for the users who may have a kitted harness or use Duet hardware to make their connections. As you reseller if you need one to make you install easy!  
+The standard Euclid kit has both Dupont and JST connector housings and crimps. We've also sent resellers some Molex Micro-Fit 3.0 connect kits and Molex KK style connector kits for the users who may have a kitted harness or use Duet hardware to make their connections. Ask you reseller if you need one to make you install easy!  
 
  <div style="width:100%;text-align:center;">
 

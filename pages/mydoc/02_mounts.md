@@ -19,7 +19,7 @@ The modular building blocks provided are meant to be integrated into users own p
         <img src="images\02_Modular_Parts.png" style="width:400px; border:2px solid CornflowerBlue"></a>
 </div>
 
-<a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/Building_Blocks/Modular_PartsV2.stp"><b>Building Blocks as .stp file</b></a>  
+<a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/Building_Blocks/Modular_PartsV2.zip"><b>Building Blocks as .stp file</b></a>  
 
 <a href=" https://github.com/nionio6915/Euclid_Probe/tree/main/stls/Building%20Blocks" target="blank"><b>Individual Modular parts as stl's</b></a>  
 
@@ -40,9 +40,9 @@ The modular building blocks provided are meant to be integrated into users own p
         <img src="images\02_ProbeV4_model2.jpg" style="width:400px; border:2px solid CornflowerBlue"></a>
 </div>  
 
-<a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/ProbeV4.stp"><b>Probe Assembly as a solid model, .stp format </b></a>  
+<a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/ProbeV4_stp.zip"><b>Probe Assembly as a solid model, .stp format </b></a>  
 
-<a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/ProbeV4.stp"><b>Probe Assembly as a solid model, .DXF format </b></a>  
+<a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/ProbeV4_dxf.zip"><b>Probe Assembly as a solid model, .DXF format </b></a>  
 
 
 **December 6, 2021:** We are reorganizing and consolidating the file repo’s. All file download links will be deleted and replaced as we update the webpages. If a download link is missing, users are encouraged to grab the <a href=" https://github.com/nionio6915/Euclid_Probe/tree/main/stls/" target="blank">current files hosted at github</a>
