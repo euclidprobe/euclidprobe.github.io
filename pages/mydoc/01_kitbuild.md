@@ -14,24 +14,34 @@ summary: Euclid Probe Kit Assembly Instructions
 Reminder that community discussion and support is available as a subgroup to the <a href='https://discord.gg/jfnVrUx2uK'>CroXY Discord</a> <a href='https://discord.gg/jfnVrUx2uK'> <img src="images\CroXYDiscord.png" alt="CroXY Discord"></a>
 <hr>
 ### TL:DR 
-Open the bag carefully; sort your parts: solder the header and switch; attach your magnets; screw the toolboard to the mount; attach your dock; config your FW and print perfect first layers happily ever after!
+Open the bag carefully; sort your parts: solder the header and switch; attach your magnets; screw the toolboard to the mount; attach your dock; config your firmware and print perfect first layers happily ever after!
 
-### Step 1 – Board Preparation:
-The Euclid Probe kit will arrive in a small zip-sealed baggie. Beware, there are small parts that can be easily lost. Currently, there are 2 versions of the PCB- 5V and 24V capable. Assembly is the same for both. 
+### Prepare your kit:
+The Euclid Probe kit will arrive in a small zip-sealed baggie. Beware, there are small parts that can be easily lost. Currently there are 2 versions of the PCB, assembly is the same for both.
 
+<div style="width:100%;text-align:center;">
 <img src="images\01_assembly\baggie-300x202.jpg">  
+</div>
 
-The kit contains the PCB set, screws, SMD nuts, a switch, magnets and wiring connectors.  
+The kit contains the PCB set, screws, SMD nuts, a switch, magnets and wiring connectors. It is helpful to sort and organize the parts. 
 
- <a href="images\01_assembly\01_kit_contents.jpg" data-lity>
+<div style="width:100%;text-align:center;">
+<a href="images\01_assembly\01_kit_contents.jpg" data-lity>
         <img src="images\01_assembly\01_kit_contents.jpg" style="width:400px; border:2px solid CornflowerBlue">
       </a>
-
+</div>
 {% include tip.html content="Leave the two PCB’s attached to the rail. It will aid in the solder assembly of the components." %}  
 
-Determine the best orientation for the plunger on the switch:
+### Step 1 – Board Preparation:
+Check the shoulders and sides of the PCB to make sure that they are smooth so that they don't catch on the the lips of the dock. Once and a while one sneaks through our QA/QC.   
+
+<div style="width:100%;text-align:center;">
+<img src="images\01_assembly\01_pcb_smoothness.jpg">  
+</div><br>  
+
+Determine the best orientation for the plunger on the switch:  
  -  Ideally, the switch plunger should be closest to the nozzle when the probe is deployed. Most installations will have the plunger towards the square end of the probe PCB.  
- -  Note the COM-NC pins on the switch correspond to the holes on the PCB labeled COM and NC. The switch can install either way.  
+ -  Note the COM-NC pins on the switch correspond to the holes on the PCB labeled COM and NC. The switch can install either way as long as the COM - NC are paired up .  
 
 <div style="width:100%;text-align:center;">
 <table>
@@ -76,7 +86,10 @@ Determine how you will be attaching the upper tool board PCB to your carriage. T
 
 You may want to print out the combined soldering holder & drill-tap guide block that we have designed. It will hold the JST header and switch upright for soldering and as a guide for an M3 tap or 3mm⌀ drill perpendicular to the PCB. User feedback has been that they felt they were more successful by using it than they might have been without. 
 
-The differences in stl versions are only the clearances around the outlines.<a href='https://github.com/nionio6915/Euclid_Probe/raw/main/stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl'>Solder and Drilling Jig with 0.2mm clearance margins</a> is the usual block we recommend for a reasonably tuned printer.  It has 0.2mm gap around all components to provide a slip fit. If your printer or slicer is not well calibrated, you may benefit from the larger clearances- 0.3 or 0.4 version.  
+The differences in stl versions are only the clearances around the outlines.<a href='https://github.com/nionio6915/Euclid_Probe/raw/main/stls/Assembly%20Jigs/soldering_jigV5-0.2mm_margin.stl'>Solder and Drilling Jig with 0.2mm clearance margins</a> is the usual block we recommend for a reasonably tuned printer.  It has 0.2mm gap around all components to provide a slip fit. 
+{% include tip.html content="If you print the 0.2 version and its just a hair too tight, a swipe along the sides on a emery board takes off just enough to let it drop in." %}  
+
+If your printer or slicer is not well calibrated, you may benefit from the larger clearances- 0.3 or 0.4 version.  
 
 {% include tip.html content="We have added recessed letters in the sides of the jig to aid in getting the magnet polarity consistent. They may not print pretty, but they should be legible enough to align the magnets. " %}
 
