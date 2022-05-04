@@ -8,10 +8,21 @@ folder: mydoc
 toc: true
 summary: What is the difference in voltage versions? 
 ---
-Currently there are 2 versions of Euclid Probe kits available, 5V & 24V. There is no difference in price. The PCB's and circuitry are the same. The difference is the 24V components are bulked up to handle driving the LED's at the higher voltage.  
+Currently there are 2 versions of Euclid Probe kits available, 5V & 24V. There is no difference in price.
 
-### Why are There Different Voltage Versions?  
-The voltage only matters if you intend to illuminate the LEDs as status and function indicators and from where you get that power from- see <a href="\03_wiring.html#intermediate-wiring-led-operation-3-wire-mode">3-Wire installation.</a>  
+The voltage only matters if you intend to illuminate the LEDs as status and function indicators and where you get that power from. See   <a href="\03_wiring.html#intermediate-wiring-led-operation-3-wire-mode">3-Wire installation</a> for more info. 
+
+{% include tip.html content="The 24V version will ALSO work connected to 3.3V/5V endstop ports on the same controllers. However, the LED's might be a little dim in comparison. " %}  
+
+### What are the Differences?  
+
+  - The PCB's and circuitry are the same 
+  - The difference in models is the <b>maximum voltage</b> that the probe can carry
+  - If you are wiring directly to an open endstop port, the 5V or 24V version will work. 
+  - If you are wiring to a high voltage toolhead break out board, then the 24V version is likely what you need.
+  - 24V components are sized to handle driving the LED's at the higher voltage.
+  - LED's on the 24V probe run at 5V will be slightly dimmer in comparison.
+
 
 ### How to Decide Which Version to Get?  
 Here is a table with criteria to consider:  
