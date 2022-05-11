@@ -51,6 +51,7 @@ summary: Euclid Probe Docks & Mounts RatRig V-Core3
 </div>
 </td>
 </tr>
+
 <tr>
 <td>
 <div id="stl_cont0" style="width:450px;height:450px;margin:5 auto">
@@ -101,6 +102,13 @@ summary: Euclid Probe Docks & Mounts RatRig V-Core3
 </tbody>
 </table>  
 </div>  
+
+## Print Orientation
+
+<div style="width:100%;text-align:center;">
+  <a href="images\02-VCore\Print_Orientation.png" data-lity>
+  <img src="images\02-VCore\Print_Orientation.png" style="width:400px; border:2px solid CornflowerBlue"></a>  
+</div>
 
 ## CAD Files
 The current CAD files are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/CAD' target="_blank"><b> available here in the repo.</b></a>

@@ -219,9 +219,25 @@ It is suggested to insulate the exposed terminals of the top PCB by:
 ### Step 3 – Magnet Installation:
 In the kit there are:
 - 4, M2x0.4 by 5mm long screws
-- 4 countersunk magnets, 
-- 4 M2 SMD nuts. 
+- 4 countersunk magnets 
+- 4 M2 SMD nuts  
 
+As of May 2022, the North polarity is now marked on the magnets. Hopefully this will make installation and verification easier. 
+
+ <div style="width:100%;text-align:center;">
+
+<a href="images\01_assembly\Polarity Marks.png" data-lity>
+<img src="images\01_assembly\Polarity Marks.png" style="height:125px; border:2px solid CornflowerBlue"></a>
+  
+<a href="images\01_assembly\New_Holders0.png" data-lity>
+<img src="images\01_assembly\New_Holders0.png" style="height:125px; border:2px solid CornflowerBlue"></a>
+
+<a href="images\01_assembly\New_Holders.png" data-lity>
+<img src="images\01_assembly\New_Holders.png" style="height:125px; border:2px solid CornflowerBlue"></a>
+  
+<a href="images\01_assembly\N_Marks.png" data-lity>
+<img src="images\01_assembly\N_Marks.png" style="height:125px; border:2px solid CornflowerBlue"></a>
+</div>
 The suggested orientation of the magnets is such that the probe will only couple in one specific orientation by opposing the magnet’s polarities. The magnets area ideally orientated so that their poles alternate fore and aft on the board. 
 
 With the PBC boards attached the polarized tabs of the holders would be in the following patterns- 

@@ -18,7 +18,28 @@ Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coup
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
-## <span style="color:red"> Update 4/28/2022: </span>  
+## <span style="color:red"> Update 5/10/2022: </span>  
+The wheels keep turning here - our newest shipment of magnets has arrived and are being deployed with the latest kits. The North polarity is now marked on the magnets. Hopefully this will make installation and verification easier. 
+
+ <div style="width:100%;text-align:center;">
+
+<a href="images\01_assembly\Polarity Marks.png" data-lity>
+<img src="images\01_assembly\Polarity Marks.png" style="height:125px; border:2px solid CornflowerBlue"></a>
+  
+<a href="images\01_assembly\New_Holders0.png" data-lity>
+<img src="images\01_assembly\New_Holders0.png" style="height:125px; border:2px solid CornflowerBlue"></a>
+
+<a href="images\01_assembly\New_Holders.png" data-lity>
+<img src="images\01_assembly\New_Holders.png" style="height:125px; border:2px solid CornflowerBlue"></a>
+  
+<a href="images\01_assembly\N_Marks.png" data-lity>
+<img src="images\01_assembly\N_Marks.png" style="height:125px; border:2px solid CornflowerBlue"></a>
+</div>
+<hr>
+
+
+
+## Update 4/28/2022  
 We are keeping up with order fulfillment. We have struggled with supply chain issues as many of our kindred companies and resellers have by the ongoing COVID situations abroad.  We thank everyone for their continued support.
 
 Available at your reseller- Euclid Inteconnect Cable. Pre-terminated and correctly polarized 22 gauge interconnect cables allow you to quickly connect your Euclid probe to a toolhead or CAN-bus toolboard.  
