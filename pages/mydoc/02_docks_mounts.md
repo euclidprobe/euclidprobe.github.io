@@ -18,9 +18,7 @@ The modular building blocks provided are meant to be integrated into users own p
 
 <img src="images\02_Modular_Parts.png">  
 
-<a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/Building_Blocks/Modular_PartsV2.stp">Building Blocks as .stp file</a>  
-
-*December 6, 2021:* We are reorganizing and consolidating the file repo’s. All file download links will be deleted and replaced as we update the webpages. If a download link is missing, users are encouraged to grab the current files hosted at github- https://github.com/nionio6915/Euclid_Probe/tree/main/stls
+<a href="https://github.com/nionio6915/Euclid_Probe/raw/main/CAD/Building_Blocks/" target="blank">Building Blocks</a>  
 
 Users are encouraged to review their dock locations and consider deployment/retract operations. The preferred locations for the dock tend to be behind the toolhead or in the opposite corners from the locations of endstop switches. 
 
