@@ -141,6 +141,70 @@ This configuration should be compatible with the other detachable probe macros f
 <img src="images\02-voron\Voron2.4_XRailMount.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
 </div>
 
+
+<div style="width:100%;text-align:center;">
+<a href="images\02-voron\VoronGantryMountRev2.jpg" data-lity>
+<img src="images\02-voron\VoronGantryMountRev2.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>  
+</div>
+
+<div style="width:100%;text-align:center;">
+<table>
+<tr>
+  <td>
+  <div id="stl_cont02" style="width:450px;height:450px;margin:0 auto;">
+   <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont02"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:80,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMount2_Bkt.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+   </script>
+  </div>  
+ </td>
+  <td>
+   <div id="stl_cont03" style="width:450px;height:450px;margin:0 auto;">
+    <script>
+     var stl_viewer=new StlViewer
+      (
+      document.getElementById("stl_cont03"), 
+        {
+            allow_drag_and_drop: false, 
+           auto_rotate:true,
+           auto_resize:true,
+           zoom:100,
+           models: 
+           [ 
+             {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMount2_Arm.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+           ]
+        }
+      );
+    </script>
+   </div>  
+  </td>
+</tr>
+
+ <tr>
+ <td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMount2_Bkt.stl" target="blank">90 Degree Dock Bracket</a>  
+  </td>
+  <td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMount2_Arm.stl" target="blank">90 Degree Dock Arm</a>  
+  </td>
+  </tr>
+</table>  
+
+</div>  
+
+
 ## Voron 2.4 Bed Rail Mounted Dock  
 The bed mounts are provided in 2 heights to suit the overall stack height of the bed plate and printing surfaces. This dock has been tested by multiple users. Fine tuning and tweaking credited to kageurufu.  
 
