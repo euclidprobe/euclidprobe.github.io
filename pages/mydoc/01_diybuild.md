@@ -21,9 +21,9 @@ Reminder that community discussion and support is available as a subgroup to the
 
 
 ## How to get Euclid Probe
-The gerbers for DIY boards are hosted at OSHPark and Aisler. They are the same circuitry as the production version. These PCB's are the orginal design where the same PCB can be used for the tool board or probe board.  We try to update them as we update the other boards to be consistent. There is no difference in the shared gerbers at either OSHPark or Aisler. The rest of the suggested parts are listed in the BOM. We understand that the availability for some of the specified parts has recently become difficult- this affects us too. 
+The gerbers for DIY boards are hosted at OSHPark and Aisler. They are the same circuitry as the production version. These PCB's are the original design where the same PCB can be used for the tool board or probe board.  We try to update them as we update the other boards to be consistent. There is no difference in the shared gerbers at either OSHPark or Aisler. The rest of the suggested parts are listed in the BOM. We understand that the availability for some of the specified parts has recently become difficult- this affects us too. 
 
-A note about the relative differnces in source pricing- Aisler costs run a little higher because they dontate a portion of their profits to KiCAD development at CERN. We use KiCAD and don't mind paying a little more for this. The production of Aisler boards also seems to be done in the EU and then get shipped to other parts of the world. OSHPark is made in Oregon, USA and shipped as well.  
+A note about the relative differences in source pricing- Aisler costs run a little higher because they donate a portion of their profits to KiCAD development at CERN. We use KiCAD and don't mind paying a little more for this. The production of Aisler boards also seems to be done in the EU and then get shipped to other parts of the world. OSHPark is made in Oregon, USA and shipped as well.  
 
 No part of these purchases at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
 
@@ -34,14 +34,14 @@ Aisler <a href='https://aisler.net/p/PHODHLTM'>  https://aisler.net/p/PHODHLTM</
 ## Assembly Instructions
 
 The same PCB is used for both the upper and lower half, and uses 
-- 4, 1/4x1/8 axialy polarized magnets, 
+- 4, 1/4x1/8 axially polarized magnets, 
 - SPDT snap action switch, 
 - M2 & M3 mounting screws, 
 - and some other random bits and bobs you probably have laying about. 
 
-The parts list specifies a snap action switch. Almost any subminature switch will work. The circuit only uses the Normally Closed (NC) half of the switch as a momentary pushbutton. Testing has shown that other switches of the same package size will work and their repeatability is good enough for use as a Z probe. 
+The parts list specifies a snap action switch. Almost any subminiature switch will work. The circuit only uses the Normally Closed (NC) half of the switch as a momentary pushbutton. Testing has shown that other switches of the same package size will work and their repeatability is good enough for use as a Z probe. 
 
-Reliability testing has shown name brand switches to have a standard of deviation of the trigger point on the order of 0.002mm, and no-name aliExpress and ebay generics to be be 0.004mm- a full order of magnitude better than BLTouch and inductive probes and similar variants. C&K, Wurth, Honeywell, ZF, Crouzets, Panazonics. All will work great as probe switches.
+Reliability testing has shown name brand switches to have a standard of deviation of the trigger point on the order of 0.002mm, and no-name aliExpress and ebay generics to be be 0.004mm- a full order of magnitude better than BLTouch and inductive probes and similar variants. C&K, Wurth, Honeywell, ZF, Crouzets, Panasonics. All will work great as probe switches.
 
 The operating temperature range of most mainstream switches of this class are 80°C, so theoretically the probe should function in a heated chamber of at least 60°C.
 
@@ -79,7 +79,11 @@ Junked kids toys or electronics. If all else fails, tap it if you have the tools
 Trim Craft Aviation RC is a known good supplier for small lots of heatserts and Imperial and Metric fasteners in Steel, Stainless Steel, and Nylon.  <a href='https://www.trimcraftaviationrc.com/'>Trim Craft Aviation RC</a>
 
 ## Bottom Board Assembly:
-Solder the switch to the board, noting that the switch orientation is such that the COM terminal is towards the rear end of the switch: this is usually the side with the switch plunger. You can clip the excess tails of the pins if desire. If you are using a right angle header mounted to the underside of the top board, you might need to clip them for clearance. It is suggested that you put on a piece of Kapton tape or similar to insulate the exposed terminals. Nail polish or model enamel works well too.
+Solder the switch to the board, noting that the switch orientation is such that the COM terminal is towards the rear end of the switch: this is usually the side with the switch plunger. 
+
+{% include note.html content="Some of the gerbers have a typo in the silkscreen We have verified the circuitry and silks a wrong. The Pin order is indeed COM-NO-NC." %}  
+
+You can clip the excess tails of the pins if desire. If you are using a right angle header mounted to the underside of the top board, you might need to clip them for clearance. It is suggested that you put on a piece of Kapton tape or similar to insulate the exposed terminals. Nail polish or model enamel works well too.
 
 <img src='images\01-isobtm.png'> <img src='images\01-isobtm2.png'>
 

@@ -37,7 +37,7 @@ entries:
         subfolderitems:
 
         - title: Buy a Kit
-          url: /00_kit.html
+          url: /00-getting.html
           output: web, pdf
 
         - title: DIY 

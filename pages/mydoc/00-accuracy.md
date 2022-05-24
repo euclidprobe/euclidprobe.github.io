@@ -16,7 +16,7 @@ To date, over 500,00 probe deploy-probe-retract cycles with a moving Z-axis dock
 
 The gathered data was compiled and analyzed to compare the performance between different switch manufactures and models. The overall results have been quite revealing- the usual suspects are not as accurate as they are purported to be, and the other brands and models often dismissed are actually quite accurate.  
 
-Repeatabilities often approach 0.001mm.  
+Repeatability's often approach 0.001mm.  
 
 Here is an example of a single switch’s probing results performed at room temperature. Note the trends of the blue vertical bars showing the trigger point in the speed ranges noted at the top.   
 
