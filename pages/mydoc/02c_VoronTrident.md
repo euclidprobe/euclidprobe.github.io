@@ -87,7 +87,7 @@ Version 1 utilized non-BOM fasteners for attachment. We leave Version 1 in the a
 <img src="images\02-voron\Trident_TopMount.png" style="height:250px; border:2px solid CornflowerBlue"></a>  
 </div>  
 
-### Gantry Mount Version 2
+### Gantry Mount Version 2(Revision 4)
 Version 2 of the gantry mount is fixed in height and location. This mount is intended to utilize the Omron adapter to fine tune the height of the probe into the dock.  
 
 Version 2 SHORT of the gantry mount is fixed in height and location and is for users of the native carriage shells.It requires the use of shims to provide fine tuning of the probe height. Users are cautioned that this is not a straightforward plug-and-play installation.  
@@ -119,7 +119,7 @@ This mount attaches through and clamps the left side motor mount bracket with an
           zoom:200,
           models: 
           [ 
-            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev_4.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
           ]
       }
     );
@@ -149,10 +149,10 @@ This mount attaches through and clamps the left side motor mount bracket with an
 </tr>
 <tr>
 <td>
-  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2</a>  
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2Rev4</a>  
   </td>
   <td>
-  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2_Short.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2 Short</a>  
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2_Short.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2Rev4 Short</a>  
   </td>
   </tr>
   </table>  
