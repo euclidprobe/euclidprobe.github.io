@@ -119,7 +119,7 @@ This mount attaches through and clamps the left side motor mount bracket with an
           zoom:200,
           models: 
           [ 
-            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev_4.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev_4_Set.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
           ]
       }
     );
@@ -149,7 +149,7 @@ This mount attaches through and clamps the left side motor mount bracket with an
 </tr>
 <tr>
 <td>
-  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2Rev4</a>  
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev_4_Set.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2Rev4</a>  
   </td>
   <td>
   <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/VoronGantryMountRev2_Short.stl" target="blank">Voron 2.4 and Trident Gantry Mount Version 2Rev4 Short</a>  
