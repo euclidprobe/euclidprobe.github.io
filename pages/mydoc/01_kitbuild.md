@@ -17,7 +17,7 @@ Reminder that community discussion and support is available as a subgroup to the
 Open the bag carefully; sort your parts: solder the header and switch; attach your magnets; screw the toolboard to the mount; attach your dock; config your firmware and print perfect first layers happily ever after!
 
 ### Prepare your kit:
-The Euclid Probe kit will arrive in a small zip-sealed baggie. Beware, there are small parts that can be easily lost. Currently there are 2 versions of the PCB, assembly is the same for both.
+The Euclid Probe kit will arrive in a small zip-sealed baggie. Beware, there are small parts that can be easily lost.
 
 <div style="width:100%;text-align:center;">
 <img src="images\01_assembly\baggie-300x202.jpg">  
@@ -199,6 +199,8 @@ It is suggested to insulate the exposed terminals of the top PCB by:
 - a small piece of blue tape
 - a small piece of electrical tape 
 - ordinary Scotch tape is good to about 100C if nothing else is available. 
+
+{% include warning.html content="<b>If a brass brush nozzle wiper is being deployed, special care needs to be taken to insulate the bottom of the PCB and movement macros! The metal bristles can create a short between the the SMD pads and terminal pins. </b>" %}
 
 <div style="width:100%;text-align:center;">
 <table>

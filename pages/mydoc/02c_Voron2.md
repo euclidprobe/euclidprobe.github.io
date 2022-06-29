@@ -49,6 +49,10 @@ Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/s
 
 ## Clockwork2 Native Mounts  
 We are waiting for the official release of Clockwork 2 to release our native Afterburner Mounts. 
+{% include note.html content="<b>No implementation to Stealthburner / CW2 has been made. When we asked the point person on the Voron design team, (aka the person with the authority to release them, and whom we respect)  for the CAD's to work on Euclid adaptations, told us that the official position is they are not ready to be released and that we will be notified when they are officially released.   
+
+We are honoring his response because it is the correct and right thing to do.  
+.</b>" %}
 
 
 ## Clockwork1 Native Docks & Dock Mounts  

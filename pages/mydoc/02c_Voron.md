@@ -21,6 +21,12 @@ Modified carraige shells (both MGN9 & MGN 12 versions) locate the toolboard in t
 
 {% include note.html content="Using conversion mounts offers the most flexibility and fine tuning of probe height." %}
 
+{% include note.html content="<b>No implementation to Stealthburner / CW2 has been made. When we asked the point person on the Voron design team, (aka the person with the authority to release them, and whom we respect)  for the CAD's to work on Euclid adaptations, told us that the official position is they are not ready to be released and that we will be notified when they are officially released.   
+
+We are honoring his response because it is the correct and right thing to do.  
+.</b>" %}
+
+
 ## Clcockwork1 - 2xMGN9 Rail & MGN12 - Afterburner Native Mounts
 The left and right halves of the Afterburner carriage are modified to accept the probe with M3 screws and heatserts or M2.5 self tapping screws from underneath. Fine tuning and tweaking credited to garbqgebag.  
 

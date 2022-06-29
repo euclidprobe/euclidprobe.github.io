@@ -11,11 +11,7 @@ summary: Euclid Probe Docks & Probes
 ---
 
 ## Mounts by Printer VCore
-
-The following .zip files includes .step and .DXF files of all the modular docks and mounts for CAD interchange.
-
-
-EVA carriage mount bracket and front cross rail mounted dock have been modeled and proof printed. They have been submitted to EVA contrib-users and a pull request has been made.
+EVA carriage mount brackets and front cross rail mounted docks have been modeled and placed in the repo by series. 
 
 Print the dock on the angled back face with the dock arms pointed up. The back chamfer and reveal a hex shaped bore to install the M5x20 screw and T-nut for the slot. The alignment bosses are sized for an 8mm slot width.  
 
@@ -27,6 +23,8 @@ Print the dock on the angled back face with the dock arms pointed up. The back c
 The initial EVA carriage mounts was proportioned for Duct V2.1 Straight and has recessed for nuts to attach the toolboard from the underside. Use M3x10 button head, or countersink the PCB for M3X10 flat head screws.
 
 The EVA 2.4 mount was designed to fit around the regular tri-horn mount. Use with either the mid-width or wide width tri-horn will require spacers to adjust the mount outwards, and will result in a reduced print area.
+
+EVA 3 mount and dock is user contributed. 
 
 The V-Core3 dock is proportioned for 3030 extrusion.
 

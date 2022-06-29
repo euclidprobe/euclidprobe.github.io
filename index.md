@@ -18,7 +18,13 @@ Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coup
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
-## <span style="color:red"> Update 5/10/2022: </span>  
+## <span style="color:red"> Update 6/29/2022: </span> 
+We are MRRF'd out! WE spend the weekend at MRRF as guests of one of our resellers, 713Maker.  It was really nice to get feedback from users and field questions from folks who were interested. And yes, those ARE magnets holding the sign up....
+ <div style="width:100%;text-align:center;">
+<img src="images\mrrf_sign.jpg"></a>
+</div>
+
+## Update 5/10/2022:  
 The wheels keep turning here - our newest shipment of magnets has arrived and are being deployed with the latest kits. The North polarity is now marked on the magnets. Hopefully this will make installation and verification easier. 
 
  <div style="width:100%;text-align:center;">
@@ -36,7 +42,6 @@ The wheels keep turning here - our newest shipment of magnets has arrived and ar
 <img src="images\01_assembly\N_Marks.png" style="height:125px; border:2px solid CornflowerBlue"></a>
 </div>
 <hr>
-
 
 
 ## Update 4/28/2022  
