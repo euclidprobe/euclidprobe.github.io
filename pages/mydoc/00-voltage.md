@@ -139,7 +139,7 @@ If you want to see how the circuit works, the Falstad.com simulations are linked
 <table>
 <tr>
   <td>
-    <a href="https://tinyurl.com/yawtohnf" data-lity>
+    <a href="https://tinyurl.com/2ak6f326" data-lity>
     <img src="images\00-falstad.jpg" style="width:400px; border:2px solid CornflowerBlue"></a>
   </td>
   <td>
