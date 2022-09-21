@@ -18,11 +18,19 @@ Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coup
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
-## <span style="color:red"> Update 6/29/2022: </span> 
-We are MRRF'd out! WE spend the weekend at MRRF as guests of one of our resellers, 713Maker.  It was really nice to get feedback from users and field questions from folks who were interested. And yes, those ARE magnets holding the sign up....
+## <span style="color:red"> Update 9/21/2022: </span> 
+Things have been quiet here on the Interwebs.... we have been busy working on developing the next versions of Euclid Probe and some accessories. 
+
+We will be in attendance at the <a href="https://eastcoastreprapfestival.com/" target="blank"> East Coast RepRap festival in Bel Air, Maryland
+October 8-9, 2022 </a>
  <div style="width:100%;text-align:center;">
-<img src="images\mrrf_sign.jpg"></a>
+<a href="https://eastcoastreprapfestival.com/" target="blank"> <img src="http://eastcoastreprapfestival.com/wp-content/uploads/2020/06/Hat-Logo-White-1.png" style="height:175px"></a>
 </div>
+
+<hr>
+
+## Update 6/29/2022: 
+We are MRRF'd out! WE spend the weekend at MRRF as guests of one of our resellers, 713Maker.  It was really nice to get feedback from users and field questions from folks who were interested. And yes, those ARE magnets holding the sign up....
 
 ## Update 5/10/2022:  
 The wheels keep turning here - our newest shipment of magnets has arrived and are being deployed with the latest kits. The North polarity is now marked on the magnets. Hopefully this will make installation and verification easier. 

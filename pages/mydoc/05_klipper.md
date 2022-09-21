@@ -19,8 +19,10 @@ For more reference information see <a href="https://www.klipper3d.org/G-Codes.ht
 
 <div style="width:100%;text-align:center;"> 
 <a href="images\05_probe-offsets-sm.png" data-lity> <img src="images\05_probe-offsets-sm.png" style="width:450px; border:2px solid CornflowerBlue"></a></div>
+<br>
+<hr>
 
-Below is an example of the relevant printer.cfg entries. 
+Below is an example of the relevant printer.cfg entries. Euclid macros make use of ```force_move``` and ```respond```. 
 
 Macros for probe deploy and stow are covered <a href="https://euclidprobe.github.io/06_klipper3.html">here</a>.   
 
@@ -64,9 +66,16 @@ lift_speed: 30
 # where euclid.cfg is the filename with all the probe deploy and retract and probing macros
 
 ```  
-Here is an example of - <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Klipper/00-euclid_exampleV4.cfg" target="blank">euclid.cfg</a> file. 
+Here are the examples of euclid configuration files. <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Klipper" target="blank">euclid.cfg </a> files. 
 
-The full compliment of various user submitted klipper files is <a href="https://github.com/nionio6915/Euclid_Probe/main/Firmware_Examples/Klipper/" target="blank"> in the Firmware Examples/klipper folder</a>.  
+Simple Version: 00-euclid_exampleV3.cfg is a generic template with hard coded position variables and simple macros. 
+
+Version with more features: 00-euclid_exampleV5.cfg and uses array variables and more fully featured macros. It takes a bit more work to set up. Pay attention to the ```## @TODO``` statements where user input is required. This version is contributed by yolodubstep, and is a stripped down version of his configs. Yolodubstep's most current configs are here- <a href="https://github.com/blalor/vcore3-ratos-config" target="blank">Yolodubstep V-Core files.</a>. 
+
+The best documented and most comprehensive set of klipper configuration files are from <a href="https://github.com/rkolbi/voron2.4" target="blank">deepsiks </a>  
+VORON 2.4 / 350mm/ 24v / BTT Octopus / Bondtech LGX / Phaetus Dragon HF /Bondtech .4 CHT / Euclid Probe /Hall Effect Endstops  
+
+The other various printer configurations are in the user submitted klipper folder <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Klipper/user_contrib" target="blank"> in the Firmware Examples/klipper folder</a>.  
 
 
 ### Setting Z offset elevation

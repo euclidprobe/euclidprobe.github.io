@@ -31,7 +31,7 @@ We recommend that users perform their own repeatability tests to fine tune the s
 
 Here is the previous example of a single switch’s probing results performed at room temperature. Note the trends of the blue vertical bars showing the trigger point in the speed ranges noted at the top.   
 
-Also not the population of the probe points in relationship to the standard of deviation bars noted in orange. The standard of deviation bars are for the total population.
+Also note the population of the probe points in relationship to the standard of deviation bars noted in orange. The standard of deviation bars are for the total population.
 
 <div style="width:100%;text-align:center;">
   <a href="images\00-ProbeTest57_19_45-768x559.png" data-lity>
