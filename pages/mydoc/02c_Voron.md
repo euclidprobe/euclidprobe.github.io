@@ -70,10 +70,64 @@ Github user v6cl posted a video to Youtube that we came across and we were impre
 
 Their repo is at <a href="https://github.com/v6cl/My-Voron2.4-Customs">https://github.com/v6cl/My-Voron2.4-Customs</a>  
 
-## Stealthburner 
-We are waiting for the official Voron release to implement our adaptations to Stealthburner. 
+## Stealthburner / Clockwork2 - MGN12 Native Mounts
+The left and right halves of the Clockwork 2 carriage are modified to accept the probe with M2.5 self tapping screws from underneath. 
 
-When we asked the Voron developers for source files to work on our adaptations, they asked us to wait for their official release and we are honoring their request.  
+<div style="width:100%;text-align:center;">
+<table>
+<tr>
+<td>
+<div id="stl_cont00" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont00"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:200,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Right_Euclid_MGN12X_Cairriage.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+<td>
+<div id="stl_cont01" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont01"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:200,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Left_Euclid_MGN12X_Cairriage.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+</tr>
+<tr>
+<td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Right_Euclid_MGN12X_Cairriage.stl" target="blank">Clockwork 2 Native Carriage Right</a>  
+  </td>
+  <td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Left_Euclid_MGN12X_Cairriage.stl" target="blank">Clockwork 2 Native Carriage LEft</a>  
+  </td>
+  </tr>
+  </table>  
+  </div>  
+
 
 
 ## Trident & 2.4 Native Gantry Dock & Mount 
