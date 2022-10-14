@@ -24,17 +24,17 @@ Another good resource for determining the probe offsets is discussed on this <a 
 {% include tip.html content="Configure the Z probe offset at the temperatures that you will most be printing at: nozzle, bed and chamber. The offset will vary if you calibrate at 180C nozzle, 50C bed and 20C chamber/ambient compared to 245C nozzle, 100C bed and 60 chamber!" %}
 
 ### Probe Z Offset
-To calibrate the Z probe trigger height, verify that probe probe stops when it senses the bed. 
+To calibrate the Z probe trigger height, first verify that the probe stops when it senses the bed. 
   1. Cancel any currently active mesh compensation. 
       * RRF use gcode ```M561``` 
       * klipper use ```BED_MESH_CLEAR```
   2. Home all.
-  3. Jog the nozzle down until it is just touching the bed or just gripping a feeler gauge of known thickness or a sheet of paper.  
-  A Pokemon card is reputed to be 0.2mm in thickness. If the firmware doesn't let you jog it down far enough, send M564 S0 to disable axis limits or use a force_override in klipper.
+  3. Jog the nozzle down until it is just touching the bed or just gripping a feeler gauge of known thickness or a sheet of paper (0.1mm).  A Pokemon card is reputed to be 0.2mm in thickness. 
+  If the firmware doesn't let you jog it down far enough, send M564 S0 to disable axis limits or use a force_override in klipper.
   4. Once you have the nozzle touching the bed or feeler gauge, send command ```G92``` to tell the firmware that the head is at that position. 
-      * G92 Z=0 if it just touching the bed
-      * G92 Z=0.2 if using a 0.2mm feeler gauge
-      * G92 Z=0.1 if using a piece of copy paper
+      * G92 Z0 if it just touching the bed
+      * G92 Z0.2 if using a 0.2mm feeler gauge
+      * G92 Z0.1 if using a piece of copy paper
   5. Deploy the probe
       * M401  
   6. Jog the head up by 15 to 20mm
@@ -43,6 +43,7 @@ To calibrate the Z probe trigger height, verify that probe probe stops when it s
       * RRF use ```G30 S-1``` 
       * Marlin use ```G30```
       * klipper use ```PROBE``` 
+
      The nozzle will descend or the bed rise until the probe triggers and the Z height at which the probe stopped will be reported. You will likely need to manually move the bed to break contact with the probe. 
      ```G0 Z15```
   7. Repeat from steps 5 two or three times to make sure that the trigger height is consistent.
@@ -53,10 +54,9 @@ RRF: refer to <a href="https://docs.duet3d.com/en/User_manual/Connecting_hardwar
 
 klipper: refer to <a href="https://www.klipper3d.org/Probe_Calibrate.html" target=new>https://www.klipper3d.org/Probe_Calibrate.html</a>
 
-
-
 ### Probing Speeds
 In general terms, we recommend singe probing speeds of 2mm/sec to start with.  
+
 If your firmware can perform 2-speed probing, 5mm/sec & 2mm/sec would be reasonable starting points.  
 
 We recommend that users perform their own repeatability tests to fine tune the speeds if faster speeds are desired. 
