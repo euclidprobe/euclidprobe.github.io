@@ -262,7 +262,7 @@ entries:
 
     - title: Toolhead Board Connections
 #       url: /02_docks_mounts.html
-      url: /03_wiring.html
+      url: /03_remote_TB.html
       output: web, pdf
 # End Wiring Section
 

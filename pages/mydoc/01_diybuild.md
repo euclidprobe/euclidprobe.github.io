@@ -27,7 +27,7 @@ A note about the relative differences in source pricing- Aisler costs run a litt
 
 No part of these purchases at OSHPArk or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  
 
-OSHPark.com <a href='https://oshpark.com/shared_projects/k646v9BY'>https://oshpark.com/shared_projects/k646v9BY</a>
+OSHPark.com <a href='https://oshpark.com/shared_projects/3qYUvroW'>https://oshpark.com/shared_projects/3qYUvroW</a>
 
 Aisler <a href='https://aisler.net/p/PHODHLTM'>  https://aisler.net/p/PHODHLTM</a>
 
