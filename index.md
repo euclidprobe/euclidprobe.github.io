@@ -18,7 +18,35 @@ Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coup
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
-## <span style="color:GREEN"><b>Update 9/26/2022:</b></span> 
+## <span style="color:RED"><b>Update 10/26/2022:</b></span> 
+October has FLOWN by! ERRF was a great adventure for all. Our CFO and VP of Hooman Resources insisted we take a couple of days after ERRF to recharge with a beach vacation....
+ <div style="width:100%;text-align:center;"> 
+
+ <a href="images\ERRF_2022.jpg" data-lity>  
+ <img src="images\ERRF_2022.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+
+  <a href="images\VPHR.jpg" data-lity>  
+ <img src="images\VPHR.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+</div>
+<hr>  
+
+New in the github repo are native carriage shells for Voron Stealthburner/CW2/Clockwork 2 and revised Omron-Fotek Inductive Sensor adapters, .stp's and .stl's. 
+
+ <div style="width:100%;text-align:center;"> 
+  <a href="images\02-voron\CW2_Native.jpg" data-lity>  
+ <img src="images\02-voron\CW2_Native.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+
+  <a href="images\02-voron\OmronFotekV4.jpg" data-lity>  
+ <img src="images\02-voron\OmronFotekV4.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+
+</div>
+<hr>
+<span style="color:RED"><b>STICKERS!!!</b></span>   
+We have joined the 21st century and now have Euclid Probe stickers. Drop us a note if you didn't get one at ERRF and we'll post one to you. 
+
+
+
+## Update 9/26/2022 
 If you recently purchased a kit and are missing a part, please let us know! We will dispatch replacements out direct to you ASAP. 
 One of our filling machines malfunctioned and we thought we caught it in time, but it seems a few kits snuck out incomplete. 
 As embarrassing as it may be, we are grateful that everyone so far has been patient and understanding while we send out replacements. 
@@ -27,7 +55,7 @@ Again, we thank you for your support.
 
 Stealthburner / Clockwork 2 Euclid Native carriages have been uploaded to the Voron stl's folder
 
-## <span style="color:red"> Update 9/21/2022: </span> 
+## Update 9/21/2022: 
 Things have been quiet here on the Interwebs.... we have been busy working on developing the next versions of Euclid Probe and some accessories. 
 
 We will be in attendance at the <a href="https://eastcoastreprapfestival.com/" target="blank"> East Coast RepRap festival in Bel Air, Maryland
