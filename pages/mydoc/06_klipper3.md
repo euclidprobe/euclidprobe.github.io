@@ -219,7 +219,7 @@ gcode:
 
 # Macro to perform a modified z_tilt  by wrapping it between M401/M402 macros
 [gcode_macro QUAD_GANTRY_LEVEL]
-rename_existing:    _QUAD_GANTRY_LEVEL_ORIGINAL
+rename_existing:    QUAD_GANTRY_LEVEL_ORIGINAL
 gcode:
   M401                           ; deploy Euclid Probe if needed
   _QUAD_GANTRY_LEVEL_ORIGINAL         ; check bed level
@@ -232,9 +232,9 @@ gcode: gcode: SET_KINEMATIC_POSITION Z=0
   M401                  ; deploy Euclid Probe
   G0 X150 Y150 F6000    ; move to center of be @ X150 Y150
   G28 Z                 ; home Z
-  QUAD_GANTRY_LEVEL
+  QUAD_GANTRY_LEVEL_ORIGINAL
   G28 Z                 ; home Z
-  BED_MESH_CALIBRATE
+  BED_MESH_CALIBRATE_ORIGINAL
   G0 Z15 F500           ; raise bed to 15
   M402                  ; retract Euclid Probe
 
