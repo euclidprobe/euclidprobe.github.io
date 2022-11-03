@@ -17,6 +17,8 @@ Wiring Euclid Probe to a remote toolboard requires coordination with the control
  - Some controllers utilize an optocouplers on the controller.  Not all optocouplers can sink enough current to illuminate / turn off the Euclid LED's.   
 <br>
 
+{% include tip.html content="Users are strongly advised to verify the operation of the I/O pins of the CAN BUS baords. We have been getting feedback that not all available pins are <b>I</b>nput/<b>O</b>utput, some are <b>O</b>utput only. We have started to annotate the ones that we have gotten reports on." %}
+
 # Huvud CAN BUS Boards
 The HUVUD toolboard is designed to simplify wiring and configuration for extruders on klipper-based machines, particularily useful for toolchangers or extra large machines, but provides advantages for even the smallest of machines. Huvud's can be found at resellers like LukesLabonline.com and Fabreeko.com.  
 <br>
@@ -34,7 +36,6 @@ Wire Euclid Probe to the Probe port any open endstop or I/o connector.
 </div>  
 
 ## Duet3 LC1 Toolboard Wiring as Picture  
-
 <div style="width:100%;text-align:center;">
 <a href="images\04-wiring\boards_Duet\Slide6.PNG" data-lity>
 <img src="images\04-wiring\boards_Duet\Slide6.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
@@ -51,8 +52,10 @@ Wire Euclid Probe to the Probe port any open endstop or I/o connector.
 ## FLY-SHT36  
 <div style="width:100%;text-align:center;">        
  <a href="images\03\Slide12.PNG" data-lity><br>
-        <img src="images\03\Slide12.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>
-</div>  <br>
+        <img src="images\03\Slide12.PNG" style="width:350px; border:2px solid CornflowerBlue"></a>  
+<br>  
+<b>Pin PB1 has been reported to not work as an Input pin. It is recommended that PC15 be used instead. </b>
+</div>
 
 ## FLY-SHT42  
 <div style="width:100%;text-align:center;">

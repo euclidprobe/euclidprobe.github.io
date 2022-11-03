@@ -18,7 +18,10 @@ Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coup
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
-## <span style="color:RED"><b>Update 10/26/2022:</b></span> 
+## <span style="color:RED"><b>Update 11/3/2022:</b></span> 
+Euclid Probes are getting shipped out. Our supply chain has had an episode of the hiccups. Halloween seems to have scared them away.  
+
+## Update 10/26/2022</span> 
 October has FLOWN by! ERRF was a great adventure for all. Our CFO and VP of Hooman Resources insisted we take a couple of days after ERRF to recharge with a beach vacation....
  <div style="width:100%;text-align:center;"> 
 
@@ -43,8 +46,6 @@ New in the github repo are native carriage shells for Voron Stealthburner/CW2/Cl
 <hr>
 <span style="color:RED"><b>STICKERS!!!</b></span>   
 We have joined the 21st century and now have Euclid Probe stickers. Drop us a note if you didn't get one at ERRF and we'll post one to you. 
-
-
 
 ## Update 9/26/2022 
 If you recently purchased a kit and are missing a part, please let us know! We will dispatch replacements out direct to you ASAP. 
