@@ -6,13 +6,13 @@ last_updated: February 5, 2022
 permalink: 05_klipper.html
 sidebar: mydoc_sidebar
 folder: mydoc
-toc: false
+toc: true
 summary: klipper Firmware Settings
 ---
 ## General klipper firmware setup
 We have broken the klipper setup into two parts- the general hardware configuration in the ```printer.cfg``` to be consistent with all hardware definitions and a pointer in the ```printer.cfg``` to include the ```euclid.cfg``` file for the macros. Please look at both parts. 
 
-### Probe device configuration
+## Probe device configuration
 Configuring Euclid Probe in klipper is similar to defining and endstop switch. The following is an example of the probe section in the printer configuration file.
 
 For more reference information see <a href="https://www.klipper3d.org/G-Codes.html?h=probe#probe" target="blank"> klipper Command reference</a>
@@ -66,17 +66,76 @@ lift_speed: 30
 # where euclid.cfg is the filename with all the probe deploy and retract and probing macros
 
 ```  
+## Example files
 Here are the examples of euclid configuration files. <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Klipper" target="blank">euclid.cfg </a> files. 
 
-Simple Version: 00-euclid_exampleV3.cfg is a generic template with hard coded position variables and simple macros. 
+Simple Version: 00-euclid_exampleV3.cfg is a generic template with hard coded position variables and simple macros. Its pretty human readable in terms of what is going on.  
 
-Version with more features: 00-euclid_exampleV5.cfg and uses array variables and more fully featured macros. It takes a bit more work to set up. Pay attention to the ```## @TODO``` statements where user input is required. This version is contributed by yolodubstep, and is a stripped down version of his configs. Yolodubstep's most current configs are here- <a href="https://github.com/blalor/vcore3-ratos-config" target="blank">Yolodubstep V-Core files.</a>. 
+Version with more features: 00-euclid_exampleV5.cfg and uses array variables and has more fully featured macros and ties into startup scripts. It takes a bit more work to set up.   This version is contributed by yolodubstep, and is a stripped down version of his configs. Yolodubstep's most current configs are here- <a href="https://github.com/blalor/vcore3-ratos-config" target="blank">Yolodubstep V-Core files.</a>. 
+Pay attention to the ```## @TODO``` statements where user input is required. 
 
 The best documented and most comprehensive set of klipper configuration files are from <a href="https://github.com/rkolbi/voron2.4" target="blank">deepsiks </a>  
 VORON 2.4 / 350mm/ 24v / BTT Octopus / Bondtech LGX / Phaetus Dragon HF /Bondtech .4 CHT / Euclid Probe /Hall Effect Endstops  
+deepsoks has done a fantaskic job to document and explain what is going on in the files and macros. 
 
 The other various printer configurations are in the user submitted klipper folder <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Klipper/user_contrib" target="blank"> in the Firmware Examples/klipper folder</a>.  
 
 
 ### Setting Z offset elevation
-See klipper configuration reference section on <a href="https://www.klipper3d.org/G-Codes.html?h=probe#probe_calibrate" target="blank">PROBE_CALIBRATE</a> for the klipper procedure on setting the Z probe offset. 
+
+Narrative is written in general terms, using gcode commands. The process is basically starting with a known Z probe offset and then adding/subtracting the difference of the true and relative positions. Figure on doing it twice- once cold and then hot if you want more accurate height.  If you have extrusion remnants on the nozzle, preheat to 130-150C to soften the plastic and wire the nozzle clean. 
+
+A feeler gauge of known thickness is needed for this procedure. Examples-
+
+   - 20# bond paper is about 0.1mm, or 0.004 inches
+   - 0.2mm feeler gauge is ideal, 0.008in is close (0.207mm)
+   - Brass or stainless steel feeler gauges are recommended even though they cost a little more because the stainless steel is non-magnetic and the wont rust.  
+     0.2mm – 1/2″x12″ stainless steel as an example <a href="https://www.mcmaster.com/2300A9/" target=blank>https://www.mcmaster.com/2300A9/</a> $2.88  
+     0.2mm – 1/2″x12″ Carbon Steel as an example <a href=
+     https://www.mcmaster.com/2283A9/">https://www.mcmaster.com/2283A9/</a> $1.98
+   - measure any long and thin object you can manipulate. Bare PCB boards are reliably 1.6mm thick. 
+   - Pokemon cards are reputed to be EXACTLY 0.2mm thick
+   - Paper matchbook covers are 0.013 inch. or 0.35mm thick. Credit cards are around 0.03 inches, or 0.762mm thick. 
+<br>
+<div style="width:100%;text-align:center;">
+ <a href="images\05_feeler_gauges.jpg" data-lity>
+        <img src="images\05_feeler_gauges.jpg" style="width:350px; border:2px solid CornflowerBlue"></a>
+ <a href="images\05_feeler_gauges.jpg" data-lity>
+        <img src="images\05_feelers.jpg" style="width:350px; border:2px solid CornflowerBlue"></a>
+</div>  
+
+{% include tip.html content="Anything will work as long as you can measure and verify the thickness.  Stainless steel feeler gauges are recommended even though they cost a little more because the stainless steel is non-magnetic. Pay attention to if the gauge is marked in mm or inches!" %}
+
+
+1. Assign an initial Z probe offset SMALLER than you will actually use to stop the probe HIGHER off the bed.  
+``` 
+[probe]   
+...  
+z_offset: Z2.5  
+```  
+as example.  
+
+2. Home Z as you normally do. If you use the probe as Z endstop and probe, go ahead and deploy it, but be ready to abort/halt the printer if things go awry. 
+
+3. Deploy the probe and move the carriage to a point on the bed where it's going to be easy to access with the feeler gauge. Ideally, this would be the same point you normally home Z to, or the center of the bed. This is a reason for the long feeler gauge.
+ - ``` G0 X100 Y100 ```
+ 
+4. Creep the nozzle down to touch it off on the feeler gauge. If you have a display or machine console, use that to save yourself some work. Otherwise, issue terminal commands to jog down, adjust the move distance to suit.  
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ``` G91 ; set the machine into relative coordinates mode ```  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ``` G0 Z-0.05 ; move the bed UP 0.05mm  ```
+
+   - repeat the small Z motion until you just touch your feeler
+   - You will feel a slight drag on the feller when the nozzle is touching it.  Sometimes you can hear slight changes in hot end fan if its running when the nozzle just touches. 
+   - Once you touch off the nozzle to the feeler gauge, set the machine’s Z position to that height.   
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ``` G92 Z0.2 ; set the Z axis to be the value of the feeler gauge 0.2 in this example  ```  
+
+5.  Probe the spot you are at. Use a single probe command to report the probe position when it triggers. Pay attention to the G-code options so at to no reset the Z or probe height.  
+```PROBE```   
+
+That reported value is the best starting point to set your Z-probe offset for your system!  
+
+You will may to fine tune this a bit either by redoing the procedure hot, or using baby-stepping when you print. It is often easier to print a single 0.45mm wide perimeter, 0.3mm high around the bed and measure it to fine adjust the Z probe height.  
+
+More advanced probe settings and configurations are covered in the klipper Command Reference in the section <a href="https://www.klipper3d.org/Probe_Calibrate.html" target=blank>Probe calibration</a>

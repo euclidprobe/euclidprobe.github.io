@@ -18,6 +18,10 @@ Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coup
 <a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
 <hr>  
 
+<b> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> 
+This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> All commercial rights are reserved by Euclid Probe and its creators. </b>  
+<hr>
+
 ## <span style="color:RED"><b>Update 11/3/2022:</b></span> 
 Euclid Probes are getting shipped out. Our supply chain has had an episode of the hiccups. Halloween seems to have scared them away.  
 
