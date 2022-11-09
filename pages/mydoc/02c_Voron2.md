@@ -11,12 +11,12 @@ summary: Voron Probe Docks & Mounts Overview
 ---
 
 ## Mounts by Printer Voron
-Existing Voron 2.4’s can utilize the Fotek converstion mount or the modified AfterBurner shells offered below which locate the toolboard in the same location as the inductive probe.  
+Existing Voron 2.4’s can utilize the Omron - Fotek conversion mount or the modified AfterBurner shells offered below which locate the toolboard in the same location as the inductive probe.  
 
 Github user v6cl posted a video to Youtube that we came across and were impressed by their deployment. They designed a ‘skinny mount’ to open up the cooling vents in the toolhead.  
 
-## Clcockwork1 - 2xMGN9 Rail & MGN12 - Afterburner Native Mounts
-The left and right halves of the Afterburner carriage are modified to accept the probe with M3 screws and heatserts from underneath. Fine tuning and tweaking credited to garbqgebag.  Images are for the MGN12 version, but stl's and CAD files for both available.   
+## Clockwork1 - 2xMGN9 Rail & MGN12 - Afterburner Native Mounts
+The left and right halves of the Afterburner carriage are modified to accept the probe from underneath. Fine tuning and tweaking credited to garbqgebag.  Images are for the main versions, but variants (strain relief, M3 screws, etc... stl's and CAD files are available in the repo.   
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\afterburner-1.8.png" data-lity>
@@ -32,6 +32,176 @@ The left and right halves of the Afterburner carriage are modified to accept the
 <img src="images\02-voron\image2.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
 </div>  
 
+<div style="width:100%;text-align:center;">
+<table>
+
+<tr>
+<td>
+<div id="stl_cont00" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont00"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:200,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork1_MGN12_Left.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+
+<td>
+<div id="stl_cont01" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont01"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:200,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork1_MGN12_Right_M2.5.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+</tr>
+
+<tr>
+<td>
+   <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/" target="blank">Clockwork 1 MGN12 Native Carriage Left</a>   
+  </td>
+
+  <td>
+<a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork1_MGN12_Right_M2.5.stl" target="blank">Clockwork 1 MGN12 Native Carriage Right</a>  
+  </td>
+  </tr>
+
+<tr>
+<td>
+<div id="stl_cont10" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont10"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:100,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork1_2XMGN9_Native_LeftM2.5.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+<td>
+<div id="stl_cont11" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont11"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:100,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork1_2XMGN9_Native_RightM2.5.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+</tr>
+<tr>
+<td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork1_2XMGN9_Native_LeftM2.5.stl" target="blank">Clockwork 2 MGN9 Native Carriage Left</a>  
+  </td>
+  <td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork1_2XMGN9_Native_RightM2.5.stl" target="blank">Clockwork 2 MGN9 Native Carriage Right</a>  
+  </td>
+  </tr>
+
+  </table>  
+  </div>  
+
+## Clockwork2 & Stealthburner Native Mounts  
+The left and right halves of the native carriage shells for Voron Stealthburner / CW2 / Clockwork 2 have been modified to accept the probe with M2.5 self tapping screws from underneath. 
+
+<div style="width:100%;text-align:center;">
+<table>
+<tr>
+<td>
+<div id="stl_cont20" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont20"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:100,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Euclid_MGN12X_LEFT_Carriage_Ver2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+<td>
+<div id="stl_cont21" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont21"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:100,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Euclid_MGN12X_RIGHT_Carriage_Ver2.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+</tr>
+
+<tr>
+  <td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Euclid_MGN12X_LEFT_Carriage_Ver2.stl" target="blank">Clockwork 2 Native Carriage Left</a>  
+  </td>
+<td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Euclid_MGN12X_RIGHT_Carriage_Ver2.stl" target="blank">Clockwork 2 Native Carriage Right</a>  
+  </td>
+</tr>
+  </table>  
+  </div>  
+
 ## Omron Mounts  
 The standard Omron mount is 0 degree relative rotation to the mounting face of the Omron device. Adjustment slots are similar to the original device.  Designed to be printed upside-down without supports.  Dock entry is in the X axis. 
 
@@ -45,25 +215,70 @@ existing macros. Designed to be printed upside-down without supports.
 <img src="stls\Omron\02_OmronFotec90.png" style="height:315px; border:2px solid CornflowerBlue"></a>  
 </div>  
 
-Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/stls/Mount%20Adapters/Omron' target="_blank"><b> here.</b></a>   
+<div style="width:100%;text-align:center;">
+<table>
+<tr>
+<td>
+<div id="stl_cont30" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont30"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:80,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Mount%20Adapters/Omron/OmronFotekV4.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+<td>
+<div id="stl_cont31" style="width:450px;height:450px;margin:0 auto;">
+  <script>
+    var stl_viewer=new StlViewer
+    (
+      document.getElementById("stl_cont31"), 
+      {
+          allow_drag_and_drop: false, 
+          auto_rotate:true,
+          auto_resize:true,
+          zoom:80,
+          models: 
+          [ 
+            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Mount%20Adapters/Omron/OmronFotek_90_V4.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
+          ]
+      }
+    );
+  </script>
+</div>  
+</td>
+</tr>
+<tr>
+<td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Mount%20Adapters/Omron/OmronFotekV4.stl" target="blank">Omron - Fotek Mount</a>  
+  </td>
+  <td>
+  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Mount%20Adapters/Omron/OmronFotek_90_V4.stl" target="blank">Omron - Fotek 90 Degree Rotated Mount</a>  
+  </td>
+  </tr>
+  </table>  
+  </div>  
 
-## Clockwork2 Native Mounts  
-We are waiting for the official release of Clockwork 2 to release our native Afterburner Mounts. 
-{% include note.html content="<b>No implementation to Stealthburner / CW2 has been made. When we asked the point person on the Voron design team, (aka the person with the authority to release them, and whom we respect)  for the CAD's to work on Euclid adaptations, told us that the official position is they are not ready to be released and that we will be notified when they are officially released.   
+Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/main/stls/Mount%20Adapters/Omron' target="_blank"><b> here.</b></a>   
 
-We are honoring his response because it is the correct and right thing to do.  
-.</b>" %}
-
-
-## Clockwork 1 Native Docks & Dock Mounts  
-### Gantry Mount 
+## Gantry Mount 
 Version 4 of the gantry mount adjustable in height. It should place the dock at X0 Ymax location. This mount is intended to utilize the Omron adapter to fine tune the height of the probe into the dock.  
 
 <div style="width:100%;text-align:center;">
 <a href="images\02-voron\GantryMountV4.png" data-lity>
 <img src="images\02-voron\GantryMountV4.png" style="height:250px; border:2px solid CornflowerBlue"></a>
 </div>  
-
 
 Version 2 SHORT of the gantry mount is fixed in height and location and is for users of the native carriage shells.It requires the use of shims to provide fine tuning of the probe height. 
 
@@ -80,11 +295,11 @@ This mount attaches through and clamps the left side motor mount bracket with an
 <table>
 <tr>
 <td>
-<div id="stl_cont00" style="width:450px;height:450px;margin:0 auto;">
+<div id="stl_cont40" style="width:450px;height:450px;margin:0 auto;">
   <script>
     var stl_viewer=new StlViewer
     (
-      document.getElementById("stl_cont00"), 
+      document.getElementById("stl_cont40"), 
       {
           allow_drag_and_drop: false, 
           auto_rotate:true,
@@ -100,11 +315,11 @@ This mount attaches through and clamps the left side motor mount bracket with an
 </div>  
 </td>
 <td>
-<div id="stl_cont01" style="width:450px;height:450px;margin:0 auto;">
+<div id="stl_cont41" style="width:450px;height:450px;margin:0 auto;">
   <script>
     var stl_viewer=new StlViewer
     (
-      document.getElementById("stl_cont01"), 
+      document.getElementById("stl_cont41"), 
       {
           allow_drag_and_drop: false, 
           auto_rotate:true,
@@ -131,7 +346,7 @@ This mount attaches through and clamps the left side motor mount bracket with an
   </table>  
   </div>  
 
-### Gantry Mount 90 Degree Probe 
+## Gantry Mount 90 Degree Probe 
 This dock is orientated in the Y direction and attaches to the rear extrusion of the gantry, in the native holes of the left side motor bracket. Requires the use of the Omron90 degree mount. Attaches with longer screws, M5x20. 
 Lateral Y adjustment via the thru-bolt on the bottom, M5x16. Fine vertical adjustment via the slotted holes in the Omron90 mount, or with shims between the Y adjuster. 
 
@@ -155,11 +370,11 @@ This configuration should be compatible with the other detachable probe macros f
 <table>
 <tr>
   <td>
-  <div id="stl_cont02" style="width:450px;height:450px;margin:0 auto;">
+  <div id="stl_cont50" style="width:450px;height:450px;margin:0 auto;">
    <script>
     var stl_viewer=new StlViewer
     (
-      document.getElementById("stl_cont02"), 
+      document.getElementById("stl_cont50"), 
       {
           allow_drag_and_drop: false, 
           auto_rotate:true,
@@ -175,11 +390,11 @@ This configuration should be compatible with the other detachable probe macros f
   </div>  
  </td>
   <td>
-   <div id="stl_cont03" style="width:450px;height:450px;margin:0 auto;">
+   <div id="stl_cont51" style="width:450px;height:450px;margin:0 auto;">
     <script>
      var stl_viewer=new StlViewer
       (
-      document.getElementById("stl_cont03"), 
+      document.getElementById("stl_cont51"), 
         {
             allow_drag_and_drop: false, 
            auto_rotate:true,
@@ -207,64 +422,6 @@ This configuration should be compatible with the other detachable probe macros f
 </table>  
 
 </div>  
-
-## Stealthburner / Clockwork2 - MGN12 Native Mounts
-The left and right halves of the Clockwork 2 carriage are modified to accept the probe with M2.5 self tapping screws from underneath. 
-
-<div style="width:100%;text-align:center;">
-<table>
-<tr>
-<td>
-<div id="stl_cont04" style="width:450px;height:450px;margin:0 auto;">
-  <script>
-    var stl_viewer=new StlViewer
-    (
-      document.getElementById("stl_cont04"), 
-      {
-          allow_drag_and_drop: false, 
-          auto_rotate:true,
-          auto_resize:true,
-          zoom:200,
-          models: 
-          [ 
-            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Right_Euclid_MGN12X_Cairriage.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
-          ]
-      }
-    );
-  </script>
-</div>  
-</td>
-<td>
-<div id="stl_cont05" style="width:450px;height:450px;margin:0 auto;">
-  <script>
-    var stl_viewer=new StlViewer
-    (
-      document.getElementById("stl_cont05"), 
-      {
-          allow_drag_and_drop: false, 
-          auto_rotate:true,
-          auto_resize:true,
-          zoom:200,
-          models: 
-          [ 
-            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Left_Euclid_MGN12X_Cairriage.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
-          ]
-      }
-    );
-  </script>
-</div>  
-</td>
-</tr>
-<tr>
-<td>
-  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Right_Euclid_MGN12X_Cairriage.stl" target="blank">Clockwork 2 Native Carriage Right</a>  
-  </td>
-  <td>
-  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Left_Euclid_MGN12X_Cairriage.stl" target="blank">Clockwork 2 Native Carriage Left</a>  
-  </td>
-  </tr>
-  </table>  
-  </div>  
 
 ## Voron 2.4 Bed Rail Mounted Dock  
 The bed mounts are provided in 2 heights to suit the overall stack height of the bed plate and printing surfaces. This dock has been tested by multiple users. Fine tuning and tweaking credited to kageurufu.  

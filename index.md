@@ -25,7 +25,7 @@ This work is licensed under a<a rel="license" href="http://creativecommons.org/l
 ## <span style="color:RED"><b>Update 11/3/2022:</b></span> 
 Euclid Probes are getting shipped out. Our supply chain has had an episode of the hiccups. Halloween seems to have scared them away.  
 
-## Update 10/26/2022</span> 
+## Update 10/26/2022 
 October has FLOWN by! ERRF was a great adventure for all. Our CFO and VP of Hooman Resources insisted we take a couple of days after ERRF to recharge with a beach vacation....
  <div style="width:100%;text-align:center;"> 
 

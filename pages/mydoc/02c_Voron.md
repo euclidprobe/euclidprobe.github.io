@@ -21,9 +21,7 @@ Modified carraige shells (both MGN9 & MGN 12 versions) locate the toolboard in t
 
 {% include note.html content="Using conversion mounts offers the most flexibility and fine tuning of probe height." %}
 
-{% include note.html content="<b>No implementation to Stealthburner / CW2 has been made. When we asked the point person on the Voron design team, (aka the person with the authority to release them, and whom we respect)  for the CAD's to work on Euclid adaptations, told us that the official position is they are not ready to be released and that we will be notified when they are officially released.   
-
-We are honoring his response because it is the correct and right thing to do.  
+{% include note.html content="<b> Stealthburner / CW2 has been implemented. As the source was finally released, we have integrated Euclid's mounting into the native carriage.    
 .</b>" %}
 
 
@@ -71,64 +69,19 @@ Github user v6cl posted a video to Youtube that we came across and we were impre
 Their repo is at <a href="https://github.com/v6cl/My-Voron2.4-Customs">https://github.com/v6cl/My-Voron2.4-Customs</a>  
 
 ## Stealthburner / Clockwork2 - MGN12 Native Mounts
-The left and right halves of the Clockwork 2 carriage are modified to accept the probe with M2.5 self tapping screws from underneath. 
 
-<div style="width:100%;text-align:center;">
-<table>
-<tr>
-<td>
-<div id="stl_cont00" style="width:450px;height:450px;margin:0 auto;">
-  <script>
-    var stl_viewer=new StlViewer
-    (
-      document.getElementById("stl_cont00"), 
-      {
-          allow_drag_and_drop: false, 
-          auto_rotate:true,
-          auto_resize:true,
-          zoom:200,
-          models: 
-          [ 
-            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Right_Euclid_MGN12X_Cairriage.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
-          ]
-      }
-    );
-  </script>
-</div>  
-</td>
-<td>
-<div id="stl_cont01" style="width:450px;height:450px;margin:0 auto;">
-  <script>
-    var stl_viewer=new StlViewer
-    (
-      document.getElementById("stl_cont01"), 
-      {
-          allow_drag_and_drop: false, 
-          auto_rotate:true,
-          auto_resize:true,
-          zoom:200,
-          models: 
-          [ 
-            {filename:"https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Left_Euclid_MGN12X_Cairriage.stl",color:"#1E73BE", rotationx:5.0, rotationy:-0.50, rotationz:0.0} 
-          ]
-      }
-    );
-  </script>
-</div>  
-</td>
-</tr>
-<tr>
-<td>
-  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Right_Euclid_MGN12X_Cairriage.stl" target="blank">Clockwork 2 Native Carriage Right</a>  
-  </td>
-  <td>
-  <a href="https://raw.githubusercontent.com/nionio6915/Euclid_Probe/main/stls/Voron/Clockwork2_Left_Euclid_MGN12X_Cairriage.stl" target="blank">Clockwork 2 Native Carriage LEft</a>  
-  </td>
-  </tr>
-  </table>  
-  </div>  
+New in the github repo are the revised Omron-Fotek Inductive Sensor adapters, .stp's and .stl's. 
 
+ <div style="width:100%;text-align:center;"> 
+  <a href="images\02-voron\CW2_Native.jpg" data-lity>  
+ <img src="images\02-voron\CW2_Native.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
 
+  <a href="images\02-voron\OmronFotekV4.jpg" data-lity>  
+ <img src="images\02-voron\OmronFotekV4.jpg" style="height:250px; border:2px solid CornflowerBlue"></a>
+
+</div>
+<hr>
+The left and right halves of the native carriage shells for Voron Stealthburner / CW2 / Clockwork 2 have been modified to accept the probe with M2.5 self tapping screws from underneath. 
 
 ## Trident & 2.4 Native Gantry Dock & Mount 
 
