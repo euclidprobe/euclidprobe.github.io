@@ -23,4 +23,4 @@ They are provided in surface mounted and recessed configurations, with pilot hol
 <img src="stls\Omron\02_OmronFotec90.png" style="height:315px; border:2px solid CornflowerBlue"></a></div>  
 
 <P>
-Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/tree/main/stls/Mount%20Adapters/Omron' target="_blank"><b> here.</b></a> 
+Omron Mounts are <a href='https://github.com/nionio6915/Euclid_Probe/tree/stls/Mount%20Adapters/Omron' target="_blank"><b> here.</b></a> 
