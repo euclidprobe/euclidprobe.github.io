@@ -128,7 +128,8 @@ If Euclid Probe is to be wired to the Probe Port (pin PB7), you may need to set 
 
 If Euclid Probe is to be wired to the Endstop Port (pin PG11), you will need to use the BAT85 diode and set the probe pin HIGH in order for the firmware to recognize the operation (^PG11). See Section 2.7 in the Octopus User Guide under Probe Port Wiring
 
-The topic we get the most inquiry about is the opto-coupled probe port on the Octopus.
+<b>The topic we get the most inquiry about is the opto-coupled probe port on the Octopus.</b> There are seemingly many variations on the optocoupled port. If the LED stays illuminated, then the optocoupler on the controller can not sink enough current for the LEDs to go out. 
+<br><b>Our recommendation is to not use the Z_Probe port and use an endstop port instead. </b>
 
 <table>
 <tr>
