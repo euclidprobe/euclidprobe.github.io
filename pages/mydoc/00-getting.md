@@ -10,7 +10,7 @@ summary: Where to get the highly accurate, magnetically coupled, Z probe
 ---
 
 ## How to get Euclid Probe, How Easy is it to setup and use Euclid Probe? 
-Its as easy a buying a kit from a reseller, thru-hole soldering a couple of parts, screwing magnets to the boards. 
+Its as easy a buying a kit from a <a href="/00-getting.html#resellers"> reseller </a>,  thru-hole soldering a couple of parts, screwing magnets to the boards. 
 Deploying Euclid is a matter of determining the best probe mount and docking solution for your printer. 
 There are examples and gcode macros for main firmware flavors for you to incorporate into your priner setup. 
 
@@ -40,10 +40,13 @@ In response to customer inquiry, bulk packs of Euclid Probe are available at sli
 
 <a href="https://713maker.com/en/euclid" target="blank"><img src="images\713makercom.jpg">  &nbsp; &nbsp; 713maker.com</a>  <img src="images\country\150USA.png">  
 
+<a href="https://www.advanced3dprinting.com/shop/" target="blank"><img src="images\A3dp.png" style="width:250px">  &nbsp; &nbsp; Advanced 3D Printing</a>  <img src="images\country\150USA.png">  
+
+
+<a href="https://dllpdf.com/" target="blank"><img src="images\dllpdf.jpg">  &nbsp; &nbsp; DLL-PDF</a>  <img src="images\country\150USA.png">  
+
 <a href="https://www.fabreeko.com/products/euclid-probe-kit-24v" target="blank"><img src="images\fabreeko.png">  &nbsp; &nbsp; Fabreeko</a>  <img src="images\country\150USA.png">  
 
-### Denmark / EU
-<a href="https://3do.dk/soeg?controller=search&s=euclid" target="blank"><img src="images\3do.dk.png">  &nbsp;  &nbsp; 3do.dk</a>  <img src="images\country\150DK.png">  
 
 ### Germany / EU
 <a href="https://gingerbeard3d.de/produkt/euclid-probe/" target="blank"><img src="images\gingerbeard2.png">  &nbsp;  &nbsp; Gingerbeard3D</a>  <img src="images\country\150EU.png">  
@@ -51,15 +54,13 @@ In response to customer inquiry, bulk packs of Euclid Probe are available at sli
 ### Portugal / EU
 <a href="https://www.ratrig.com/" target="blank"><img src="images\ratriglogo.png">  &nbsp;  &nbsp; RatRig</a>  <img src="images\country\150EU.png">  
 
-### United Kingdom
-UK:  <a href="https://www.jayuk.org/" target="blank"><img src="images\jays.png">  &nbsp;  &nbsp; Jay's UK</a>  <img src="images\country\150UK.png">  
 
 ### Australia
 AUS: <a href="https://www.raven3dtech.com.au/" target="blank"><img src="images\ravenlogo.webp"> &nbsp;  &nbsp;Raven 3D Tech</a>  <img src="images\country\150AUS.png">  
 
 AUS: <a href="https://uniqueprints.shop/shop/electronics-electrical/euclid-microswitch-probe/" target="blank"><img src="images\Unique_Prints.png"> &nbsp;  &nbsp;Unique Prints</a>  <img src="images\country\150AUS.png">  
 
-AUS: <a href="https://orvil3d.com/" target="blank"><img src="images\orvil-logo.png"> &nbsp;  &nbsp;Orvil3d</a>  <img src="images\country\150AUS.png">  
+
 
 ## DIY Build  
 The gerbers for DIY boards are hosted at OSHPark and Aisler. No part of the purchases made at OSHPark or Aisler benefit the creators of Euclid Probe. There are no affiliate links or royalties paid on these transactions.  

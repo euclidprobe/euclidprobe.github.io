@@ -14,15 +14,39 @@ The highly accurate, magnetically coupled Z-Probe that is not affected by bed te
 
 Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coupling and for electrical contacts and dimensional accuracy. It is simply the most reliable and secure method for attaching the magnets to the parts. The Z-Probe circuit is completed when the probe is attached to the dock.  
 
-<hr>  
-<a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him. His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  
-<hr>  
-
 <b> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> 
-This work is licensed under a<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> All commercial rights are reserved by Euclid Probe and its creators. </b>  
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International License</a> All commercial rights are reserved by Euclid Probe and its creators. </b>  
 <hr>
 
-## <span style="color:RED"><b>Update 11/3/2022:</b></span> 
+## <span style="color:RED"><b>Update 8/6/2023:</b></span> 
+We are remiss for not posting and updating sooner; life seems to get in the way somehow ....  
+
+<b> New resellers & Integrators!</b>  
+The list of <a href="/00-getting.html#resellers"> resellers </a>and integrators is growing!
+
+We are pleased to announce that Euclid Probe is now being sold by DLL-PDF and Advanced 3D Printing! The addition of Euclid Probe compliments to each of their list of exceptional products. 
+
+<a href="https://www.advanced3dprinting.com/shop/" target="blank"><img src="images\A3dp.png" style="width:250px">  &nbsp; &nbsp; Advanced 3D Printing</a>  <img src="images\country\150USA.png">  
+
+<a href="https://dllpdf.com/" target="blank"><img src="images\dllpdf.jpg">  &nbsp; &nbsp; DLL-PDF</a>  <img src="images\country\150USA.png">  
+
+We will be announcing more reseller and OEM integrators in the next few weeks! 
+
+Euclid Probe sells only through select <a href="/00-getting.html#resellers"> resellers </a> - that way you can be assured of quality of components and assembly. <b>We do not sell on discount websites or Amazon or ebay.</b>
+
+We have been working furiously to finalize the new Euclid. It has been an interesting learning how, what would seem to be one of the simplest of manufacturing outcomes, can be so hard and problematic to produce. 
+
+High Temp probes are available from us directly. High Temp includes magnets, switches and devices for continuous service at 125C and above. 
+
+MRRF 2023 was a great success. It was nice to see and meet everyone!  
+
+
+<hr>  
+<a href='https://en.wikipedia.org/wiki/Euclid' target="blank">Euclid of Alexandria</a> was a Greek mathematician, often referred to as the "father of geometry."  It seemed fitting to name the probe that defines a plane after him.   
+<p>His single, thirteen volume book, <a href='https://www.claymath.org/library/historical/euclid' target="blank"><i>Elements</i></a> is the second best selling book of all time, surpassed only by the Bible.  </p>
+<hr>  
+
+## Update 11/3/2022 
 Euclid Probes are getting shipped out. Our supply chain has had an episode of the hiccups. Halloween seems to have scared them away.  
 
 ## Update 10/26/2022 
