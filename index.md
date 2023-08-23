@@ -14,11 +14,31 @@ The highly accurate, magnetically coupled Z-Probe that is not affected by bed te
 
 Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coupling and for electrical contacts and dimensional accuracy. It is simply the most reliable and secure method for attaching the magnets to the parts. The Z-Probe circuit is completed when the probe is attached to the dock.  
 
-<b> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International License</a> All commercial rights are reserved by Euclid Probe and its creators. </b>  
-<hr>
+<p style="font-size:20px; font-weight:bold">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> 
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International License</a>  
+<br>
+All commercial rights are reserved by Euclid Probe and its creators.  
+</p>  
 
-## <span style="color:RED"><b>Update 8/6/2023:</b></span> 
+<hr>
+<p style="font-size:30px"><a href="https://euclidprobe.github.io/00-getting.html"><b>How to get Euclid Probe</b></a>  
+</p>  
+<hr>  
+
+## Update 8/22/2023
+We keep forgetting to post this where its more visible- <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Euclid_Macro_Path_Plot.xlsx"> <b>here</b> </a> is a Microsoft Excel spreadsheet that will plot out the probe deploy movements based on the coordinate pairs on the left. Enter your specific machine's coordinates overwriting the blue values.  
+
+<div style="width:100%;text-align:center;">
+  <a href="images\05\macro-path.png" data-lity>
+    <img src="images\05\macro-path.png" style="width:300px; border:2px solid CornflowerBlue">  </a>
+    <p>Click image to enlarge</p>  
+</div>  
+
+{% include tip.html content="Note the green arrows in the graphic above. Consider where your printhead might end up before it goes to the 'preflight' position. You don't want it to run into things like nozzle wipers or bed mounted endstop switches!"%}  
+
+
+## Update 8/6/2023 
 We are remiss for not posting and updating sooner; life seems to get in the way somehow ....  
 
 <b> New resellers & Integrators!</b>  
@@ -28,7 +48,7 @@ We are pleased to announce that Euclid Probe is now being sold by DLL-PDF and Ad
 
 <a href="https://www.advanced3dprinting.com/shop/" target="blank"><img src="images\A3dp.png" style="width:250px">  &nbsp; &nbsp; Advanced 3D Printing</a>  <img src="images\country\150USA.png">  
 
-<a href="https://dllpdf.com/" target="blank"><img src="images\dllpdf.jpg">  &nbsp; &nbsp; DLL-PDF</a>  <img src="images\country\150USA.png">  
+<a href="https://dllpdf.com/" target="blank"><img src="images\dllpdf.jpg">  &nbsp; &nbsp; DLLPDF</a>  <img src="images\country\150USA.png">  
 
 We will be announcing more reseller and OEM integrators in the next few weeks! 
 

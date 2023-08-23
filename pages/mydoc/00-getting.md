@@ -43,7 +43,7 @@ In response to customer inquiry, bulk packs of Euclid Probe are available at sli
 <a href="https://www.advanced3dprinting.com/shop/" target="blank"><img src="images\A3dp.png" style="width:250px">  &nbsp; &nbsp; Advanced 3D Printing</a>  <img src="images\country\150USA.png">  
 
 
-<a href="https://dllpdf.com/" target="blank"><img src="images\dllpdf.jpg">  &nbsp; &nbsp; DLL-PDF</a>  <img src="images\country\150USA.png">  
+<a href="https://dllpdf.com/" target="blank"><img src="images\dllpdf.jpg">  &nbsp; &nbsp; DLLPDF</a>  <img src="images\country\150USA.png">  
 
 <a href="https://www.fabreeko.com/products/euclid-probe-kit-24v" target="blank"><img src="images\fabreeko.png">  &nbsp; &nbsp; Fabreeko</a>  <img src="images\country\150USA.png">  
 

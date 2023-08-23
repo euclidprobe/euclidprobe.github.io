@@ -13,6 +13,17 @@ The overall concept to deploying and retracting Euclid Probe is to approach the 
 
 Care must be taken to consider the order of operations in the overall homing and bed leveling scheme. It is recommended that a different macro be written to deeply and retract the probe, and to call them when homing, probing or bed leveling.
 
+<a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Euclid_Macro_Path_Plot.xlsx"> <b>Here</b> </a> is a Microsoft Excel spreadsheet that will plot out the probe deploy movements based on the coordinate pairs on the left. Enter your specific machine's coordinates overwriting the blue values.  
+
+<div style="width:100%;text-align:center;">
+  <a href="images\05\macro-path.png" data-lity>
+    <img src="images\05\macro-path.png" style="width:300px; border:2px solid CornflowerBlue">  </a>
+    <p>Click image to enlarge</p>  
+</div>  
+
+{% include tip.html content="Note the green arrows in the graphic above. Consider where your printhead might end up before it goes to the 'preflight' position. You don't want it to run into things like nozzle wipers or bed mounted endstop switches!"%}  
+
+<hr>
 
 This graphic is used to illustrate the positions and movements in various firmware examples.  The dock is located in the bottom left hand corner of the picture (X0 Y0) and dock orientated vertically, so that the probe exits in the +Y direction.     
 
