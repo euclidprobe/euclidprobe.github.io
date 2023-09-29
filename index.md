@@ -26,6 +26,26 @@ All commercial rights are reserved by Euclid Probe and its creators.
 </p>  
 <hr>  
 
+## We are at ERRF 2023
+we will be exhibiting at 
+<a href="https://www.eventbrite.com/e/east-coast-reprap-festival-2023-tickets-581052893847" target="blank">ERRF 2023!</a> again!  
+The East Coast’s Premier 3DPrinting & RepRap Festival, Celebrating diversity throughout the user community & industry.  
+
+<a href="https://www.openstreetmap.org/#map=14/39.5540/-76.2988" target="blank" > APGFCU Arena at Harford Community College  401 Thomas Run Road Bel Air, MD 21015</a>  map here.
+
+Event hours will be...
+Saturday September 30, 2023 - 10:00AM - 5:00PM
+Sunday October 1, 2023 - 10:00AM - 4:00PM
+
+From the website 'The East Coast RepRap Festival (ERRF) invites all community members connected to 3D printing to join us and celebrate the diversity throughout our 3D printing community and industry. We are inviting companies and individuals to bring out their 3D printers and projects big & small. Bring your passion & curiosity for 3D printing and share your creations with our community!'
+
+
+
+<div style="width:100%;text-align:center;">
+  <a href="images\ERRF_2023.jpg" data-lity>
+    <img src="images\ERRF_2023.jpg" style="width:300px; border:2px solid CornflowerBlue">  </a>
+</div>  
+
 ## Update 8/22/2023
 We keep forgetting to post this where its more visible- <a href="https://github.com/nionio6915/Euclid_Probe/tree/main/Firmware_Examples/Euclid_Macro_Path_Plot.xlsx"> <b>here</b> </a> is a Microsoft Excel spreadsheet that will plot out the probe deploy movements based on the coordinate pairs on the left. Enter your specific machine's coordinates overwriting the blue values.  
 
@@ -44,7 +64,7 @@ We are remiss for not posting and updating sooner; life seems to get in the way 
 <b> New resellers & Integrators!</b>  
 The list of <a href="/00-getting.html#resellers"> resellers </a>and integrators is growing!
 
-We are pleased to announce that Euclid Probe is now being sold by DLL-PDF and Advanced 3D Printing! The addition of Euclid Probe compliments to each of their list of exceptional products. 
+We are pleased to announce that Euclid Probe is now being sold by DLLPDF and Advanced 3D Printing! The addition of Euclid Probe compliments to each of their list of exceptional products. 
 
 <a href="https://www.advanced3dprinting.com/shop/" target="blank"><img src="images\A3dp.png" style="width:250px">  &nbsp; &nbsp; Advanced 3D Printing</a>  <img src="images\country\150USA.png">  
 
