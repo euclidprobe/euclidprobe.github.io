@@ -14,7 +14,7 @@ The highly accurate, magnetically coupled Z-Probe that is not affected by bed te
 
 Euclid Probe™️ uses screw attached magnets to a PCB for both mechanical coupling and for electrical contacts and dimensional accuracy. It is simply the most reliable and secure method for attaching the magnets to the parts. The Z-Probe circuit is completed when the probe is attached to the dock.  
 
-<p style="font-size:20px; font-weight:bold">
+<p style="font-size:16px; font-weight:bold">
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> 
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International License</a>  
 <br>
@@ -26,6 +26,13 @@ All commercial rights are reserved by Euclid Probe and its creators.
 </p>  
 <hr>  
 
+## How time flies! 
+As we are coming up on our own anniversary, our friend Steve of the Voron team is having his own as well! We have donated a special 'Gold Edition' of Euclid Probe to the raffles. Join on Sunday November 12 at 12PM to watch!  
+<a href="https://youtube.com/live/A7ZB2nvMPvQ?feature=share" target="blank"> Steve Build 2 year anniversary / 10000 subs Celebration!</a>  
+<div style="width:100%;text-align:center;">
+  <a href="images\stevebuilds.jpg" data-lity>
+    <img src="images\stevebuilds.jpg" style="width:300px; border:2px solid CornflowerBlue">  </a>
+</div>  
 ## We are at ERRF 2023
 we will be exhibiting at 
 <a href="https://www.eventbrite.com/e/east-coast-reprap-festival-2023-tickets-581052893847" target="blank">ERRF 2023!</a> again!  
