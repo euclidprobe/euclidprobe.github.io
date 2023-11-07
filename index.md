@@ -27,7 +27,7 @@ All commercial rights are reserved by Euclid Probe and its creators.
 <hr>  
 
 ## How time flies! 
-As we are coming up on our own anniversary, our friend Steve of the Voron team is having his own as well! We have donated a special 'Gold Edition' of Euclid Probe to the raffles. Join on Sunday November 12 at 12PM to watch!  
+As we are coming up on our own anniversary, our friend Steve of the Voron team is having his own as well! We have donated a special 'Gold Edition' of Euclid Probe to the raffles. Join on Sunday November 12 at 12PM Central / 10AM Pacific to watch!  
 <a href="https://youtube.com/live/A7ZB2nvMPvQ?feature=share" target="blank"> Steve Build 2 year anniversary / 10000 subs Celebration!</a>  
 <div style="width:100%;text-align:center;">
   <a href="images\stevebuilds.jpg" data-lity>
